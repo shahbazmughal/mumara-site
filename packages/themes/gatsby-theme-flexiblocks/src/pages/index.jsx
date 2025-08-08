@@ -75,4 +75,5 @@ const IndexPage = props => {
     </Layout>
   )
 }
+
 export default IndexPage
