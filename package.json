@@ -8,7 +8,8 @@
   ],
   "scripts": {
     "clean": "lerna clean",
-    "release": "lerna version"
+    "release": "lerna version",
+    "build": "gatsby build"
   },
   "devDependencies": {
     "conventional-changelog-conventionalcommits": "^4.6.3"
@@ -21,6 +22,7 @@
     "gatsby-plugin-recaptcha": "^1.0.5",
     "gatsby-plugin-robots-txt": "^1.8.0",
     "gatsby-plugin-sitemap": "^6.13.1",
-    "react-rangeslider": "^2.2.0"
+    "react-rangeslider": "^2.2.0",
+    "gatsby": "^5.13.6"
   }
 }
