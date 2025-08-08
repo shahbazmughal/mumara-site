@@ -1,0 +1,28 @@
+{
+  "text": [
+    {
+      "text": "Create **webforms** to obtain leads",
+      "variant": "h2"
+    },
+    {
+      "text": "Do not let any of your leads sign out of the website or application without opting in to be part of your subscription list. Create a web form within Mumara to embed it into the website's HTML code without the need for coding skills. Moreover, enhance the subscription process by following features",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/campaigns/features/lead-webform.png",
+      "radius": "lg",
+      "alt": "Flexible",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Learn More",
+      "type": "PAGE",
+      "link": "/campaigns/features/web-forms",
+      "variant": "primary-light"
+    }
+  ]
+}

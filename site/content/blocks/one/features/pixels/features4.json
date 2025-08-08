@@ -1,0 +1,19 @@
+{
+  "text": [
+    {
+      "text": "**Optimize Delivery** of Your Services",
+      "variant": "h2"
+    },
+    {
+      "text": "Mumara One tracking pixels help you understand the effectiveness of marketing efforts where you can optimize the delivery of your services. It is trackable to see get the reports of the visit of your users on your website or when he adds something to the cart. When you get more engaged customers you can re-target them with automated emails and encourage them to make purchases. "
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/one/features/pixels/delivery.png",
+      "radius": "lg",
+      "alt": "Importing",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

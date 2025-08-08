@@ -1,0 +1,18 @@
+{
+  "text": [
+    {
+      "text": "Mumara Classic",
+      "color": "alpha",
+      "variant": "h4"
+    },
+    {
+      "text": "Auto-Backups-Cloud Storage",
+      "color": "omegaDarker",
+      "variant": "h1"
+    },
+    {
+      "text": "Email data is the key asset for businesses and digital marketers, especially when the data is classified, segmented and evaluated based on results. One obviously needs to keep this data secure in the midst of server faults, outages and failures that are hard to recover. Therefore, proper backup and recovery option is important to implement. What MumaraClassic offers is not just exporting email list(s) from the application to the computer and keeping the copy of the list(s). It is next level, completely automated and round-the-clock data backup, and not just for the list(s), for the whole database. Schedule backups for convenient time, control backup retention limit and save backups on desired storage.",
+      "variant": "medium"
+    }
+  ]
+}

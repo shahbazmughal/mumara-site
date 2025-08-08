@@ -1,0 +1,18 @@
+{
+  "text": [
+    {
+      "text": "Mumara SMSplus",
+      "color": "alpha",
+      "variant": "h4"
+    },
+    {
+      "text": "Integrated Number Lookup and Validation",
+      "color": "omegaDarker",
+      "variant": "h1"
+    },
+    {
+      "text": "Offer your clients ability to validate the mobile numbers of contacts before they send to them. Validation is an integrated module of MumaraSMS+ that requires admin to enable it, before a client account can use it to validate the numbers.",
+      "variant": "medium"
+    }
+  ]
+}

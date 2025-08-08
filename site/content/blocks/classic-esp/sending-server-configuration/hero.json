@@ -1,0 +1,18 @@
+{
+  "text": [
+    {
+      "text": "Mumara ClassicESP",
+      "color": "alpha",
+      "variant": "h4"
+    },
+    {
+      "text": "Sending Server Configuration",
+      "color": "omegaDarker",
+      "variant": "h1"
+    },
+    {
+      "text": "As an Email Service Provider, the end goal has always been offering a flawless email delivery solution to the clients subscribing to your service. The ESP edition of MumaraClassic helps you achieve this goal by providing tools and settings to control the mail servers you configure for sending.",
+      "variant": "medium"
+    }
+  ]
+}

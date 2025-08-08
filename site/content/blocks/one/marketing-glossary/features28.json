@@ -1,0 +1,18 @@
+{
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/one/marketing-glossary/14-1.png",
+      "alt": "Evergreen Content"
+    }
+  ],
+  "text": [
+    {
+      "text": "Evergreen Content",
+      "variant": "h3"
+    },
+    {
+      "text": "These require little attention and they deliver a lot of benefits. Design them, save them and keep sending them out without the customer getting bored of you.",
+      "color": "black"
+    }
+  ]
+}

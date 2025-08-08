@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Nurture Contacts **Instantly**",
+      "variant": "h3"
+    },
+    {
+      "text": "Configure your automation process, and connect with the users immediately as soon as they sign up. Connect instantly and get advanced with your business straightaway. ",
+        "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/one/features/nurture.jpg",
+      "radius": "lg",
+      "alt": "Contacts Instantly",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

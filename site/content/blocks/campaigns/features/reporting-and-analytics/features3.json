@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Opened vs **unopened** chart",
+      "variant": "h2"
+    },
+    {
+      "text": "A simple graph that shows the percentage of the emails opened and unopened for the campaign. ",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/campaigns/features/analytics-open.png",
+      "radius": "lg",
+      "alt": "Importing",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

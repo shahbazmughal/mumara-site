@@ -1,0 +1,14 @@
+{
+  "text": [
+    {
+      "text": "Product Editions",
+      "variant": "h1",
+      "color": "omegaDarker"
+    },
+    {
+      "text": "Mumara Classic",
+      "variant": "h2",
+      "className": "herotag"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "text": [
+    {
+      "text": "Mumara ClassicESP",
+      "color": "alpha",
+      "variant": "h4"
+    },
+    {
+      "text": "White Label Sending",
+      "color": "omegaDarker",
+      "variant": "h1"
+    },
+    {
+      "text": "As an ESP using Mumara, you can offer couple of sending choices to your clients. Client account holder can opt to send from ESPs set domain, or can also set own domain to send it from. The latter option is recognized as white label sending within MumaraClassic ESP Edition.",
+      "variant": "medium"
+    }
+  ]
+}

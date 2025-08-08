@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Auto **Upgrade/Downgrade**",
+      "variant": "h2"
+    },
+    {
+      "text": "For topup plans, SMS cost generally decreases with an increase in estimated volumes to send. You can put forward lower and upper sending limits for each slab. If the sender doesn’t meet the lower sending limit, system will automatically downgrade the slab after the evaluation period, and crossing the upper limit will impact the otherwise to further decrease the sending cost for specific client.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/smsplus/inner/Auto-Upgrade2FDowngrade.jpg",
+      "radius": "lg",
+      "alt": "Upgrade/Downgrade",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

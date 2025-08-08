@@ -1,0 +1,18 @@
+{
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/one/marketing-glossary/1-1.png",
+      "alt": "Abandoned Cart"
+    }
+  ],
+  "text": [
+    {
+      "text": "Abandoned Cart",
+      "variant": "h3"
+    },
+    {
+      "text": "These are the carts of lazy clients who still need a push. The product is lying in their carts and they are still thinking despite reaching the final check out page. You can make that final push and increase your sales. An effective strategy for such people can help in not only increasing the final checkout activity but also improve the relationship with the customers. The customers will know you are watching and that you care through personalized named emails that Mumara ONE lets you send to your contact list.",
+      "color": "black"
+    }
+  ]
+}

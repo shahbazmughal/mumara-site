@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Keep **Network List** Updated",
+      "variant": "h2"
+    },
+    {
+      "text": "MumaraSMS plus has collected almost all of the global mobile carriers by adding the MNC and corresponding MCC values. Keeping the mobile network list updated is critical in order to process the gateway returned responses and generate analytical reports. When your system identifies a new network, it automatically sends an email to the admin to include the network in Network List with MNC and MCC value.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/smsplus/inner/Keep-Network-List-Updated.jpg",
+      "radius": "lg",
+      "alt": "Network List",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/one/marketing-glossary/4-1.png",
+      "alt": "Personalized Emails"
+    }
+  ],
+  "text": [
+    {
+      "text": "Personalized Emails",
+      "variant": "h3"
+    },
+    {
+      "text": "No two people are alike. Why should their emails be? You can use unique persuasion techniques, appeals, promotions, tactics, personalized content and even jokes for apt conversions. Will Annie and Marie ever wear the same shoe size? No! They will never like the same product either! Use creative marketing to make it effective. Add value to the user’s life by finding the right products and offers for the users so that the client adds the revenue back into your pocket. This is done through personalized email marketing.",
+      "color":"black"
+    }
+  ]
+}

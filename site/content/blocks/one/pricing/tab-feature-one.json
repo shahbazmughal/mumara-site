@@ -1,0 +1,356 @@
+{
+  "text": [
+    {
+      "text": "Mumara ONE Features",
+      "variant": "h5",
+      "color": "#0f977e"
+    },
+    {
+        "text": "INCLUDED WITH EVERY PLAN",
+        "variant": "h2"
+    }
+  ],
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Contacts Management"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+        "color": "#0f977e"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "List Management"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+        "color": "#0f977e"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Suppression Management"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+        "color": "#0f977e"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Custom Fields"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+        "color": "#0f977e"
+      }
+    },
+    {
+        "text": [
+          {
+            "text": "Contacts Bulk Update"
+          }
+        ],
+        "icon": {
+          "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+          "color": "#0f977e"
+        }
+    },
+    {
+        "text": [
+          {
+            "text": "Newsletter Builder"
+          }
+        ],
+        "icon": {
+          "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+          "color": "#0f977e"
+        }
+    },
+    {
+        "text": [
+          {
+            "text": "Drip Campaigns"
+          }
+        ],
+        "icon": {
+          "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+          "color": "#0f977e"
+        }
+    },
+    {
+        "text": [
+          {
+            "text": "Spintags"
+          }
+        ],
+        "icon": {
+          "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+          "color": "#0f977e"
+        }
+    },
+    {
+        "text": [
+          {
+            "text": "Dynamic Content Tags"
+          }
+        ],
+        "icon": {
+          "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+          "color": "#0f977e"
+        }
+    },
+    {
+        "text": [
+          {
+            "text": "Future Scheduling"
+          }
+        ],
+        "icon": {
+          "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+          "color": "#0f977e"
+        }
+    },
+    {
+        "text": [
+          {
+            "text": "Bounce Processing"
+          }
+        ],
+        "icon": {
+          "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+          "color": "#0f977e"
+        }
+    },
+    {
+        "text": [
+          {
+            "text": "Sending Domains"
+          }
+        ],
+        "icon": {
+          "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+          "color": "#0f977e"
+        }
+    },
+    {
+        "text": [
+          {
+            "text": "Custom Tracking Domains"
+          }
+        ],
+        "icon": {
+          "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+          "color": "#0f977e"
+        }
+    },
+    {
+        "text": [
+          {
+            "text": "Domain Keys Authentication"
+          }
+        ],
+        "icon": {
+          "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+          "color": "#0f977e"
+        }
+    },
+    {
+        "text": [
+          {
+            "text": "Segmentation"
+          }
+        ],
+        "icon": {
+          "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+          "color": "#0f977e"
+        }
+    },
+    {
+        "text": [
+          {
+            "text": "Triggers"
+          }
+        ],
+        "icon": {
+          "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+          "color": "#0f977e"
+        }
+    },
+    {
+        "text": [
+          {
+            "text": "Web Forms"
+          }
+        ],
+        "icon": {
+          "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+          "color": "#0f977e"
+        }
+    },
+    {
+        "text": [
+          {
+            "text": "Spam Processing"
+          }
+        ],
+        "icon": {
+          "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+          "color": "#0f977e"
+        }
+    },
+    {
+        "text": [
+          {
+            "text": "Bounce Processing"
+          }
+        ],
+        "icon": {
+          "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+          "color": "#0f977e"
+        }
+    },
+    {
+        "text": [
+          {
+            "text": "Custom Headers"
+          }
+        ],
+        "icon": {
+          "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+          "color": "#0f977e"
+        }
+    },
+    {
+        "text": [
+          {
+            "text": "Geo Tracking"
+          }
+        ],
+        "icon": {
+          "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+          "color": "#0f977e"
+        }
+    },
+    {
+        "text": [
+          {
+            "text": "Advanced Statistics"
+          }
+        ],
+        "icon": {
+          "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+          "color": "#0f977e"
+        }
+    },
+    {
+        "text": [
+          {
+            "text": "Split Tests"
+          }
+        ],
+        "icon": {
+          "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+          "color": "#0f977e"
+        }
+    },
+    {
+        "text": [
+          {
+            "text": "Shared/Dedicated IPs"
+          }
+        ],
+        "icon": {
+          "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+          "color": "#0f977e"
+        }
+    },
+    {
+        "text": [
+          {
+            "text": "Dedicated Pools"
+          }
+        ],
+        "icon": {
+          "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+          "color": "#0f977e"
+        }
+    },
+    {
+        "text": [
+          {
+            "text": "SMTP Accounts"
+          }
+        ],
+        "icon": {
+          "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+          "color": "#0f977e"
+        }
+    },
+    {
+        "text": [
+          {
+            "text": "Realtime Analytics"
+          }
+        ],
+        "icon": {
+          "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+          "color": "#0f977e"
+        }
+    },
+    {
+        "text": [
+          {
+            "text": "30-Day logs"
+          }
+        ],
+        "icon": {
+          "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+          "color": "#0f977e"
+        }
+    },
+    {
+        "text": [
+          {
+            "text": "Restful API"
+          }
+        ],
+        "icon": {
+          "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+          "color": "#0f977e"
+        }
+    },
+    {
+        "text": [
+          {
+            "text": "Community Support"
+          }
+        ],
+        "icon": {
+          "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+          "color": "#0f977e"
+        }
+    },
+    {
+        "text": [
+          {
+            "text": "Support Desk"
+          }
+        ],
+        "icon": {
+          "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+          "color": "#0f977e"
+        }
+    }
+  ]
+}

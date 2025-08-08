@@ -1,0 +1,48 @@
+{
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "",
+          "color": "alphaDark"
+        },
+        {
+          "text": "Design to Entice",
+          "color": "omegaDarker",
+          "variant": "h3"
+        },
+        {
+          "text": "You can design beautiful emails, updates, and newsletters out of the templates available to you. No need to hire any designers, basic aesthetic sense would do with the Mumara ONE Templates."
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../assets/flexiblocks/one/features/ease.jpg",
+          "alt": "Design to Entice"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "",
+          "color": "alphaDark"
+        },
+        {
+          "text": "Design with Ease",
+          "color": "omegaDarker",
+          "variant": "h3"
+        },
+        {
+          "text": "No need to code. Simply drag and drop into the email builder. You can also use the HTML editor if you feel comfortable. Create awesome marketing campaigns easily."
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../assets/flexiblocks/one/features/attract.jpg",
+          "alt": "Design with Ease"
+        }
+      ]
+    }
+  ]
+}

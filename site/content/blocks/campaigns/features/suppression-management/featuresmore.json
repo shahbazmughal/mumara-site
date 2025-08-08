@@ -1,0 +1,56 @@
+{
+    "collection": [
+      {
+        "icon": {
+          "src": "../../../../assets/flexiblocks/icons/bx-directions.svg",
+          "bg": "omegaLighter",
+          "color": "alpha"
+        },
+        "text": [
+          {
+            "text": "Tagging suppression lists with the **“references”**",
+            "color": "omegaDarker",
+            "variant": "h4"
+          },
+          {
+            "text": "Assign a reference (tag) to the suppressed emails, domains, or IPs while adding or importing them to the suppression lists so that you can identify them afterward and perform bulk removal when required."
+          }
+        ]
+      },
+      {
+        "text": [
+          {
+            "text": "Remove **suppression reference** to flush associated entries",
+            "color": "omegaDarker",
+            "variant": "h4"
+          },
+          {
+            "text": "Bulk delete suppressed entries by deleting its reference. It gives you an opportunity to remove all email addresses and domains from the suppression table that are associated with the reference that is being deleted."
+          }
+        ],
+        "icon": {
+          "src": "../../../../assets/flexiblocks/icons/bx-analyse.svg",
+          "bg": "omegaLighter",
+          "color": "alpha"
+        }
+      },
+      {
+        "text": [
+          {
+            "text": "**Encrypted** suppression",
+            "color": "omegaDarker",
+            "variant": "h4"
+          },
+          {
+            "text": "This feature plays a key role in data security when advertisers deny providing the suppression lists in plain text format. A list of md5 encrypted emails addresses can be imported that should work for the suppression."
+          }
+        ],
+        "icon": {
+          "src": "../../../../assets/flexiblocks/icons/bx-dna.svg",
+          "bg": "omegaLighter",
+          "color": "alpha"
+        }
+      }
+    ]
+  }
+  

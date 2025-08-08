@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "**Suppression** Lists",
+      "variant": "h2"
+    },
+    {
+      "text": "Need to remove any contacts from your mailing list? Do so without pain with a simple Suppression List.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/one/features/suppression-lists.jpg",
+      "radius": "lg",
+      "alt": "Suppression Lists",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

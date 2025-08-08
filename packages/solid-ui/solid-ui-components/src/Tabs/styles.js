@@ -85,6 +85,8 @@ export default {
     },
     '.tabs_tab': {
       listStyle: `none`,
+      size: `14px`,
+      textIndent: `-9999px`,
       bg: `omega`,
       borderRadius: `full`,
       cursor: `pointer`,

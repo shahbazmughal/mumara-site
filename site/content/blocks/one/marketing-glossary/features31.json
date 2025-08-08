@@ -1,0 +1,11 @@
+{
+  "text": [
+    {
+      "text": "Hard Bounce",
+      "variant": "h3"
+    },
+    {
+      "text": "A hard bounce is an email failure, this is whereby the email never makes it to the intended inbox because of a poor sending reputation."
+    }
+  ]
+}

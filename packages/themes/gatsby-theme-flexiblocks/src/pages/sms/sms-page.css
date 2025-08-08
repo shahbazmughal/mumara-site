@@ -1,0 +1,32 @@
+@media (max-width:767px) {
+    .sms-page .react-tabs ul.tabs_tabList {
+        display: flex;
+    }
+    .sms-page .react-tabs ul.tabs_tabList li {
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 11px !important;
+        text-align: center;
+    }
+    .subheader-block .nav-container .css-aaitl3 {
+        min-height: 10px !important;
+        line-height: 40px !important;
+    }
+    .css-1tut1vu.container-level-2 .button-group-link {
+        white-space: normal;
+        line-height: 1.5;
+    }
+    .sms-page .subheader-block a .css-12hibeq {
+        line-height: 30px;
+    }
+}
+img {max-width:100%}
+.seo-block {display: none !important;}
+#gatsby-announcer {opacity: 0 !important;}
+#feature-tab-one img {
+    max-width: 550px !important;
+    height: auto !important;
+}
+.sms-page #hero h1 {
+    font-size: 2.25rem;
+}

@@ -1,0 +1,108 @@
+{
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Emails being **opened**",
+          "variant": "h4"
+        },
+        {
+          "text": "View details of the emails being opened along with the date/time and other info."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-hive.svg",
+        "bg": "#FFF2DD",
+        "color": "#FF9655"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "The links being **clicked**",
+          "variant": "h4"
+        },
+        {
+          "text": "Learn whether the recipient is getting engaged with the email he has received or not. Mumara makes it easier to know which links have been clicked."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-analyse.svg",
+        "bg": "#FEE9E3",
+        "color": "#F87488"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Filter bots for the **realistic statistics**",
+          "variant": "h4"
+        },
+        {
+          "text": "Mumara comes up with a built-in database of bots and can help you filter the bots opening your emails or performing the clicks."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-comment-detail.svg",
+        "bg": "#E5FCF3",
+        "color": "#6DC9C8"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "See which recipients have **unsubscribed**",
+          "variant": "h4"
+        },
+        {
+          "text": "View the list of the recipients who have opted out from receiving further emails by clicking on the unsubscribe link. The unsubscribed contacts are auto-flagged and don’t receive further emails."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-comment-detail.svg",
+        "bg": "#E5FCF3",
+        "color": "#6DC9C8"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "**Detailed reporting** of the undeliverable emails (bounces)",
+          "variant": "h4"
+        },
+        {
+          "text": "View information about bounces such as what kind of bounce it was, the reason behind it, and the specifics in the manuscript."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-analyse.svg",
+        "bg": "#FEE9E3",
+        "color": "#F87488"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Find the best element through **A/B test**",
+          "variant": "h4"
+        },
+        {
+          "text": "You can compare the efficiency with which different components of the campaign were executed by having a look at its A/B testing. Know the top-performing assets e.g. contact lists, broadcasts, sending nodes, and more. A brief overview of the A/B testing features is as below"
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-directions.svg",
+        "bg": "#F5E7FE",
+        "color": "#B887F8"
+      },
+      "buttons": [
+        {
+          "text": "Learn More",
+          "type": "PAGE",
+          "link": "/campaigns/features/ab-testing",
+          "variant": "primary-light"
+        }
+      ]
+    }
+  ]
+}

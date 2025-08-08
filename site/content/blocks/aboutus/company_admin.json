@@ -1,0 +1,40 @@
+{
+  "container": {
+    "bg": "linear-gradient(25deg, {{alpha}} 100%, {{alpha}} 100%)"
+  },
+  "text": [
+    {
+      "text": "",
+      "color": "white",
+      "variant": "h5"
+    },
+    {
+      "text": "Company Administrators",
+      "color": "white",
+      "variant": "h1"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../assets/flexiblocks/about/about_hero.jpg",
+      "alt": "OUR TEAM",
+      "radius": "lg",
+      "shadow": "lg",
+      "effects": ["fadeInLeft"]
+    }
+  ],
+  "ateam": [
+    {
+      "name": "Shafaat Ahmed",
+      "photo": "../../assets/flexiblocks/about/shafaat.jpg" 
+    },
+    {
+      "name": "Wasif Ahmed",
+      "photo": "../../assets/flexiblocks/about/wasif.jpg" 
+    },
+    {
+      "name": "Muhammad Umar Ali",
+      "photo": "../../assets/flexiblocks/about/umer.jpg" 
+    }
+  ]
+}

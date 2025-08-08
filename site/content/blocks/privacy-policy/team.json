@@ -1,0 +1,26 @@
+{
+  "container": {
+    "bg": "linear-gradient(25deg, {{alpha}} 100%, {{alpha}} 0%)"
+  },
+  "text": [
+    {
+      "text": "Privacy Policy",
+      "color": "alphaLight",
+      "variant": "h2"
+    },
+    {
+      "text": "Mumara Privacy Policy",
+      "color": "white",
+      "variant": "h3"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../assets/flexiblocks/classic/features/classic.jpg",
+      "alt": "Mumara Privacy Policy",
+      "radius": "lg",
+      "shadow": "lg",
+      "effects": ["fadeInLeft"]
+    }
+  ]
+}

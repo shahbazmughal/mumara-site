@@ -1,0 +1,93 @@
+.one-section-15-inner {
+  background: #121a67;
+}
+
+.problem-bg1 {
+  background: linear-gradient(10deg, #121a67, #121a67, #0c7369, #121a67 80%);
+  margin: 0 auto;
+  padding: 15px 40px;
+}
+
+.one-section-15 p {
+  font-size: 20px;
+}
+
+
+.one-section-15 .titleBg2 {
+  background: no-repeat center;
+  background-size: cover;
+  padding: 30px 20px;
+  position: relative;
+  z-index: 1;
+  margin-bottom: -55px;
+}
+.one-section-15 h1{
+  color: #090334;
+}
+.one-section-15 .pera1 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  line-height: 1.6;
+  max-width: 1400px;
+  margin: 0px auto;
+  clip-path: polygon(0 0, 100% 0, 95% 100%, 5% 99%);
+  padding: 100px 100px 70px;
+  background: #ba68c826;
+  position: relative;
+  bottom: 20px;
+}
+
+.one-section-15 .anda-green {
+  color: #89e452;
+  font-family: 'Ananda Black', sans-serif;
+  font-family: 'Ananda', sans-serif;
+}
+
+.my-margin-t {
+  margin-top: -35px;
+  z-index: 12;
+  position: relative;
+}
+
+@media (max-width:800px) {
+  .one-section-15 .my-margin-t {
+    margin-top: -63px;
+  }
+
+  .one-section-15 .title3 {
+    padding: 6px 12px !important;
+  }
+
+  .one-section-15 .text-align-left {
+    text-align: center;
+  }
+
+  .one-section-15 .pera1 {
+    padding: 20px 15px;
+    clip-path: none;
+  }
+  .one-section-15 .container-fluid h1.fw500 {
+    font-size: 28px;
+  }
+  .one-section-21 .pl-text ul.checklist1 li {
+    text-align: left; 
+  }
+}
+
+@media (max-width:992px) {
+  .one-section-15 {
+    padding: 20px 0px 100px;
+  }
+}
+
+@media only screen and (max-width: 1150px) and (min-width: 1004px) {
+  .fs-h1-42 {
+    font-size: 36px !important;
+  }
+}
+
+@media (max-width:767px) {
+  .one-section-15 .titleBg2 {
+    margin-bottom: 50px;
+  }
+}

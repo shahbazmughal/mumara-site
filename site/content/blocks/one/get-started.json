@@ -1,0 +1,17 @@
+{
+  "text": [
+    {
+      "text": "Increase Sales by an Average of 150% By Personalizing the User Experience",
+      "variant": "h2"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Read More",
+      "type": "PAGE",
+      "link": "https://school.mumara.com/resources/educational/personalized-emails/",
+      "variant": "dark",
+      "target": "_blank"
+    }
+  ]
+}

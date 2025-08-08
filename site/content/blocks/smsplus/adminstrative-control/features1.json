@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Comprehensive **Dashboard**",
+      "variant": "h2"
+    },
+    {
+      "text": "Your admin dashboard brings set of important insights for your perusal. It keeps you updated about the gateway activity and gateway remaining balance, top client by different metrics like by SMS count, top countries and networks that your clients are sending to, brief about today’s activity like today’s total SMS count, an overview of support and general section.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/smsplus/inner/Comprehensive-Dashboard.jpg",
+      "radius": "lg",
+      "alt": "Comprehensive",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

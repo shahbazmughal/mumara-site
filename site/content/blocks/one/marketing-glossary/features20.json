@@ -1,0 +1,18 @@
+{
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/one/marketing-glossary/10-1.png",
+      "alt": "Double Opt-In"
+    }
+  ],
+  "text": [
+    {
+      "text": "Double Opt-In",
+      "variant": "h3"
+    },
+    {
+      "text": "When you ask your potential subscribers to sign up for newsletters, updates, and emails from your side you allow them to opt-in to your marketing plan. IF you double-check this opt-in by asking them to verify in their email address through replying or verifying the subscription it because of a double opt-in. You can use this method to improve your sending score.",
+      "color": "black"
+    }
+  ]
+}

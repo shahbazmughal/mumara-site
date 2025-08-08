@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Proactive **Reporting**",
+      "variant": "h2"
+    },
+    {
+      "text": "Obtain important information about the contacts in your list even before sending any message to them. Learn how many of the numbers in your list carry potential delivery failures, exact carrier & destination of the deliverables and such meaningful insights.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/sms/inner/insight-3.jpg",
+      "radius": "lg",
+      "alt": "Proactive",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

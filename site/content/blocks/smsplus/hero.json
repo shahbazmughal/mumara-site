@@ -1,0 +1,43 @@
+{
+  "text": [
+    {
+      "text": "MumaraSMS+",
+      "color": "omegaDarker",
+      "variant": "h4"
+    },
+    {
+      "text": "Build your Text Messaging Platform using MumaraSMS+",
+      "color": "white",
+      "variant": "h1"
+    },
+    {
+      "text": "SMS Marketing and Text Engagement Campaigns with Global Coverage",
+      "color": "omegaDarker",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../assets/flexiblocks/smsplus/hero.jpg",
+      "alt": "Mumara Logo",
+      "radius": "lg",
+      "shadow": "default",
+      "border": "lg",
+      "effects": ["fadeInDown"]
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Free Trial",
+      "type": "PAGE",
+      "link": "/smsplus/pricing/",
+      "variant": "dark"
+    },
+    {
+      "text": "Buy Now",
+      "type": "PAGE",
+      "link": "/smsplus/pricing/",
+      "variant": "primary-light"
+    }
+  ]
+}

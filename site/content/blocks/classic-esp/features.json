@@ -1,0 +1,100 @@
+{
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Client Management",
+          "variant": "h4"
+        },
+        {
+          "text": "An integrated client management function that lets you perform variety of tasks with regard to create client groups, add client accounts, view and manage all of the existing accounts with ability to send them a broadcast. Collection of all functions to help you manage the client accounts."
+        }
+      ],
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-hive.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      },
+      "buttons": [
+        {
+          "text": "Learn more   ➜",
+          "type": "PAGE",
+          "link": "/classic-esp/client-management/",
+          "variant": "links.normal"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Fully Featured Client Panel",
+          "variant": "h4"
+        },
+        {
+          "text": "With MumaraSMS+ you don’t need investing time and effort to arrange required components, just focus on growing your clients while we take care of the rest. Your clients on board are empowered with client platform loaded with all required features to send and scale text messaging."
+        }
+      ],
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-analyse.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      },
+      "buttons": [
+        {
+          "text": "Learn more   ➜",
+          "type": "PAGE",
+          "link": "/classic-esp/fully-featured-client-panel/",
+          "variant": "links.normal"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Packages and Pricing Plans",
+          "variant": "h4"
+        },
+        {
+          "text": "You are being provided with more than a few options to create a pricing plan that best suits your target audience/ clients. The structure is flexible enough to create and offer your client a monthly subscription packages, purchase credit plans or topup options."
+        }
+      ],
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-comment-detail.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      },
+      "buttons": [
+        {
+          "text": "Learn more   ➜",
+          "type": "PAGE",
+          "link": "/classic-esp/packages-and-pricing-plans/",
+          "variant": "links.normal"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Multi-Gateway Integration",
+          "variant": "h4"
+        },
+        {
+          "text": "Get your system to work with multiple gateways to deliver the text messages of your clients. MumaraSMS+ offers a platform integrated with globally acknowledged SMS gateways including, Twilio, Clickatell and Infobip."
+        }
+      ],
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-directions.svg",
+        "bg": "#F5E7FE",
+        "color": "#B887F8"
+      },
+      "buttons": [
+        {
+          "text": "Learn more   ➜",
+          "type": "PAGE",
+          "link": "/classic-esp/multi-gateway-integration/",
+          "variant": "links.normal"
+        }
+      ]
+    }
+  ]
+}

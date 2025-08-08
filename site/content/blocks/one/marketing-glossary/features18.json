@@ -1,0 +1,18 @@
+{
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/one/marketing-glossary/9-1.png",
+      "alt": "Deliverability Rate"
+    }
+  ],
+  "text": [
+    {
+      "text": "Deliverability Rate",
+      "variant": "h3"
+    },
+    {
+      "text": "The deliverability rate is the rate of the emails that have been delivered to the end-user versus the number of emails sent by you. Not all emails make it to the desired email address. Some bounce and others are marked as spam by the user or the ISP. This is why you need to know the deliverability rate in figure if the performance is up to benchmarks or not.",
+      "color": "black"
+    }
+  ]
+}

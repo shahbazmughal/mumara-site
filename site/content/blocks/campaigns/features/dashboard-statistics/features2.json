@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Stay updated with a real-time **sending chart**",
+      "variant": "h2"
+    },
+    {
+      "text": "Review the sending graph visible on the dashboard and look into the real-time sending chart for the whole system, or a specific user.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/campaigns/features/dashboard-graph.png",
+      "radius": "lg",
+      "alt": "Organized",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

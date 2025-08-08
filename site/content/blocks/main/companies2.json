@@ -1,0 +1,49 @@
+{
+  "collection": [
+    {
+      "images": [
+        {
+          "src": "../../assets/flexiblocks/home/client1.jpg",
+          "alt": "Mumara Clients",
+          "effects": ["fadeInDown"]
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../assets/flexiblocks/home/client2.jpg",
+          "alt": "Mumara Clients",
+          "effects": ["fadeInDown"]
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../assets/flexiblocks/home/client3.jpg",
+          "alt": "Globalux Solutions",
+          "effects": ["fadeInDown"]
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../assets/flexiblocks/home/client4.jpg",
+          "alt": "theSMTP",
+          "effects": ["fadeInDown"]
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../assets/flexiblocks/home/client5.jpg",
+          "alt": "EVO9X",
+          "effects": ["fadeInDown"]
+        }
+      ]
+    }
+  ]
+}

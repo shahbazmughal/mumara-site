@@ -1,0 +1,31 @@
+{
+  "text": [
+    {
+      "text": "KEEP YOUR SENDING REPUTATION INTACT",
+      "color": "alpha",
+      "variant": "h4"
+    },
+    {
+      "text": "Through a Preferred Email Relay Service",
+      "variant": "h2"
+    },
+    {
+      "text": "Mumara Campaigns remains the only email marketing service with that much flexibility and choices to deliver your emails. Apart from a Custom Configured Mail Server, you can use a well-structured system of eminent email relay services like SendGrid, Mailgun, Amazon and such. No matter which email relaying service is in your preferred list? Mumara Campaigns offers integration with all market leaders.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../assets/flexiblocks/campaigns/feature-one.png",
+      "alt": "SENDING REPUTATION"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Learn more   ➜",
+      "type": "PAGE",
+      "link": "/campaigns/features/swift-sending/#featuresmore",
+      "variant": "primary-light"
+    }
+  ]
+}

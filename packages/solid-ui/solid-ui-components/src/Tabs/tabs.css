@@ -1,0 +1,13 @@
+@media (max-width:600px) {
+    .react-tabs ul.tabs_tabList {
+        display: block;
+    }
+    .css-bl5cf1 .tabs_tab {
+        display: block !important;
+        width: 100% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        padding-bottom: 0 !important;
+        margin-bottom: 15px !important;
+    }
+}

@@ -1,0 +1,38 @@
+{
+  "text": [
+    {
+      "text": "Omnichannel **CRM**",
+      "variant": "h2"
+    },
+    {
+      "text": "Design consistently surprising, methodological and engaging drip campaigns. Usher customers from multiple platforms. Transform brand recall, customer affection & response rates.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../assets/flexiblocks/one/feature-three.jpg",
+      "radius": "lg",
+      "alt": "Omnichannel"
+    },
+    {
+      "src": "../../assets/flexiblocks/one/feature-one-overlay.png",
+      "alt": "CRM",
+      "radius": "lg",
+      "shadow": "default",
+      "effects": ["fadeInLeft", "float"],
+      "position": {
+        "top": "-5%",
+        "right": "-5%"
+      }
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Explore",
+      "type": "PAGE",
+      "link": "/one/features/#drip-campaigns",
+      "variant": "primary-light"
+    }
+  ]
+}

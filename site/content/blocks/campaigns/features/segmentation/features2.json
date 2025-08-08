@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Segment the contacts based on their **profile information**",
+      "variant": "h2"
+    },
+    {
+      "text": "Create a segment for the contact lists on the basis of the common characteristics of your contact's info and send them content that will be unique for maximum return. Because this uses personalized emails, your receipts reach the people who deserve them.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/campaigns/features/segment-location.png",
+      "radius": "lg",
+      "alt": "Organized",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

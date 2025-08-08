@@ -1,0 +1,19 @@
+{
+  "text": [
+    {
+      "text": "Representation of **Website Activity**",
+      "variant": "h2"
+    },
+    {
+      "text": "It is always exciting to get traffic for your online store. It can be problematic if you don’t know what is happening on the website and landing pages. Never mind! It becomes possible for you to track every visit and activity. With the Mumara One Tracking Pixel feature, you will be able to notice your every visitor’s actions whether he is new or known to your online store the moment he moves into your store and sees products and pages."
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/one/features/pixels/activity.png",
+      "radius": "lg",
+      "alt": "Organized",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

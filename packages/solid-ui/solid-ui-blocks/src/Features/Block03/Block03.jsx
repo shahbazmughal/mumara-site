@@ -1,5 +1,4 @@
 import React from 'react'
-import { useStaticQuery, graphql } from 'gatsby'
 import { Container, Flex, Box, Heading, css } from 'theme-ui'
 import Reveal from '@solid-ui-components/Reveal'
 import Divider from '@solid-ui-components/Divider'
@@ -34,144 +33,64 @@ const styles = {
   }
 }
 
-const FeaturesBlock03 = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      strapiWhychooseus {
-        Advancedlogo { url }
-        Advancedheading
-        Advanceddescription
-        Expertlogo { url }
-        Expertheading
-        Expertdescription
-        Lifetimelogo { url }
-        Lifetimeheading
-        Lifetimedescription
-        Creativelogo { url }
-        Creativeheading
-        Creativedescription
-      }
-    }
-  `)
-
-  const strapi = data.strapiWhychooseus
-
-  const content = {
-    text: {
-      heading: {
-        text: 'Why Choose Us'
-      }
-    },
-    collection: [
-      {
-        text: {
-          heading: strapi.Advancedheading,
-          body: strapi.Advanceddescription,
-          icon: {
-            image: {
-              src: strapi.Advancedlogo?.url
-            }
-          }
-        }
-      },
-      {
-        text: {
-          heading: strapi.Expertheading,
-          body: strapi.Expertdescription,
-          icon: {
-            image: {
-              src: strapi.Expertlogo?.url
-            }
-          }
-        }
-      },
-      {
-        text: {
-          heading: strapi.Lifetimeheading,
-          body: strapi.Lifetimedescription,
-          icon: {
-            image: {
-              src: strapi.Lifetimelogo?.url
-            }
-          }
-        }
-      },
-      {
-        text: {
-          heading: strapi.Creativeheading,
-          body: strapi.Creativedescription,
-          icon: {
-            image: {
-              src: strapi.Creativelogo?.url
-            }
-          }
-        }
-      }
-    ]
-  }
-
-  const { text, buttons, collection } = content
-
-  return (
-    <Container>
-      <Flex sx={{ flexDirection: [`column`, null, `row`], m: [0, -4] }}>
+const FeaturesBlock03 = ({ content: { text, buttons, collection } }) => (
+  <Container>
+    <Flex sx={{ flexDirection: [`column`, null, `row`], m: [0, -4] }}>
+      <Box
+        sx={{
+          flexBasis: [`1`, `1/2`],
+          alignSelf: `center`,
+          mx: 4,
+          mb: [5, null, 0]
+        }}
+      >
+        <Reveal effect='fadeInDown'>
+          <Box sx={{ textAlign: `left` }}>
+            <ContentText content={text} />
+          </Box>
+          {buttons && (
+            <>
+              <Divider space={3} />
+              <ContentButtons content={buttons} />
+            </>
+          )}
+        </Reveal>
+      </Box>
+      {collection && (
         <Box
           sx={{
             flexBasis: [`1`, `1/2`],
-            alignSelf: `center`,
-            mx: 4,
-            mb: [5, null, 0]
+            alignSelf: `start`,
+            mx: 4
           }}
         >
-          <Reveal effect='fadeInDown'>
-            <Box sx={{ textAlign: `left` }}>
-              <ContentText content={text} />
-            </Box>
-            {buttons && (
-              <>
-                <Divider space={3} />
-                <ContentButtons content={buttons} />
-              </>
-            )}
-          </Reveal>
+          <Flex sx={{ flexWrap: `wrap` }}>
+            {collection.map(({ text }, index) => (
+              <Reveal
+                key={`item-${index}`}
+                effect='fadeInDown'
+                delay={0.2 * (index + 1)}
+                css={css({ flexBasis: [`1`, null, null, `1`] })}
+              >
+                <Flex sx={styles.listItem}>
+                  <Box sx={{ position: `relative`, flexShrink: 0, mr: 4 }}>
+                    <Heading variant='h4' as='div' sx={styles.number}>
+                      {index + 1}
+                    </Heading>
+                    {index + 1 < collection.length && <Box sx={styles.line} />}
+                  </Box>
+                  <Box>
+                    <ContentText content={text} />
+                    {index + 1 < collection.length && <Divider space={3} />}
+                  </Box>
+                </Flex>
+              </Reveal>
+            ))}
+          </Flex>
         </Box>
-
-        {collection && (
-          <Box
-            sx={{
-              flexBasis: [`1`, `1/2`],
-              alignSelf: `start`,
-              mx: 4
-            }}
-          >
-            <Flex sx={{ flexWrap: `wrap` }}>
-              {collection.map(({ text }, index) => (
-                <Reveal
-                  key={`item-${index}`}
-                  effect='fadeInDown'
-                  delay={0.2 * (index + 1)}
-                  css={css({ flexBasis: [`1`, null, null, `1`] })}
-                >
-                  <Flex sx={styles.listItem}>
-                    <Box sx={{ position: `relative`, flexShrink: 0, mr: 4 }}>
-                      <Heading variant='h4' as='div' sx={styles.number}>
-                        {index + 1}
-                      </Heading>
-                      {index + 1 < collection.length && <Box sx={styles.line} />}
-                    </Box>
-                    <Box>
-                      <ContentText content={text} />
-                      {index + 1 < collection.length && <Divider space={3} />}
-                    </Box>
-                  </Flex>
-                </Reveal>
-              ))}
-            </Flex>
-          </Box>
-        )}
-      </Flex>
-    </Container>
-  )
-}
+      )}
+    </Flex>
+  </Container>
+)
 
 export default WithDefaultContent(FeaturesBlock03)

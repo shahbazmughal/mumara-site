@@ -1,0 +1,11 @@
+{
+"buttons": [
+    {
+      "text": "Get Started",
+      "type": "PAGE",
+      "link": "https://account.mumara.com/signup/",
+      "variant": "primary",
+      "target": "_blank"
+    }
+  ]
+}

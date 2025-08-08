@@ -1,0 +1,52 @@
+{
+  "text": [
+    {
+      "text": "Manage IPs & IP Blocks",
+      "color": "white"
+    },
+    {
+      "text": "Manage IPs & **IP Blocks**",
+      "variant": "h3"
+    },
+    {
+      "text": "With Mumara ESP, you have the ability to add multiple IPs and IP blocks belonging to one or multiple sending servers. After having these IPs and IP blocks added in your system, you can manage them within the shared pool of IPs, can assign dedicated IPs to specific client accounts and can also keep IPs reserved for future use.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../assets/flexiblocks/classic-esp/ipblocks.jpg",
+      "alt": "Manage IPs",
+      "radius": "lg",
+      "shadow": "default"
+    },
+    {
+      "src": "../../assets/flexiblocks/classic-esp/ip-addresses.png",
+      "alt": "IP Blocks",
+      "radius": "lg",
+      "shadow": "default",
+      "effects": ["fadeInDown", "floatFaster"],
+      "position": {
+        "top": "20%",
+        "right": "0%"
+      }
+    },
+    {
+      "src": "../../assets/flexiblocks/classic-esp/health.png",
+      "alt": "Health Score",
+      "effects": ["fadeInBounce", "float"],
+      "position": {
+        "top": "-5%",
+        "left": "10%"
+      }
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Learn more   ➜",
+      "type": "PAGE",
+      "link": "/classic-esp/manage-ips-ip-blocks/",
+      "variant": "links.normal"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "text": [
+    {
+      "text": "Mumara SMSplus",
+      "color": "alpha",
+      "variant": "h4"
+    },
+    {
+      "text": "Create, View and Manage Client Accounts",
+      "color": "omegaDarker",
+      "variant": "h1"
+    },
+    {
+      "text": "View the existing client accounts with valuable set of information like what the status of specific client account is? Package that certain client account subscriber to and such. Admin is also given an ability to perform couple of administrative actions like editing the client profile details, ability to login as client and setting up custom limits like hourly sending speed etc.",
+      "variant": "medium"
+    }
+  ]
+}

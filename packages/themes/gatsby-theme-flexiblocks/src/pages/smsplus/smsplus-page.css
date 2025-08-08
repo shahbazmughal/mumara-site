@@ -1,0 +1,48 @@
+#header-light svg {
+    color: #fff;
+}
+img {max-width:100%}
+.seo-block {display: none !important;}
+#gatsby-announcer {opacity: 0 !important;}
+.smsplus-hero #hero h1 {
+    font-size: 2.25rem;
+}
+#react-tabs-7 #tab-feature-one h3 {
+    font-size: 2.25rem;
+}
+.subheader-main .nav-container .css-aaitl3 a.button-group-link.level-1>.css-12hibeq {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 15px;
+    text-shadow: 0 0 0 transparent;
+}
+#subheader_smsplus .container-level-1 {
+    margin-top: 0 !important;
+    padding: 10px 20px !important;
+    margin-right: -7px;
+}
+img {max-width:100%}
+.seo-block {display: none !important;}
+#gatsby-announcer {opacity: 0 !important;}
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+        margin:0 auto;
+    }
+    .subheader-block .subheader-main .container-level-1 {
+        -webkit-transform: translate(-10%,0) !important;
+        transform: translate(-10%,0) !important;
+    }
+    .smsplus-hero {
+        padding-top: 6rem !important;
+    }
+}
+@media (max-width:767px) {
+    .css-125mzfv::before {
+        height: 750px !important;
+        border-radius: 0 !important;
+    }
+}
+.css-2vz6pb-Menu .nav-container {
+    background: #FFF !important;
+}

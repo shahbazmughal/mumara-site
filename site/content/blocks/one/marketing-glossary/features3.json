@@ -1,0 +1,14 @@
+{
+  "text": [
+    {
+      "text": "API (Application Programming Interface)",
+      "variant": "h3"
+    },
+    {
+      "text": "An API is a set of protocols designed to create communication between two different software or programs. This can help in linking your e-commerce store to Mumara ONE’s intelligence services. You can automate a lot more with such an integration."
+    }
+  ],
+  "padding": [
+    {"text": "90px"}
+  ]
+}

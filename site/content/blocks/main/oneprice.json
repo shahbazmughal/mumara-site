@@ -1,0 +1,17 @@
+{
+  "text": [
+        {
+            "text": "We'd love to have you on-board!",
+            "variant": "h5",
+            "color": "#0f977e"
+        },
+        {
+            "text": "Get Started Right Now!",
+            "variant": "h2"
+        }
+    ],
+    "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-check-circle.svg",
+        "color": "omegaDark"
+    }
+}

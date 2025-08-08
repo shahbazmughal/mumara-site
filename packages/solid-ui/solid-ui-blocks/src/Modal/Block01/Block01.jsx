@@ -14,20 +14,16 @@ import { ModalContext } from '@solid-ui-components/Modal'
 
 const ModalBlock01 = ({ content, reverse }) => {
   const { activeModal } = useContext(ModalContext)
-  const { activeTab = {} } = useContext(TabsContext)
-  const { index = 0 } = activeTab
+  const {
+    activeTab: { index = 0 }
+  } = useContext(TabsContext)
 
-  // ✅ Check before destructuring
-  if (!content || typeof content !== 'object') return null
+  const { identifier, text } = content
 
-  const { identifier, text, collection, images: fallbackImages, map: fallbackMap } = content
-
-  // Modal should only show if activeModal matches this modal
   if (activeModal && activeModal !== identifier) return null
 
-  // Use tab-based images/map or fallback
-  const images = collection?.[index]?.images || fallbackImages
-  const map = collection?.[index]?.map || fallbackMap
+  const images = content?.collection[index]?.images || content.images
+  const map = content?.collection[index]?.map || content.map
   const hasMedia = images || map
 
   return (
@@ -62,8 +58,8 @@ const ModalBlock01 = ({ content, reverse }) => {
             {images && (
               <ContentImages
                 content={{ images }}
-                imageFit="cover"
-                height="100%"
+                imageFit='cover'
+                height='100%'
                 reverse={reverse}
               />
             )}
@@ -77,17 +73,16 @@ const ModalBlock01 = ({ content, reverse }) => {
             )}
           </Box>
         )}
-
-        {Array.isArray(collection) && (
+        {Array.isArray(content.collection) && (
           <Box sx={{ flex: 1, py: [3, 4], px: [3, 5] }}>
             <ContentText content={text} space={3} />
             <Tabs space={3} id={identifier}>
-              {collection
+              {content.collection
                 ?.filter(Boolean)
-                ?.map(({ text, collection, form }, idx) => (
+                ?.map(({ text, collection, form }, index) => (
                   <Reveal
-                    key={`item-${idx}`}
-                    effect="fadeIn"
+                    key={`item-${index}`}
+                    effect='fadeIn'
                     content={{ text }}
                   >
                     {text && (
@@ -104,7 +99,9 @@ const ModalBlock01 = ({ content, reverse }) => {
                     {form && (
                       <ContentForm
                         form={form}
-                        id={`form.${identifier}.${form.multiStep ? 'multi' : idx}`}
+                        id={`form.${identifier}.${
+                          form.multiStep ? 'multi' : index
+                        }`}
                       />
                     )}
                   </Reveal>

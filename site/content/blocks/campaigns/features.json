@@ -1,0 +1,76 @@
+{
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "**Profile Variables** into the Email Content",
+          "variant": "h4"
+        },
+        {
+          "text": "Personalize the email content by embedding the recipient's profile fields within the outgoing emails. It provides a better ROI by engaging with the recipients and significantly increases the open rate."
+        }
+      ],
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-user.svg",
+        "bg": "#FFF2DD",
+        "color": "#FF9655"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "**Dynamic Content** Tags and Unit Rules",
+          "variant": "h4"
+        },
+        {
+          "text": "Stop sending generic emails to your customers. Add targeted content units to your emails based on their profile and activity. Our platform provides the capability to personalize your customer engagement strategy, based on who they are and where they're at in the shopping journey."
+        }
+      ],
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-dna.svg",
+        "bg": "#FEE9E3",
+        "color": "#F87488"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "**Conditional Content** for Real Time Processing",
+          "variant": "h4"
+        },
+        {
+          "text": "Conditional content provides an opportunity to add inline conditions with unique content in your broadcast based on the recipient’s custom fields, tags, contact lists, and more."
+        }
+      ],
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-comment-detail.svg",
+        "bg": "#E5FCF3",
+        "color": "#6DC9C8"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Predictable **Purchase Pattern**",
+          "variant": "h4"
+        },
+        {
+          "text": "Design your promotions on the geographic features of your subscribers. Men will be less inclined to be excited by new releases if they feature a mix of women’s products. In the same way, you can predict the behavior of visitors by looking into factors such as Language."
+        }
+      ],
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-hive.svg",
+        "bg": "#F5E7FE",
+        "color": "#B887F8"
+      }
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Learn More",
+      "type": "PAGE",
+      "link": "/campaigns/features/personalization-options",
+      "variant": "primary-light"
+    }
+  ]
+}

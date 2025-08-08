@@ -1,0 +1,40 @@
+.one-section-35 {
+    background:linear-gradient(#402a9c, #1a0e48);
+}
+
+.one-section-35 ul.items-lists li {
+    padding-left: 40px;
+    background-image: url(./images/check3.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    border-bottom: 1px dashed #f2e5fb40;
+    line-height: 1.8;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.one-section-35 ul.items-lists {
+    font-weight: 300;
+    padding-left: 50px;
+    padding-bottom: 35px;
+    padding-top: 5px;
+    font-weight: 400;
+    list-style-type: none;
+    color: #fff;
+}
+
+@media (max-width: 992px) {
+    .one-section-35 .fs-42 {
+        font-size: 26px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .one-section-35 ul.items-lists {
+        padding-left: 15px;
+    }
+}

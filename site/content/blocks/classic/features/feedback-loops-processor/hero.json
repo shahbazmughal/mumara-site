@@ -1,0 +1,22 @@
+{
+  "text": [
+    {
+      "text": "Mumara Classic",
+      "color": "alpha",
+      "variant": "h4"
+    },
+    {
+      "text": "FBL Processor-Processing Spam Complaints",
+      "color": "omegaDarker",
+      "variant": "h1"
+    },
+    {
+      "text": "While sending in bulk, email sometimes exposes to an angry recipient, who without bothering much about taking an option to unsubscribe, directly hits/marks the email as spam/ junk. You being sender need a system to process the complainant within your list with an immediate effect. Multiple complaints can really harm the IP reputation. Feedback loops is the way to report back the spam complaint to the original sender, and it has become essential part of an email sending infrastructure.",
+      "variant": "medium"
+    },
+    {
+      "text": "FBL Processing feature of MumaraClassic helps to configure an automated way not to only collect the spam complaints but also automatically process them within the database. Configure your spam server, and MumaraClassic will take care of rest, from processing of spam complaints to automatically deleting of the spam complaints from the spam to email account.",
+      "variant": "medium"
+    }
+  ]
+}

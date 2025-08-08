@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Unleash your creativity with a limitless **HTML campaign builder**",
+      "variant": "h2"
+    },
+    {
+      "text": "Expand the spectrum of imagination and creativity to make a captivating layout with an HTML campaign builder. This can help draw the attention of recipients and get them hooked on the brand. In addition, it drives greater engagement and conversions!",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/campaigns/features/broadcasts-html.png",
+      "radius": "lg",
+      "alt": "Organized",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

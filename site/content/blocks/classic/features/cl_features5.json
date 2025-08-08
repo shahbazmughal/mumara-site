@@ -1,0 +1,74 @@
+{
+  "collection": [
+    {
+      "container": {
+        "variant": "cards.paper",
+        "bg": "white"
+      },
+      "text": [
+        {
+          "text": "Auto-Backups",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "KEEP YOUR MARKETING DATA SAVED",
+          "color": "omegaDark",
+          "variant": "h6"
+        },
+        {
+          "text": "Stay away from the worries of getting manual backups, couple of options are available to get your database and file automatically backed up on set frequents.",
+          "color": "omegaDark"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Learn more  ➜",
+          "type": "PAGE",
+          "link": "/classic/features/auto-backups",
+          "variant":"links.nav-dark"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-dna.svg",
+        "size": "lg",
+        "color": "alpha"
+      }
+    },
+    {
+      "container": {
+        "variant": "cards.paper",
+        "bg": "white"
+      },
+      "text": [
+        {
+          "text": "User Management Module",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "USER ACCOUNTS & ACCESS LEVEL CONTROL",
+          "color": "omegaDark",
+          "variant": "h6"
+        },
+        {
+          "text": "Create as many user accounts as you want to manage your work while keeping the access level of account holders in your control through Users Groups.",
+          "color": "omegaDark"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Learn more  ➜",
+          "type": "PAGE",
+          "link": "/classic/features/user-management",
+          "variant":"links.nav-dark"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bxs-component.svg",
+        "size": "lg",
+        "color": "alpha"
+      }
+    }
+  ]
+}

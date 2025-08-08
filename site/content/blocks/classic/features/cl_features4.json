@@ -1,0 +1,74 @@
+{
+  "collection": [
+    {
+      "container": {
+        "variant": "cards.paper",
+        "bg": "white"
+      },
+      "text": [
+        {
+          "text": "PowerMTA Config & Remote Bounce Processing",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "POWERMTA SERVER FOR BEST RESULTS",
+          "color": "omegaDark",
+          "variant": "h6"
+        },
+        {
+          "text": "Easily setup your system with PowerMTA SMTP server, fine-tune advanced directives and all configuration levels for high volume email sending.",
+          "color": "omegaDark"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Learn more  ➜",
+          "type": "PAGE",
+          "link": "/classic/features/powermta-configuration",
+          "variant":"links.nav-dark"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-analyse.svg",
+        "size": "lg",
+        "color": "alpha"
+      }
+    },
+    {
+      "container": {
+        "variant": "cards.paper",
+        "bg": "white"
+      },
+      "text": [
+        {
+          "text": "Multithreading",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "EXECUTE PARALLEL SENDING ACTIVITY",
+          "color": "omegaDark",
+          "variant": "h6"
+        },
+        {
+          "text": "Use your system resources in best possible way to supply campaigns more quickly and efficiently by opening up simultaneous connections in one unit of time.",
+          "color": "omegaDark"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Learn more  ➜",
+          "type": "PAGE",
+          "link": "/classic/features/multithreading",
+          "variant":"links.nav-dark"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-layer-plus.svg",
+        "size": "lg",
+        "color": "alpha"
+      }
+    }
+  ]
+}

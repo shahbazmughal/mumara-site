@@ -1,0 +1,55 @@
+{
+  "collection": [
+    {
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-analyse.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      },
+      "text": [
+        {
+          "text": "CNAME Implementation and CTR Processing",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Implement CNAME records for both ID and CD domains to point Web Farm Entry Point. Configure Image Domain (ID Domain) and Click Domain (CD) separately for better CTR processing."
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Bot behavior Detection",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Protect your account by effectively detecting the bot behavior. Setup a link expiration time and automatically expire the link for certain period of time after the single click is being recorded. AdStation doesn’t log the clicks during the expiration time."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-target-lock.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Easy process & Batch Size",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Make use of ID & ADK security token to appropriately configure the publisher account with MumaraClassic, select size from 100 to 500 for the batch request to supply for each connection. ADK returns the email campaign for the provide batch size."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-data.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      }
+    }
+  ]
+}

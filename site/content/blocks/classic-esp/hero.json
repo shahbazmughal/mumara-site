@@ -1,0 +1,37 @@
+{
+  "text": [
+    {
+      "text": "ClassicESP",
+      "color": "white",
+      "variant": "h4"
+    },
+    {
+      "text": "Software for Email Service Providers",
+      "color": "white",
+      "variant": "h1"
+    },
+    {
+      "text": "Sell Your Email Marketing Plans using MumaraClassic ESP Edition",
+      "color": "white",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../assets/flexiblocks/classic-esp/hero.jpg",
+      "alt": "Buy Now",
+      "radius": "lg",
+      "shadow": "default",
+      "border": "lg",
+      "effects": ["fadeInDown"]
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Buy Now",
+      "type": "PAGE",
+      "link": "/classic-esp/pricing/",
+      "variant": "dark"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "View and manage **active sessions**",
+      "variant": "h2"
+    },
+    {
+      "text": "Keep an eye on the current login sessions so as to utilize an extra security parameter. Terminate any suspicious activity to stop your account from being compromised.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/campaigns/features/profile-session.png",
+      "radius": "lg",
+      "alt": "Flexible",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

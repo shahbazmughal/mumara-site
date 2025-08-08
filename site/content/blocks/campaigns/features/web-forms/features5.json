@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Setup an **error page** if an error occurs",
+      "variant": "h2"
+    },
+    {
+      "text": "In the case of an error, redirect the user to an error page by setting up one and including desired content or redirect the user to another remote page.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/campaigns/features/webform-error.png",
+      "radius": "lg",
+      "alt": "Importing",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

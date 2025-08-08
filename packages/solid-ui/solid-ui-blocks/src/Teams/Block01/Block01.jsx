@@ -57,6 +57,7 @@ const TeamsBlock01 = ({
             <Flex sx={{ flexWrap: `wrap`, justifyContent: `center` }}>
               {collection?.map(({ text, avatar }, index) => (
                 <Reveal
+                  key={`item-${index}`}
                   effect='fadeInRotate'
                   delay={1 + 0.2 * (index + 1)}
                   css={css({ p: 2, boxSizing: 'content-box' })}

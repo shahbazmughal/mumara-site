@@ -1,0 +1,409 @@
+{
+  "text": [
+    {
+      "text": "Campaign Features",
+      "color": "omegaDark",
+      "variant": "h5"
+    },
+    {
+      "text": "Features at a glance",
+      "variant": "h2"
+    }
+  ],
+  "collection": [
+    {
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-chat.svg",
+        "bg": "transparent",
+        "color": "omega"
+      },
+      "buttons": [
+        {
+          "text": "Contacts Management",
+          "type": "PAGE",
+          "link": "/campaigns/features/contact-management/",
+          "variant": "links.nav-dark"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-directions.svg",
+        "bg": "transparent",
+        "color": "omega"
+      },
+      "buttons": [
+        {
+          "text": "Suppression Management",
+          "type": "PAGE",
+          "link": "/campaigns/features/email-list-management/#suppression",
+          "variant": "links.nav-dark"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-dna.svg",
+        "bg": "transparent",
+        "color": "omega"
+      },
+      "buttons": [
+        {
+          "text": "Advanced Import",
+          "type": "PAGE",
+          "link": "/campaigns/features/contact-management/#import",
+          "variant": "links.nav-dark"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-data.svg",
+        "bg": "transparent",
+        "color": "omega"
+      },
+      "buttons": [
+        {
+          "text": "Segments",
+          "type": "PAGE",
+          "link": "/campaigns/features/smart-segments/",
+          "variant": "links.nav-dark"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-coin.svg",
+        "bg": "transparent",
+        "color": "omega"
+      },
+      "buttons": [
+        {
+          "text": "Bulk Subscribers Update",
+          "type": "PAGE",
+          "link": "/campaigns/features/contact-management/#bcupdate",
+          "variant": "links.nav-dark"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-envelope.svg",
+        "bg": "transparent",
+        "color": "omega"
+      },
+      "buttons": [
+        {
+          "text": "Email Campaign Editor",
+          "type": "PAGE",
+          "link": "/campaigns/features/regular-or-evergreen-email-campaigns/#wysiwhy",
+          "variant": "links.nav-dark"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-alarm-snooze.svg",
+        "bg": "transparent",
+        "color": "omega"
+      },
+      "buttons": [
+        {
+          "text": "Future Campaigns",
+          "type": "PAGE",
+          "link": "/campaigns/features/regular-or-evergreen-email-campaigns/#futureCampaign",
+          "variant": "links.nav-dark"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-comment-detail.svg",
+        "bg": "transparent",
+        "color": "omega"
+      },
+      "buttons": [
+        {
+          "text": "Evergreen Campaigns",
+          "type": "PAGE",
+          "link": "/campaigns/features/regular-or-evergreen-email-campaigns/#futureCampaign",
+          "variant": "links.nav-dark"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-directions.svg",
+        "bg": "transparent",
+        "color": "omega"
+      },
+      "buttons": [
+        {
+          "text": "Split Tests",
+          "type": "PAGE",
+          "link": "/campaigns/features/split-testing/",
+          "variant": "links.nav-dark"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bxs-vial.svg",
+        "bg": "transparent",
+        "color": "omega"
+      },
+      "buttons": [
+        {
+          "text": "Bounce Processing",
+          "type": "PAGE",
+          "link": "/campaigns/features/bounces-and-spam-processing/",
+          "variant": "links.nav-dark"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bxs-component.svg",
+        "bg": "transparent",
+        "color": "omega"
+      },
+      "buttons": [
+        {
+          "text": "Custom Bounce Rules",
+          "type": "PAGE",
+          "link": "/campaigns/features/bounces-and-spam-processing/#bounce",
+          "variant": "links.nav-dark"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-radio-circle-marked.svg",
+        "bg": "transparent",
+        "color": "omega"
+      },
+      "buttons": [
+        {
+          "text": "Sending Domains + Authentication",
+          "type": "PAGE",
+          "link": "/campaigns/features/sendingmasking-domains/",
+          "variant": "links.nav-dark"
+        }
+      ]
+    },
+
+    {
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-comment-detail.svg",
+        "bg": "transparent",
+        "color": "omega"
+      },
+      "buttons": [
+        {
+          "text": "Spintags",
+          "type": "PAGE",
+          "link": "/campaigns/features/content-personalization/#sprintags",
+          "variant": "links.nav-dark"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-webcam.svg",
+        "bg": "transparent",
+        "color": "omega"
+      },
+      "buttons": [
+        {
+          "text": "Autoresponders",
+          "type": "PAGE",
+          "link": "/campaigns/features/cohesive-process-of-automation/",
+          "variant": "links.nav-dark"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-rocket.svg",
+        "bg": "transparent",
+        "color": "omega"
+      },
+      "buttons": [
+        {
+          "text": "Triggers",
+          "type": "PAGE",
+          "link": "/campaigns/features/triggers/",
+          "variant": "links.nav-dark"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bxs-window-alt.svg",
+        "bg": "transparent",
+        "color": "omega"
+      },
+      "buttons": [
+        {
+          "text": "Dynamic Content Tags",
+          "type": "PAGE",
+          "link": "/campaigns/features/content-personalization/#dynamic",
+          "variant": "links.nav-dark"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-planet.svg",
+        "bg": "transparent",
+        "color": "omega"
+      },
+      "buttons": [
+        {
+          "text": "Sending Nodes",
+          "type": "PAGE",
+          "link": "/campaigns/features/multiple-smtpssending-nodes/#sendingnodes",
+          "variant": "links.nav-dark"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-pen.svg",
+        "bg": "transparent",
+        "color": "omega"
+      },
+      "buttons": [
+        {
+          "text": "Web Forms",
+          "type": "PAGE",
+          "link": "/campaigns/features/web-forms/",
+          "variant": "links.nav-dark"
+        }
+      ]
+    },
+
+    {
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-analyse.svg",
+        "bg": "transparent",
+        "color": "omega"
+      },
+      "buttons": [
+        {
+          "text": "Feedback Loops",
+          "type": "PAGE",
+          "link": "/campaigns/features/bounces-and-spam-processing/#fblpro",
+          "variant": "links.nav-dark"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-chat.svg",
+        "bg": "transparent",
+        "color": "omega"
+      },
+      "buttons": [
+        {
+          "text": "Advanced Reporting",
+          "type": "PAGE",
+          "link": "/campaigns/features/reporting-and-statistics/",
+          "variant": "links.nav-dark"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-bar-chart-alt.svg",
+        "bg": "transparent",
+        "color": "omega"
+      },
+      "buttons": [
+        {
+          "text": "Geo Reporting",
+          "type": "PAGE",
+          "link": "/campaigns/features/web-forms/",
+          "variant": "links.nav-dark"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-user-voice.svg",
+        "bg": "transparent",
+        "color": "omega"
+      },
+      "buttons": [
+        {
+          "text": "Staff Management",
+          "type": "PAGE",
+          "link": "/campaigns/features/staff-management/",
+          "variant": "links.nav-dark"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-hive.svg",
+        "bg": "transparent",
+        "color": "omega"
+      },
+      "buttons": [
+        {
+          "text": "Multithreading",
+          "type": "PAGE",
+          "link": "/campaigns/features/multithreading/",
+          "variant": "links.nav-dark"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-box.svg",
+        "bg": "transparent",
+        "color": "omega"
+      },
+      "buttons": [
+        {
+          "text": "Custom Email Headers",
+          "type": "PAGE",
+          "link": "/campaigns/customize-message-headers/",
+          "variant": "links.nav-dark"
+        }
+      ]
+    },
+
+    {
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-layer-plus.svg",
+        "bg": "transparent",
+        "color": "omega"
+      },
+      "buttons": [
+        {
+          "text": "Auto Backups",
+          "type": "PAGE",
+          "link": "/campaigns/features/auto-backup/",
+          "variant": "links.nav-dark"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-calendar-check.svg",
+        "bg": "transparent",
+        "color": "omega"
+      },
+      "buttons": [
+        {
+          "text": "Auto Upgrade",
+          "type": "PAGE",
+          "link": "/campaigns/features/auto-upgrade/",
+          "variant": "links.nav-dark"
+        }
+      ]
+    }
+
+  ]
+}

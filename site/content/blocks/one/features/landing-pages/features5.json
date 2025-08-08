@@ -1,0 +1,19 @@
+{
+  "text": [
+    {
+      "text": "Create a Different Landing Page for a **Different Campaign**",
+      "variant": "h2"
+    },
+    {
+      "text": "We appreciate you using a different landing page template for each campaign.  If you want to use more than one landing page template, you are welcome to do so. Just select a package as per your needs and start using it. You do not need to have any coding skills to create a landing page. Choose from our dozens of ready-made landing page templates with full confidence to penetrate the hearts of your audience. Just streamline the colors and text according to your brand so that your users get a fluid experience to increase sales and signups. You can also use Mumara’s Drag & Drop Addon to build your own."
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/one/features/landing-pages/landing-page.jpg",
+      "radius": "lg",
+      "alt": "Importing",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

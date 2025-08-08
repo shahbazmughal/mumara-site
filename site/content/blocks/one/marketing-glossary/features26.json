@@ -1,0 +1,18 @@
+{
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/one/marketing-glossary/13-1.png",
+      "alt": "Engagement Rate"
+    }
+  ],
+  "text": [
+    {
+      "text": "Engagement Rate",
+      "variant": "h3"
+    },
+    {
+      "text": "The engagement rate is the result of dividing the number of people who interacted or engaged with the message, campaign or stimulus you sent over the total number of people that you reached out to. It is a quality metric to gauge your overall marketing performance.",
+      "color":"black"
+    }
+  ]
+}

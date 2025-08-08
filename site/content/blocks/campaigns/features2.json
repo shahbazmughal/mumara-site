@@ -1,0 +1,28 @@
+{
+  "text": [
+    {
+      "text": "**Custom Fields** and Utilization",
+      "variant": "h2"
+    },
+    {
+      "text": "Would you like to have a more personalized email? Mumara Campaigns is here to help you build stronger relationships with your recipients by allowing you to automatically greet your recipients with their names, use location data, and easily insert other details specific to them.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../assets/flexiblocks/campaigns/custom-fields.jpg",
+      "radius": "lg",
+      "alt": "Custom fields",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Learn More",
+      "type": "PAGE",
+      "link": "/campaigns/features/contact-management/#custom-fields",
+      "variant": "primary-light"
+    }
+  ]
+}

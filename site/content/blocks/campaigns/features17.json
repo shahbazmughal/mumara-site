@@ -1,0 +1,28 @@
+{
+  "text": [
+    {
+      "text": "**Sequential** & Random Sending Node Selection",
+      "variant": "h2"
+    },
+    {
+      "text": "Ability to decide how do you want the multiple sending nodes to rotate for a single campaign. Sequential selection will follow the round-robin fashion; however, the random selection will pick up the next sending node within the loop in random order.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../assets/flexiblocks/campaigns/random-sending-node.jpg",
+      "radius": "lg",
+      "alt": "Speed throttling",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Learn More",
+      "type": "PAGE",
+      "link": "/campaigns/features/swift-sending/#sending-node",
+      "variant": "primary-light"
+    }
+  ]
+}

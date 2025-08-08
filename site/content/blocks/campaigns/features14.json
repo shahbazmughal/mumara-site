@@ -1,0 +1,28 @@
+{
+  "text": [
+    {
+      "text": "Custom **Tracking Domains**",
+      "variant": "h2"
+    },
+    {
+      "text": "Use custom tracking domains to replace the actual domains behind the hyperlinks and images to look more professional and secure.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../assets/flexiblocks/campaigns/custom-tracking.jpg",
+      "radius": "lg",
+      "alt": "Tracking Domains",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Learn More",
+      "type": "PAGE",
+      "link": "/campaigns/features/swift-sending/#tracking-domains",
+      "variant": "primary-light"
+    }
+  ]
+}

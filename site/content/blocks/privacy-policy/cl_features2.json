@@ -1,0 +1,84 @@
+{
+  "text": [
+    {
+      "text": "Information through **Cookies**",
+      "color": "omegaDarker",
+      "variant": "h4"
+    },
+    {
+      "text": "Cookies are used by your browser to collect small pieces of information. When our website is entered, the browser may collect such information using cookies. But this does not include any personal information. Cookies can moreover be disabled from the browser settings.",
+      "color": "omegaDark",
+      "variant": "medium"
+    },
+    {
+      "text": "Mumara Uses **Personal Information**",
+      "color": "omegaDarker",
+      "variant": "h4"
+    },
+    {
+      "text": "The personal information collected during the process of sign-up will be used by Mumara for various purposes. Personal information is used to provide the services (Software Purchase) requested by the client, Mumara keeps this information recorded for future use. This information is further used for assistance regarding the product purchase, post purchase support, to inform the clients if there are new policy matters, to keep the clients updated about new promotions, software updates and technical changes. The registrants receive these email announcements with their consent as clients/ subscribers of Mumara.",
+      "color": "omegaDark",
+      "variant": "medium"
+    }, 
+    {
+      "text": "**Financial Information** Mumara Collects",
+      "color": "omegaDarker",
+      "variant": "h4"
+    },
+    {
+      "text": "If you choose to purchase an app from our website, we collect certain financial information to complete the purchase order. This information includes, credit card number, billing address and credit card expiry. If somebody is paying on your behalf, we collect this information of the person who is paying (Email, Billing Address and Credit Card Info).",
+      "color": "omegaDark",
+      "variant": "medium"
+    },
+    {
+      "text": "Use of Financial **Information**",
+      "color": "omegaDarker",
+      "variant": "h4"
+    },
+    {
+      "text": "Mumara does not share the financial information with the 3rd party except for the issuing bank or concerned service provider. In order to verify the accuracy and authenticity of the credit card information, the financial information is shared with the issuing authority. The sole purpose behind sharing the financial information with issuing authority is to keep the process of billing smooth and avoid financial disputes.",
+      "color": "omegaDark",
+      "variant": "medium"
+    },
+    {
+      "text": "Data Sharing with **3rd Party**",
+      "color": "omegaDarker",
+      "variant": "h4"
+    },
+    {
+      "text": "Mumara does not share, transfer customer data or information with the 3rd party, except for the credit card information with the credit card issuing authority as mentioned above. The personal information/ data we collect is however not shared even with our affiliates. The data of the subject is secure with Mumara according to the guidelines of data protection regulations.",
+      "color": "omegaDark",
+      "variant": "medium"
+    },
+    {
+      "text": "Rights of Data **Subject**",
+      "color": "omegaDarker",
+      "variant": "h4"
+    },
+    {
+      "text": "If you are one of the existing clients and have subscribed to one of our product packages, your data is saved and time to time required for different purposes such as payment reminders, renewal of service, payment processing, electronic receipts, important announcements etc. Your data is stored as long as your consent is active to receive email newsletters, promotions etc. If you no longer want to keep your data stored or want to stop receiving promotions or newsletters from our side, you can always manage your subscription, can opt-out or send us a formal request for the removal. Mumara always adhere to the guidelines of data protection regulations.",
+      "color": "omegaDark",
+      "variant": "medium"
+    },
+    {
+      "text": "Underage **Policy**",
+      "color": "omegaDarker",
+      "variant": "h4"
+    },
+    {
+      "text": "Children and adults less than 18years of age are prohibited to submit any personal data to Mumara for purchase; our product isn’t directed to underage and unsupervised.",
+      "color": "omegaDark",
+      "variant": "medium"
+    },
+    {
+      "text": "Disclaimer",
+      "color": "omegaDarker",
+      "variant": "h4"
+    },
+    {
+      "text": "You acknowledge that you have read the above mentioned privacy statement before placing the purchase order with us, Mumara reserves every right to modify, revise or amend the above mentioned privacy policy.",
+      "color": "omegaDark",
+      "variant": "medium"
+    }
+  ]
+}

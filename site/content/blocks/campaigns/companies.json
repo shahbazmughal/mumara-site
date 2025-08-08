@@ -1,0 +1,118 @@
+{
+  "text": [
+    {
+      "text": "Integrated Apps",
+      "variant": "h2"
+    }
+  ],
+  "collection": [
+    {
+      "images": [
+        {
+          "src": "../../assets/flexiblocks/campaigns/smtp-1.jpg",
+          "alt": "SendGrid",
+          "effects": ["fadeInDown"]
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../assets/flexiblocks/campaigns/smtp-2.jpg",
+          "alt": "MailGun",
+          "effects": ["fadeInDown"]
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../assets/flexiblocks/campaigns/smtp-3.jpg",
+          "alt": "AmazonSES",
+          "effects": ["fadeInDown"]
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../assets/flexiblocks/campaigns/smtp-4.jpg",
+          "alt": "SparkPost",
+          "effects": ["fadeInDown"]
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../assets/flexiblocks/campaigns/smtp-5.jpg",
+          "alt": "MailJet",
+          "effects": ["fadeInDown"]
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../assets/flexiblocks/campaigns/smtp-6.jpg",
+          "alt": "Elastic Email",
+          "effects": ["fadeInDown"]
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../assets/flexiblocks/campaigns/smtp-7.jpg",
+          "alt": "SMTP2GO",
+          "effects": ["fadeInDown"]
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../assets/flexiblocks/campaigns/smtp-8.jpg",
+          "alt": "Postmark",
+          "effects": ["fadeInDown"]
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../assets/flexiblocks/campaigns/smtp-9.jpg",
+          "alt": "Gmail",
+          "effects": ["fadeInDown"]
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../assets/flexiblocks/campaigns/smtp-10.jpg",
+          "alt": "Outlook",
+          "effects": ["fadeInDown"]
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../assets/flexiblocks/campaigns/smtp-11.jpg",
+          "alt": "Yahoo",
+          "effects": ["fadeInDown"]
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../assets/flexiblocks/campaigns/smtp-12.jpg",
+          "alt": "AOL",
+          "effects": ["fadeInDown"]
+        }
+      ]
+    }
+  ]
+}

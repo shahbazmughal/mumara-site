@@ -1,0 +1,28 @@
+{
+  "text": [
+    {
+      "text": "Speed Throttling for Maximizing **Seliverability**",
+      "variant": "h2"
+    },
+    {
+      "text": "Under certain circumstances, you may need to throttle the sending speed of your campaigns to enhance the deliverability or for several other possible reasons.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../assets/flexiblocks/campaigns/fast-delivery.jpg",
+      "radius": "lg",
+      "alt": "deliverability",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Learn More",
+      "type": "PAGE",
+      "link": "/campaigns/features/swift-sending/#speed",
+      "variant": "primary-light"
+    }
+  ]
+}

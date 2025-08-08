@@ -1,0 +1,32 @@
+.privacy-page-main #team {
+    position: relative;
+    overflow: hidden;
+}
+.privacy-page-main #team .gatsby-image-wrapper img {
+    height: 100%;
+    min-height: 350px;
+}
+.privacy-page-main h4 {
+    text-align: left;
+    margin-top: 2rem;
+}
+.privacy-page-main h4:first-child {
+    margin-top: 0;
+}
+.box-container {
+    max-width: 1240px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    box-shadow: 0 0 35px rgb(140 152 164 / 20%);
+    padding: 4rem;
+    background-color: #fff;
+    border-radius: 2rem;
+}
+.privacy-us-page .about-content {
+    padding: 0;
+}
+.privacy-page-main #team h2 {
+    margin-top: 0;
+}

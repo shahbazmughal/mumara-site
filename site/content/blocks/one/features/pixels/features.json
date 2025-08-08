@@ -1,0 +1,68 @@
+{
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Select the Landing Page That Works for You",
+          "variant": "h4"
+        },
+        {
+          "text": "After selecting, and making necessary changes to the landing page templates, you can test them before you launch them. Run A/B testing to optimize the conversion rates, and make changes if required. Using our landing page templates will help you stand out in the already packed places by promoting your latest and existing collection of your products. We never leave our clients in the lurch so here is a pro tip for you: if you want to increase the engagement you can add some special offers and downloads for your new users."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-hive.svg",
+        "bg": "#FFF2DD",
+        "color": "#FF9655"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Create a Targeted Landing Page for Your Visitors",
+          "variant": "h4"
+        },
+        {
+          "text": "If you want to assemble and redirect your visitors on a single page, Mumara One makes it easy for you. For your campaigns, make sure that you make the purchase process easy and equal for every user. It will help you manage your users and target them with your email marketing strategy. Your E-commerce product page or the home page might be overloaded with information, creating confusion for the buyers if they want to take some action. "
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-directions.svg",
+        "bg": "#FEE9E3",
+        "color": "#F87488"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Convert the Visitors at First Sight",
+          "variant": "h4"
+        },
+        {
+          "text": "Being an online store, you must be looking for more customers. The good news is that you can have it. Using top-of-the-line landing page templates provided by Mumara One, you can convert your simple visitors to permanent clients. What you need to do is to remain visibly well for your visitors. Using a beautiful landing page template will give a better experience to your visitors converting them at the first sight."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-comment-detail.svg",
+        "bg": "#E5FCF3",
+        "color": "#6DC9C8"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Our Landing Page Templates Look Good for Every Device",
+          "variant": "h4"
+        },
+        {
+          "text": "Today, majority of the people use mobile phones to search the products online and we are aware of it. That is why we come up with landing pages that are responsive for every device. Just select your favorite one and test it from mobile phone to desktop view and vice versa. We take care to showcase your product perfectly on every screen. We don’t want you to miss out on a single person in your audience to touch the new heights of your success, join Mumara One today and win the market."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-analyse.svg",
+        "bg": "#F5E7FE",
+        "color": "#B887F8"
+      }
+    }
+  ]
+}

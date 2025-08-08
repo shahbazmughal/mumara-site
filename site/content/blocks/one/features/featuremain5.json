@@ -1,0 +1,48 @@
+{
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "",
+          "color": "alphaDark"
+        },
+        {
+          "text": "A/B Testing",
+          "color": "omegaDarker",
+          "variant": "h3"
+        },
+        {
+          "text": "Can’t choose between several marketing styles? Send all at once. Gauge the response, enjoy the statistics and formulate your future strategy based on actionable analytics."
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../assets/flexiblocks/one/features/ab-testing.jpg",
+          "alt": "A/B Testing"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "",
+          "color": "alphaDark"
+        },
+        {
+          "text": "Split Testing",
+          "color": "omegaDarker",
+          "variant": "h3"
+        },
+        {
+          "text": "Find the right strategy for you. Do this by sending many email samples to small microcosms of your sending lists. Then gauge the response lead by sending the best one to the remaining list."
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../assets/flexiblocks/one/features/split-testing.jpg",
+          "alt": "Split Testing"
+        }
+      ]
+    }
+  ]
+}

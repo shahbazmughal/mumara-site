@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Contact List & **Segmentation**",
+      "variant": "h2"
+    },
+    {
+      "text": "The client side portal offers complete and hassle free list and contact management. Your clients can create lists, can add or speedily import contact details to the desired lists. Add every detail of the contact that you know by creating custom fields. Use suppression list feature to add unwanted resources to don’t send to list. And email marketing segmentation would offer great possibilities to slice and dice the list for better targeting.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/classic-esp/inner/Client-Portal.jpg",
+      "radius": "lg",
+      "alt": "Segmentation",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

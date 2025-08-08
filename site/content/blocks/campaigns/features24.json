@@ -1,0 +1,28 @@
+{
+  "text": [
+    {
+      "text": "**Admin Roles** & the Access Control List",
+      "variant": "h3"
+    },
+    {
+      "text": "Add roles for your staff members and select from the huge list of privileges. There is no restriction on the number of roles or the number of admins.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../assets/flexiblocks/campaigns/admin-roles.jpg",
+      "radius": "lg",
+      "alt": "Admin roles",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Learn More",
+      "type": "PAGE",
+      "link": "/campaigns/features/administrators/#admin-roles",
+      "variant": "primary-light"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "text": [
+    {
+      "text": "Gauge Your **Users’ Behavior**",
+      "variant": "h2"
+    },
+    {
+      "text": "While using Mumara One Tracking Pixels, you will be able to monitor the behavior of your users. It will help you dissect your audience in the different segments, and send personalized email campaigns leading to more sales and conversions. All you need is to add the pixels on your website and monitor the data coming from it. These pixels will help to observe users' trends and demographic information. Mumara One Tracing Pixels are providing a tremendous job for e-commerce businesses by showing them a ray of success."
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/one/features/pixels/guage.png",
+      "radius": "lg",
+      "alt": "Importing",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

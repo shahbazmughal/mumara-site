@@ -1,0 +1,22 @@
+{
+  "text": [
+    {
+      "text": "Mumara Classic",
+      "color": "alpha",
+      "variant": "h4"
+    },
+    {
+      "text": "Domain Masking – Mask Forwarding Options",
+      "color": "omegaDarker",
+      "variant": "h1"
+    },
+    {
+      "text": "The addon offers an easy way to hide the identity of primary (Installation) domain, by forwarding or pointing the primary domain to another URL. Effectively carried out mask forwarding process prevents the recipients to see the primary domain name. Moreover, it doesn’t drop the tracking link to actively monitor the results. This incredible feature of MumaraClassic keeps the primary/ installation domain hidden, which eventually reduces the chances of getting trapped by the filters.",
+      "variant": "medium"
+    },
+    {
+      "text": ".htaccess uses Apache based web server environment and effects over the directory where its configuration file resides. E.g. the identity of abc.com can be concealed to expose another domain like xyz.com by using .htaccess masking process. CNAME helps to map a domain to another domain’s URL by using CNAME DNS entries. E.g. abc.com can point to xyz.com, and the recipients will not be able to view abc.com.",
+      "variant": "medium"
+    }
+  ]
+}

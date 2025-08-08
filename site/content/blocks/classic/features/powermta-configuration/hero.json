@@ -1,0 +1,22 @@
+{
+  "text": [
+    {
+      "text": "Mumara Classic",
+      "color": "alpha",
+      "variant": "h4"
+    },
+    {
+      "text": "PowerMTA Configuration & Bounce Processing",
+      "color": "omegaDarker",
+      "variant": "h1"
+    },
+    {
+      "text": "PowerMTA is the market leader SMTP server application which offers advance control and required flexibly to handle high volume email delivery. Configuration of PowerMTA with your email marketing system remains the most crucial part to accomplish maximum delivery rates, and it sometime turns out to be the most complex one as well. But if you are using MumaraClassic with PowerMTA server, our integrated addon will perform all the complex configuration measures by following few intuitive steps.",
+      "variant": "medium"
+    },
+    {
+      "text": "Addon is designed by PowerMTA experts and email infrastructure specialists, which helps users with an automated way to configure the PowerMTA. A user with little or no technical background can perform the steps of this well-knitted process which is supported by detailed documentation to perform every step.",
+      "variant": "medium"
+    }
+  ]
+}

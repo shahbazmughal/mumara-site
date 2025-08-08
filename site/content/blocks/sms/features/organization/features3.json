@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Take up **Importing**",
+      "variant": "h2"
+    },
+    {
+      "text": "Adding contact information can be tiresome especially when you have large numbers of contact info to add. Take advance of contact import feature, and speedily import hundreds of contacts with all info stored right in the relevant fields.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/sms/inner/3.jpg",
+      "radius": "lg",
+      "alt": "Importing",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

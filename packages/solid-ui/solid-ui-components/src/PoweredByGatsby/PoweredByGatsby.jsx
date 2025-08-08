@@ -25,13 +25,12 @@ const styles = {
 const PoweredByGatsby = () => (
   <Link
     target='_blank'
-    title='Gatsby'
-    href='https://www.gatsbyjs.org'
+    title='Hostings House'
+    href='https://www.hostingshouse.com'
     rel='noopener'
     sx={styles.link}
   >
-    Powered By
-    {gatsbySVG && <SVG src={gatsbySVG} />}
+    A Project by Hostings House (Pvt) Ltd.
   </Link>
 )
 

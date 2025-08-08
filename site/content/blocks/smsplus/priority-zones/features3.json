@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Cut Text **Message Cost**",
+      "variant": "h2"
+    },
+    {
+      "text": "Zoning really helps you cut the sending cost to a significant extent. Service providers with global scope can best reap the advantages by creating destination zones consisting of one or more countries, and setting up suitable gateway that offer low cost sending for the specific geography. Sending cost can be reduced even more,  if you have network based gateway priority in place.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/smsplus/inner/Cut-the-Message-Cost.jpg",
+      "radius": "lg",
+      "alt": "Message Cost",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

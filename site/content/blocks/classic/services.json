@@ -1,0 +1,79 @@
+{
+  "collection": [
+    {
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-analyse.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      },
+      "text": [
+        {
+          "text": "Multi-MTA & SMTP/ IP Rotation",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Setup email environment with multiple SMTPs/MTAs and define custom mail settings for every single SMTP you configure your system with. Schedule your campaign by selecting multiple SMTPs from the available ones, and rotate IPs to keep the load distributed."
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Learn more   ➜",
+          "type": "PAGE",
+          "link": "/classic/features/multi-mta/",
+          "variant": "links.normal"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Sending Beyond Limits",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Eliminate the fear of running out of email credits on your next BIG campaign. If you are looking for a cost effective solution to send millions of emails with utmost freedom, it’s the right time to switch to Mumara Classic and kick start from your first Big Campaign."
+        }
+      ],
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-rocket.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      },
+      "buttons": [
+        {
+          "text": "Learn more   ➜",
+          "type": "PAGE",
+          "link": "/classic/features/speed-multiplicity-of-options/",
+          "variant": "links.normal"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Accelerate with Multithreading",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Don’t get stuck for the BIG campaigns you have scheduled, achieve the maximum throughput by creating workaround using Multithreading feature. Mumara Classic is capable of performing parallel sending activity while executing campaigns of large sizes."
+        }
+      ],
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-directions.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      },
+      "buttons": [
+        {
+          "text": "Learn more   ➜",
+          "type": "PAGE",
+          "link": "/classic/features/multithreading/",
+          "variant": "links.normal"
+        }
+      ]
+    }
+  ]
+}

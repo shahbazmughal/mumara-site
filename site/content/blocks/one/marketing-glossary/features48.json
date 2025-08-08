@@ -1,0 +1,18 @@
+{
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/one/marketing-glossary/7-1.png",
+      "alt": "Spam Filters"
+    }
+  ],
+  "text": [
+    {
+      "text": "Spam Filters",
+      "variant": "h3"
+    },
+    {
+      "text": "The email service providers of the receivers employ special filtering software. These are called spam filters. Their job is to find spammy content to limit it. This can be accidental through poor sending IP reputation. It can also be cheated through things like Mumara ONE’s spin tags.",
+      "color":"black"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Automation",
+      "variant": "h2"
+    },
+    {
+      "text": "Due to the significantly improved results and possibilities to engage more customers, automation has taken email marketing industry by storm. The client portal of MumaraESP offers great deal of options to automate marketing flow. Your clients can make use of Autoresponders to deliver prewritten emails immediately to the newly added contacts or after waiting for a preset time interval. Or let the event based triggers to take bunch of timely actions to increase customer loyalty.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/classic-esp/inner/Email-Automation-.jpg",
+      "radius": "lg",
+      "alt": "Automation",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

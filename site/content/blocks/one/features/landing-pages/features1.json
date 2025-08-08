@@ -1,0 +1,19 @@
+{
+  "text": [
+    {
+      "text": "**Earn Money** Without Any Business",
+      "variant": "h2"
+    },
+    {
+      "text": "Don’t have any business and want to earn money? It seems unrealistic but we made it possible for you. We have designed responsive landing pages - select and share with the audience and build your relationship. You don’t need to contact anyone in the DMs. Share your landing page with your Facebook, LinkedIn, and Instagram followers to make them move. Then use Mumara One and target your users by sending emails. We made it easier for you to build your audience and then start selling your product or skill."
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/one/features/landing-pages/earn-money.jpg",
+      "radius": "lg",
+      "alt": "Flexible",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

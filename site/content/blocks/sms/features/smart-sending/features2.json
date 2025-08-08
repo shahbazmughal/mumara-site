@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Spam Content **Protection**",
+      "variant": "h2"
+    },
+    {
+      "text": "Spam is the dilemma of this age of digital communication that every legit sender wants to avoid. Avoid getting flagged for your content, get notified upon using one or more banned words/phrases while creating the content of your campaign.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/sms/inner/002.jpg",
+      "radius": "lg",
+      "alt": "Protection",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

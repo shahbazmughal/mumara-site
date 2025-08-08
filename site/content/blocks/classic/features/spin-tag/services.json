@@ -1,0 +1,55 @@
+{
+  "collection": [
+    {
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-comment-detail.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      },
+      "text": [
+        {
+          "text": "Placeholder Text",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "The placeholder refers to the text (word/phrase) needs to be replaced with alternative words for each recipient in the list. E.g. an example of the placeholder can be “Friend”."
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Alternatives (words/phrases) for the Placeholder",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "A text box is provided to list possible alternative expressions for the placeholder text, e.g. possible alternatives for the placeholder “Friend” can be “Mate” “Buddy” “Fellow” and such."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-chat.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Systematic process of Content Rotation",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "In result of {{Friend}} example tag, if the first recipient of the list will be addressed as Dear “Buddy” the second will automatically be greeted with Dear “Mate” and the cycle continues until the campaign finishes."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-analyse.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      }
+    }
+  ]
+}

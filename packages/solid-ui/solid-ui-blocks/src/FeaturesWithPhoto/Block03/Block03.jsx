@@ -1,39 +1,41 @@
 import React from 'react'
-import { useStaticQuery, graphql } from 'gatsby'
-import { Container, Box, Image } from 'theme-ui'
+import { Container, Box, css } from 'theme-ui'
+import Reveal from '@solid-ui-components/Reveal'
+import Divider from '@solid-ui-components/Divider'
+import ContentText from '@solid-ui-components/ContentText'
+import ContentImages from '@solid-ui-components/ContentImages'
+import ContentButtons from '@solid-ui-components/ContentButtons'
+import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 
-const STRAPI_BASE_URL = 'https://strapi5-dev-jt.mumara.com'
+const FeaturesWithPhotoBlock03 = ({ content: { text, buttons, images } }) => (
+  <Container sx={{ textAlign: `center` }}>
+    <Box>
+      {text && (
+        <Reveal effect='fadeInDown'>
+          <ContentText content={text} />
+        </Reveal>
+      )}
+      {buttons && (
+        <>
+          <Divider space={3} />
+          <ContentButtons content={buttons} />
+        </>
+      )}
+    </Box>
+    {images && (
+      <>
+        <Divider space={4} />
+        <Box sx={{ position: `relative` }}>
+          <ContentImages
+            content={{ images }}
+            loading='eager'
+            imagePosition='center'
+            imageEffect='fadeInDown'
+          />
+        </Box>
+      </>
+    )}
+  </Container>
+)
 
-const normalizeUrl = (url) =>
-  url?.startsWith('http') ? url : `${STRAPI_BASE_URL}${url}`
-
-const FeaturesBlock06 = () => {
-  const { strapiServicestwophoto } = useStaticQuery(graphql`
-    query {
-      strapiServicestwophoto {
-        image {
-          url
-        }
-      }
-    }
-  `)
-
-  const imageUrl = normalizeUrl(strapiServicestwophoto?.image?.url)
-
-  if (!imageUrl) return null
-
-  return (
-    <Container sx={{ textAlign: 'center' }}>
-      <Box>
-        <Image
-          src={imageUrl}
-          alt="Service Two Photo"
-          sx={{ borderRadius: '16px' }}
-        />
-
-      </Box>
-    </Container>
-  )
-}
-
-export default FeaturesBlock06
+export default WithDefaultContent(FeaturesWithPhotoBlock03)

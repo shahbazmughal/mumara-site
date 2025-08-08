@@ -1,0 +1,94 @@
+.g-4, .gy-4 {
+    --bs-gutter-y: 1.5rem;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2);
+}
+
+.align-items-stretch {
+    align-items: stretch!important;
+}
+
+.d-flex {
+    display: flex!important;
+}
+.member {
+    overflow: hidden;
+    text-align: center;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
+    transition: 0.3s;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.member-img {
+    position: relative;
+    overflow: hidden;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.member-img:after {
+    position: absolute;
+    content: "";
+    left: -3%;
+    bottom: -3px;
+    height: 100%;
+    width: 106%;
+    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNDQwIDMyMCI+PHBhdGggZmlsbD0iI2ZmZiIgZmlsbC1vcGFjaXR5PSIxIiBkPSJNMCwxNjBMMzQuMywxNzAuN0M2OC42LDE4MSwxMzcsMjAzLDIwNiwyMDIuN0MyNzQuMywyMDMsMzQzLDE4MSw0MTEsMTU0LjdDNDgwLDEyOCw1NDksOTYsNjE3LDExMkM2ODUuNywxMjgsNzU0LDE5Miw4MjMsMjEzLjNDODkxLjQsMjM1LDk2MCwyMTMsMTAyOSwxOTcuM0MxMDk3LjEsMTgxLDExNjYsMTcxLDEyMzQsMTcwLjdDMTMwMi45LDE3MSwxMzcxLDE4MSwxNDA2LDE4Ni43TDE0NDAsMTkyTDE0NDAsMzIwTDE0MDUuNywzMjBDMTM3MS40LDMyMCwxMzAzLDMyMCwxMjM0LDMyMEMxMTY1LjcsMzIwLDEwOTcsMzIwLDEwMjksMzIwQzk2MCwzMjAsODkxLDMyMCw4MjMsMzIwQzc1NC4zLDMyMCw2ODYsMzIwLDYxNywzMjBDNTQ4LjYsMzIwLDQ4MCwzMjAsNDExLDMyMEMzNDIuOSwzMjAsMjc0LDMyMCwyMDYsMzIwQzEzNy4xLDMyMCw2OSwzMjAsMzQsMzIwTDAsMzIwWiI+PC9wYXRoPjwvc3ZnPgo=) no-repeat center bottom;
+    background-size: contain;
+    z-index: 1;
+}
+
+.member-info {
+    padding: 0px 15px 20px 15px;
+}
+.member-info h4 {
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-size: 25px;
+    color: #012970;
+    margin-top: 0;
+    line-height: 1;
+}
+.member-info span {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    color: #aaaaaa;
+}
+.row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x)/ 2);
+    padding-left: calc(var(--bs-gutter-x)/ 2);
+    margin-top: var(--bs-gutter-y);
+}
+
+
+
+
+
+
+@media (min-width: 768px) {
+    .companyadmin .col-lg-4 {
+        flex: 0 0 auto;
+        width: 33.3333333333%;
+    }
+}
+
+@media (min-width: 992px) {
+    .companyadmin .col-lg-4 {
+        flex: 0 0 auto;
+        width: 33.3333333333%;
+    }
+}

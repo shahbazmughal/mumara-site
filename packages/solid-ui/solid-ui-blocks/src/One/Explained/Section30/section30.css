@@ -1,0 +1,31 @@
+.one-section-30 {
+    background-attachment: fixed;
+    -webkit-backface-visibility: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.one-section-30 h1{
+    font-size: 36px;
+}
+.one-section-30 .list-overflow-green14 {
+    padding: 0 0 0 70px;
+    position: relative;
+    font-weight: 400;
+}
+.one-section-30 .bulletlistgreen14 {
+    float: left;
+    left: 20px;
+    position: absolute;
+}
+.one-section-30 .max-h450{
+    max-height: 450px;
+}
+@media (max-width: 767px) {
+    .one-section-30 .max-w550{
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,81 @@
+{
+  "text": [
+    {
+      "text": "Lead Generation Options",
+      "variant": "h2"
+    },
+    {
+      "text": "Lead generation is the primary key to financial growth that is mainly a core focus of any company for survival and progress."
+    }
+  ],
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Web **Forms**",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "You can create a lead capture form in minutes – no coding required – and start generating more leads right away by integrating the HTML codes into your website or app."
+        }
+      ],
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bxs-window-alt.svg",
+        "bg": "#D3E7FE",
+        "color": "#276BF0"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Opt-in and **Double Opt-in** Functionality",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "When creating a web form, you can select if the subscribers need to double opt-in by clicking on the confirmation link that they receive in the confirmation email upon filling up the form."
+        }
+      ],
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-analyse.svg",
+        "bg": "#FEFAD6",
+        "color": "#F4D133"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Use API to **Add Contacts**",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Connect your website or a third-party application with Mumara using the restful API and feed data to the contact lists."
+        }
+      ],
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bxs-component.svg",
+        "bg": "#FEE8D1",
+        "color": "#F7491D"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Use **Zapier** to Add New Leads",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Connect Mumara with Zapier to gain access to unlimited workflows and create zaps to add new contacts to Mumara when a defined event occurs."
+        }
+      ],
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-dna.svg",
+        "bg": "#EBFDDA",
+        "color": "#64DB43"
+      }
+    }
+  ]
+}

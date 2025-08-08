@@ -2,6 +2,7 @@ import React, { useContext } from 'react'
 import { Box, Button, Text } from 'theme-ui'
 import { FaPlay } from 'react-icons/fa'
 import Modal, { ModalContext } from '@solid-ui-components/Modal'
+import ContentImages from '@solid-ui-components/ContentImages'
 
 const styles = {
   buttonWrapper: {
@@ -37,9 +38,10 @@ const styles = {
   }
 }
 
-const VideoButton = ({ variant, children, link }) => {
+const VideoButton = ({ variant, children, link, images }) => {
   const { setActiveModal } = useContext(ModalContext)
   const modalIdentifier = link
+  const image = images
 
   return (
     <>
@@ -70,6 +72,11 @@ const VideoButton = ({ variant, children, link }) => {
         >
           <FaPlay />
         </Button>
+        <ContentImages
+          content={{ image }}
+          loading='eager'
+          imagePosition='center'
+        />
         <Text>{children}</Text>
       </Box>
     </>

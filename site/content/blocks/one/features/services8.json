@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Tracking **Pixels**",
+      "variant": "h2"
+    },
+    {
+      "text": "Use Mumara One Tracking Pixels to identify the behavior of your visitors on your online store with an advanced tracking mechanism. ",
+        "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/one/features/tracking.png",
+      "radius": "lg",
+      "alt": "Tracking Pixels",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

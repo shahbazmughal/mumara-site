@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Make packages that stand out with **cool features**",
+      "variant": "h2"
+    },
+    {
+      "text": "Create packages for the users and define what daily and monthly usage limits are. In addition, pre-configured assets can be assigned so that users have ready-to-use accounts. ",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/campaigns/features/user-packages.png",
+      "radius": "lg",
+      "alt": "Flexible",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

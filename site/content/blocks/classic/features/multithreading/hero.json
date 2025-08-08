@@ -1,0 +1,18 @@
+{
+  "text": [
+    {
+      "text": "Mumara Classic",
+      "color": "alpha",
+      "variant": "h4"
+    },
+    {
+      "text": "Multithreading-Parallel Sending Activity",
+      "color": "omegaDarker",
+      "variant": "h1"
+    },
+    {
+      "text": "There are times, when one really needs to speed up sending. Like for sending a seasonal promotion to a large database, or a large volume marketing campaign and such. For such occasions, you never want the campaign to hit the recipient’s inbox when the event is over already. This is the right time to use the sending system resources in its maximum capacity to achieve certain throughput. Multithreading addon enables system for Parallel Sending Activity in single unit of time. It helps using the system resources in a way to achieve the desired throughput. The addon is too impeccably designed that it only takes two steps to setup desired amount of threads to run, where each thread will perform its function independently without interfering with others.",
+      "variant": "medium"
+    }
+  ]
+}

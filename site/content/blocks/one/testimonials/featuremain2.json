@@ -1,0 +1,52 @@
+{
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "“Started from a Free Trial to a Paid subscription, I am having my best experience with Mumara and finally my marketing is fully automated now. It’s auto segmenting my lists to my chosen criteria and sending auto followup emails to the segments according to my preset intervals. ”",
+          "color": "white"
+        },
+        {
+          "text": "Jason Emanuel",
+          "variant": "h4",
+          "color": "white"
+        },
+        {
+          "text": "Trainer, Sukh Chayn Gardens",
+          "variant": "h6",
+          "color": "white"
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../assets/flexiblocks/one/testimonials/4.png",
+          "alt": "Trainer"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "“It is a thoughtfully designed platform designed to help you run successful email campaign, and I can’t wait to see how the Mumara team continues to improve the product and innovate in the future.”",
+          "color": "white"
+        },
+        {
+          "text": "Zach Miller",
+          "variant": "h4",
+          "color": "white"
+        },
+        {
+          "text": "NFL Player",
+          "variant": "h6",
+          "color": "white"
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../assets/flexiblocks/one/testimonials/5.png",
+          "alt": "NFL Player"
+        }
+      ]
+    }
+  ]
+}

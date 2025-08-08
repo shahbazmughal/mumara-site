@@ -1,0 +1,36 @@
+{
+  "text": [
+    {
+      "text": "Are you tired of seeing less or zero ROI even after spending a lot of money on your Email Marketing Techniques?",
+      "variant": "h4",
+      "color": "omegaDarker"
+    },
+    {
+      "text": "Setup a correct workflow and send the right email at the right time to the right person with the right <span className=\"w500\">CTA</span> (call to action) to get the maximum engagements… Just with <span className=\"w500\">Mumara Campaigns!</span>",
+      "variant": "h2",
+      "className": "herotag"
+    },
+    {
+      "text": "It is not primarily a fault of <span className=\"head-yellow\">your contact list</span> or the broadcasts you send. It is more commonly an issue with your <span className=\"head-yellow\">Emailing platform</span> that doesn’t give you the correct workflow to <span className=\"head-yellow\">design the best campaign</span> to make out of it.",
+      "variant": "medium"
+    },
+    {
+      "text": "To let you know, we haven’t born this year. We have been providing solutions for more than 15 years now and Mumara Campaigns isn’t a dish of a single brain, it’s a cumulative effort of several brains and has gone through the massive clientele.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../assets/flexiblocks/campaigns/features/herobg.png",
+      "alt": "Get Started with Mumara Campaigns"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Get Started with Mumara Campaigns",
+      "type": "PAGE",
+      "link": "./#orderarea",
+      "variant": "btn-success"
+    }
+  ]
+}

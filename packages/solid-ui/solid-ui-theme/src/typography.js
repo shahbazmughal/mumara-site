@@ -1,5 +1,6 @@
 import { toTheme } from '@theme-ui/typography'
 import fonts from './typography-fonts.json'
+import './localFonts.css';
 
 const typography = {
   baseFontSize: 16,

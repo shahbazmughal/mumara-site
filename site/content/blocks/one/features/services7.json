@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "**Landing** Pages",
+      "variant": "h2"
+    },
+    {
+      "text": "Collect your users with the beautifully designed, ready-made, and ultra-fast landing pages on Mumara One. Leave a strong first impression on your customers to drive more leads. ",
+        "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/one/features/landingpages.jpg",
+      "radius": "lg",
+      "alt": "Landing Pages",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "text": [
+    {
+      "text": "**Segments** That Perform Well",
+      "variant": "h2"
+    },
+    {
+      "text": "It's about time that you can stop wasting on managing your contacts manually. Mumara Campaigns automates the process of segmenting your email list based on defined criteria.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../assets/flexiblocks/campaigns/segment.jpg",
+      "radius": "lg",
+      "alt": "Segments",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Learn More",
+      "type": "PAGE",
+      "link": "/campaigns/features/segmentation/",
+      "variant": "primary-light"
+    }
+  ]
+}

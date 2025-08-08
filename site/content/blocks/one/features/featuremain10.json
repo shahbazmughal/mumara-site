@@ -1,0 +1,48 @@
+{
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "",
+          "color": "alphaDark"
+        },
+        {
+          "text": "Loyalty Promos",
+          "color": "omegaDarker",
+          "variant": "h3"
+        },
+        {
+          "text": "You customer visits your page again and again, give them a loyalty boost by celebrating their loyalty. Send them private loyalty promos made specially for them *wink* and let them buy even more."
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../assets/flexiblocks/one/features/loyalty.jpg",
+          "alt": "Loyalty Promos"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "",
+          "color": "alphaDark"
+        },
+        {
+          "text": "Order Follow Up",
+          "color": "omegaDarker",
+          "variant": "h3"
+        },
+        {
+          "text": "So you have been sending your customers loyalty promos, reminders and stock updates? Make sales and follow up. Ask them if they loved their order, would they like to review it and can they make any suggestions?"
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../assets/flexiblocks/one/features/1.png",
+          "alt": "Order Follow Up"
+        }
+      ]
+    }
+  ]
+}

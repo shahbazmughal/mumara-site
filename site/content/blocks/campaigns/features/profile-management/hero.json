@@ -1,0 +1,19 @@
+{
+  "text": [
+    {
+      "text": "Mumara Campaigns",
+      "color": "alpha",
+      "variant": "h4"
+    },
+    {
+      "text": "Profile Management & Security",
+      "color": "omegaDarker",
+      "variant": "h1"
+    },
+    {
+      "text": "You have the flexibility to modify the settings and add additional security to your account.",
+      "color": "omegaDarker",
+      "variant": "medium"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "text": [
+    {
+      "text": "Manage Admins and Roles",
+      "variant": "h2"
+    },
+    {
+      "text": "No need to manage it completely yourself. Add user staff users (admins) and assign them roles with limited privileges.",
+        "variant": "medium"
+    }
+  ]
+}

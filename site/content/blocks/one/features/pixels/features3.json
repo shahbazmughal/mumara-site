@@ -1,0 +1,19 @@
+{
+  "text": [
+    {
+      "text": "Don’t Miss Your Visitors’ **Buying Intentions**",
+      "variant": "h2"
+    },
+    {
+      "text": "Do you want to know what kind of purchases your visitors are making? We made it happen for you! You can trust us to see every activity happening on your website. Track the movement of every single person that visits your website including getting a trail of when, where, and why it happened in real-time. You can use this opportunity to target these visitors to remind them about product abandonment and browse abandonment using email automation. Take advantage of Mumara One’s intelligence and be intelligent to choose it NOW."
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/one/features/pixels/buy.png",
+      "radius": "lg",
+      "alt": "Importing",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

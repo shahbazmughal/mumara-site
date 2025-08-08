@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Client **Groups**",
+      "variant": "h2"
+    },
+    {
+      "text": "The built-in function of client management within Mumara helps you setup client groups. These groups are the prerequisites of client accounts. Client Group function has a complete access control list to define the access level of the clients in specific group, and limit control settings to propose hourly, daily and monthly sending limits for the clients in specific group. Groups give you a way to create different plans with sending limits/access levels for the clients to register for.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/classic-esp/inner/Client-Groups.jpg",
+      "radius": "lg",
+      "alt": "Groups",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

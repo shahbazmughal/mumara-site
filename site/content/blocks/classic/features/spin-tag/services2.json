@@ -1,0 +1,55 @@
+{
+  "collection": [
+    {
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-directions.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      },
+      "text": [
+        {
+          "text": "Create catchy Subject Lines",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Subject lines are important for better open rate, exploring the potential of Spin Tags in subject line brightens the chances of achieving improved results."
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Using Spin Tag in Email Campaign",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Select one or multiple tags saved within the system while creating the content of campaign, MumaraClassic will manage the rest while sending."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-envelope.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Protection against content filters",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Sending similar and sending in bulk can sometime trigger the spam filters, Spin Tags insert the required variations to protect against content filters."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bxs-component.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      }
+    }
+  ]
+}

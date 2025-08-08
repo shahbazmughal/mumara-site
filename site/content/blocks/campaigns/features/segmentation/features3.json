@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Create a target market based on the **demographics**",
+      "variant": "h2"
+    },
+    {
+      "text": "Having insight into the demographics of the clientele can allow you to better plan tailored content. Demographic segmentation is a tool that finds contact info and segments the contacts into different age groups, genders, and interests. Use these factors to set distinct communications throughout the campaign.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/campaigns/features/segment-demographic.png",
+      "radius": "lg",
+      "alt": "Importing",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

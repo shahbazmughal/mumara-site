@@ -1,0 +1,73 @@
+.counterblock {
+    display: flex;
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    font-weight: bold;
+    color: #2d3748;
+    position: relative;
+    margin-top: 50px;
+}
+.counter-loading {
+    border: 8px solid #e7e7e7;
+    border-radius: 50%;
+    border-top: 8px solid #FFFFFF;
+    width: 160px;
+    height: 160px;
+    -webkit-animation: fspin 2s linear infinite;
+    animation: fspin 2s linear infinite;
+    margin: auto;
+    position: absolute;
+}
+@keyframes fspin {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+#cl_features .css-1xxvh17 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.counter-loading-new {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border-width: 6px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255) rgb(212 212 212) rgb(212 212 212);
+    border-radius: 50%;
+    border-top: 6px solid rgb(255, 255, 255);
+    animation: 2s linear 0s infinite normal none running fspin;
+    float: left;
+    margin-left: 5px;
+}
+#cl_features h5 {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    line-height: 1.55;
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+    color: #0f977e;
+    text-align: center;
+}
+#cl_features h1 {
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    line-height: 1.55;
+    display: block;
+    max-width: 650px;
+    color: #2d3748;
+    text-align: center;
+    margin: 0 auto 2rem;
+}

@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Auto **Invoicing**",
+      "variant": "h2"
+    },
+    {
+      "text": "You don’t need to create manual orders anymore. Once the client subscribes to a package that exists both in MumaraSMS+ and in you billing system, it automatically generates the order and sends the invoice to the client by appropriately printing the order details, i.e. client name, package subscribed, due amount and such.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/smsplus/inner/Auto-Invoicing.jpg",
+      "radius": "lg",
+      "alt": "Auto Invoicing",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

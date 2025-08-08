@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Design with ease using **Drag & Drop Builder** - no coding required!",
+      "variant": "h2"
+    },
+    {
+      "text": "Choose from hundreds of flexible template modules to create visually enhanced, responsive email campaigns in no time. The drag-and-drop builder makes it easy to create visually stunning email campaigns in no time at all. Edit every component of the pre-designed template, resize text, change the colors, add extra images, and much more within seconds.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/campaigns/features/broadcasts-design.png",
+      "radius": "lg",
+      "alt": "Flexible",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "text": [
+    {
+      "text": "**Suppression Management** to Avoid Problematic Recipients",
+      "variant": "h2"
+    },
+    {
+      "text": "Avoid problematic recipients from destroying your IP address or Domain’s reputation, such as spam traps, honey pots, complainers, etc, by adding them to the suppression.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../assets/flexiblocks/campaigns/suppression.jpg",
+      "radius": "lg",
+      "alt": "Suppression management",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Learn More",
+      "type": "PAGE",
+      "link": "/campaigns/features/suppression-management/",
+      "variant": "primary-light"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "collection": [
+    {
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-mail-send.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      },
+      "text": [
+        {
+          "text": "Schedule Multiple Campaigns in One Go",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Cut short the steps of scheduling an email campaign and schedule multiple email campaigns in one go. When you have several campaigns to schedule, single page operation and adaptability of layout will really help to save the time."
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Customize the Sending Pattern",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "With MumaraClassic, you aren’t left with default and primary level of options to send a campaign. To aid high volume delivery, you can customize the sending pattern by selecting SMTPs, From to Info and Sending Domains of your choice."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-hive.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Express Importing Speed",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Make use of inline feature to import sizeable list in minutes. Appropriately map the headers of the importing file with the fields in your database to save right contact’s info in right fields."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-rocket.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      }
+    }
+  ]
+}

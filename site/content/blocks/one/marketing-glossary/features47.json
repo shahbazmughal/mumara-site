@@ -1,0 +1,11 @@
+{
+  "text": [
+    {
+      "text": "Soft Bounce",
+      "variant": "h3"
+    },
+    {
+      "text": "When an email is not weak or improper and it is ready to reach the intended inbox and still is returned to the sender it is a soft bounce. This means that there was nothing wrong with the emails but perhaps the inbox was full or not ready for the email."
+    }
+  ]
+}

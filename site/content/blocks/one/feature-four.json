@@ -1,0 +1,38 @@
+{
+  "text": [
+    {
+      "text": "Actionable **Analytics**",
+      "variant": "h2"
+    },
+    {
+      "text": "Business metamorphosis through simple automation and intelligent campaign design. Enjoy absolute control over future performance through Mumara’s analytical toolset.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../assets/flexiblocks/one/feature-four.jpg",
+      "alt": "Actionable",
+      "radius": "lg"
+    },
+    {
+      "src": "../../assets/flexiblocks/one/feature-two-overlay.png",
+      "alt": "Analytics",
+      "radius": "lg",
+      "shadow": "default",
+      "effects": ["fadeInRight", "float"],
+      "position": {
+        "top": "70%",
+        "left": "0%"
+      }
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Explore",
+      "type": "PAGE",
+      "link": "/one/features/#testing",
+      "variant": "primary-light"
+    }
+  ]
+}

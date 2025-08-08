@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "**Monitor** Clients’ **Sending**",
+      "variant": "h2"
+    },
+    {
+      "text": "When the subscription for the client accounts increases for an ESP, the admin would need a team of people to help in providing the assistance, performing several administrative tasks and provide proactive support to the clients. Support user is the way admin can add these support staff members by providing them permission to perform desired administrative tasks, provide timely support to the client accounts and for round the clock monitoring of the sending stream to ensure sustainable email delivery.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/classic-esp/inner/Monitor-Client-Accounts.jpg",
+      "radius": "lg",
+      "alt": "Monitor",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

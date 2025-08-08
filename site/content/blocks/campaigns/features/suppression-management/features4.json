@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "**Automatic synchronization** of the contacts with suppression lists",
+      "variant": "h2"
+    },
+    {
+      "text": "Mumara synchronizes the contacts with the suppression lists automatically when there is a new contact added or removed, and the same process occurs when there is a new entry in any of the suppression lists.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/campaigns/features/suppress-resync.png",
+      "radius": "lg",
+      "alt": "Importing",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "collection": [
+    {
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-hive.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      },
+      "text": [
+        {
+          "text": "Ensure Compliance",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Separate boxes to provide all required links and text to appear in the email footer. Textboxes to provide the Address & Tagline to appear in the footer, e.g. Email Marketing Reinvented. Provide Our services URL, image URL of the logo to appear in the footer of email and link to privacy policy and ensure compliance."
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Boost affiliate Revenue through MumaraClassic",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Make use of all premium features offered by MumaraClassic to give a forward push to your affiliate revenue. Features like selecting Multiple SMTPs, Sending domains and other customization options will help you optimize your AdStation campaigns and boost click rates."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-rocket.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Test the account Information",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Once the account is being configured, test the account information with AdStation. AdStation doesn’t log the request flagged as test, and testing ensures that the account has properly been configured with correct account information."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-comment-detail.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      }
+    }
+  ]
+}

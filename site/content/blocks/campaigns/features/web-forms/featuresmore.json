@@ -1,0 +1,56 @@
+{
+    "collection": [
+      {
+        "icon": {
+          "src": "../../../../assets/flexiblocks/icons/bx-directions.svg",
+          "bg": "omegaLighter",
+          "color": "alpha"
+        },
+        "text": [
+          {
+            "text": "Enable **admin notification** of new subscribers",
+            "color": "omegaDarker",
+            "variant": "h4"
+          },
+          {
+            "text": "Let the subscription administrator receive a notification email when there is an addition to your subscriber list by enabling Admin Notifications."
+          }
+        ]
+      },
+      {
+        "text": [
+          {
+            "text": "Select **desired fields** to be filled",
+            "color": "omegaDarker",
+            "variant": "h4"
+          },
+          {
+            "text": "Include the necessary subscription fields on the web form, which will be required by the visitor/customer if they want to subscribe to it."
+          }
+        ],
+        "icon": {
+          "src": "../../../../assets/flexiblocks/icons/bx-analyse.svg",
+          "bg": "omegaLighter",
+          "color": "alpha"
+        }
+      },
+      {
+        "text": [
+          {
+            "text": "Redirect to a **custom webpage** after subscription",
+            "color": "omegaDarker",
+            "variant": "h4"
+          },
+          {
+            "text": "Redirect the subscriber to the default confirmation of Mumara or to the desired page, where the subscriber will be redirected, after filling out the form."
+          }
+        ],
+        "icon": {
+          "src": "../../../../assets/flexiblocks/icons/bx-dna.svg",
+          "bg": "omegaLighter",
+          "color": "alpha"
+        }
+      }
+    ]
+  }
+  

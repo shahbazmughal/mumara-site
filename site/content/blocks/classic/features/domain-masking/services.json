@@ -1,0 +1,55 @@
+{
+  "collection": [
+    {
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bxs-vial.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      },
+      "text": [
+        {
+          "text": "Effortless Configuration & Real-Time Testing",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Automatically creates the .htaccess configuration file that the user can download and place in the web root directory, with an equally easy process of configuring CNAME to match with CNAME DNS entries. Later, automatically test if the masking domain is properly configured."
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Select Multiple Domains for Sending Campaign",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Adding multiple masking domains will later help to select more than one masking domains to send your campaign from. If multiple domains are selected, MumaraClassic automatically rotates these sending domains in Cyclic Order."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-planet.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Reputation monitoring of the Masking Domains",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Add as many masking domains as required without having to check for the domain reputation manually. Domain reputation monitoring feature of MumaraClassic has this ability to automatically check available domains against the number of selected blacklists."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-hive.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      }
+    }
+  ]
+}

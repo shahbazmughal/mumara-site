@@ -1,0 +1,18 @@
+{
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/one/marketing-glossary/6-1.png",
+      "alt": "Conversion Rate"
+    }
+  ],
+  "text": [
+    {
+      "text": "Conversion Rate",
+      "variant": "h3"
+    },
+    {
+      "text": "The conversion rate of your sent emails can be calculated by dividing the total number of actions over the total number of emails. Then you multiply this number by 100 to derive at a percentage. This percentage is your.",
+      "color": "black"
+    }
+  ]
+}

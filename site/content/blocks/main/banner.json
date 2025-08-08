@@ -1,0 +1,32 @@
+{
+  "text": [
+    {
+      "text": "DISCOVER",
+      "variant": "h1"
+    },
+    {
+      "text": "COLLABORATE",
+      "variant": "h1"
+    },
+    {
+      "text": "CONNECT",
+      "variant": "h1"
+    },
+    {
+      "text": "Unlocking the Power of Innovation at Collision!",
+      "variant": "h5"
+    },
+    {
+      "text": "Toronto, June 26-29, 2023",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../assets/flexiblocks/banner/banner_img.png",
+      "alt": "Innovation at Collision",
+      "effects": ["fadeInDown", "float"],
+      "objectposition": "center center"
+    }
+  ]
+}

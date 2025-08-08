@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "**Multi-Lingual** Platform",
+      "variant": "h2"
+    },
+    {
+      "text": "It offers your clients ability to get their platform translated in the language of their choice. You can take up the language file to translate labels, titles, descriptions and help texts in preferred language. Later through the admin panel you can add the new language in the list of available languages, for your clients to select the one they prefer.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/smsplus/inner/Multi-Lingual-Platform.jpg",
+      "radius": "lg",
+      "alt": "Multi-Lingual",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

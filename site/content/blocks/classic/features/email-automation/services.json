@@ -1,0 +1,55 @@
+{
+  "collection": [
+    {
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-user-voice.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      },
+      "text": [
+        {
+          "text": "Autoresponders-Contact’s Qualification",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Send an automresponder as soon as the contact joins the list or send it after contact has spent specific time period in your list, auto sort to send autoresponder to the newly joined contacts only or send both newly joined as well as the existing contacts in the list."
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Autoresponders- More Options",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Setup custom criteria for the contacts to receive autoresponder email, e.g. contacts identified as opened or clicked, contacts that opened specific campaign or clicked specific list etc."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-envelope.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Autoresponders-Sending Options",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "You have the ability to send autoresponder email by selecting sender-info batch, from one or multiple SMTPs and sending domains of your choice. Make use of custom variables to personalize your content and spin tags to make it appear more dynamic."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-rocket.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      }
+    }
+  ]
+}

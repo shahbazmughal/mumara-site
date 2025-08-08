@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Increase the **engagements** by using profile fields in the broadcasts",
+      "variant": "h2"
+    },
+    {
+      "text": "Add the fields pertaining to the particulars of the contact into the email to make it appear that it was specifically sent by the sender for the receiver who is viewing the email. Send personalized emails that consist of all the details regarding the contact information of the recipient such as name, company, and more.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/campaigns/features/personalization-variable.png",
+      "radius": "lg",
+      "alt": "Flexible",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Geographically Distributed **Sending Zones**",
+      "variant": "h2"
+    },
+    {
+      "text": "Zones are primarily setup by adding countries to reflect a destination zone, and selecting the desired gateways to perform sending operations for certain zone. Once the selection is made, it allows using drag and drop function to sequence the gateway priority. Top of the sequence reflects the 1st priority gateway to send messages from, while the gateways down in the sequence are to be considered when the top priority gateway fails due to any reason.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/smsplus/inner/Geographically-Distributed-Sending-Zones.jpg",
+      "radius": "lg",
+      "alt": "Geographically Distributed",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

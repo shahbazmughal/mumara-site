@@ -10,19 +10,10 @@ import ContentButtons from '@solid-ui-components/ContentButtons'
 import ContentMap from '@solid-ui-components/ContentMap'
 import ContentForm from '@solid-ui-components/ContentForm'
 
-const ModalBlock02 = ({ content = {}, reverse }) => {
-  const {
-    identifier,
-    text,
-    images,
-    map,
-    collection,
-    form,
-    buttons
-  } = content
-
-  if (!identifier) return null
-
+const ModalBlock02 = ({
+  content: { identifier, text, images, map, collection, form, buttons },
+  reverse
+}) => {
   const hasMedia = images || map
 
   return (

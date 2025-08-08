@@ -1,0 +1,21 @@
+{
+    "buttons": [
+        {
+            "text": "Explore Mumara ONE in a single page",
+            "type": "PAGE",
+            "link": "https://mumara.com/one/email-marketing-tool/",
+            "variant": "secondary",
+            "target":"_blank"
+        }
+    ],
+    "images": [
+    {
+      "src": "../../assets/flexiblocks/one/header.png",
+      "alt": "Mumara ONE",
+      "radius": "lg",
+      "shadow": "default",
+      "border": "lg",
+      "effects": ["fadeInDown"]
+    }
+  ]
+}

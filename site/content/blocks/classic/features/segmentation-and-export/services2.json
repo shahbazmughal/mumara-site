@@ -1,0 +1,55 @@
+{
+  "collection": [
+    {
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-directions.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      },
+      "text": [
+        {
+          "text": "Segment between specific data & time",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Select start data & time and end data & time to separate out records between specific time and date. The option can further be applied with other filters, i.e. segment out opens between specific date & time."
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Number of other options",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Apart from the above mentioned, list of other filters can help dig the data more deeply to create segments based on opener’s OS, browser etc."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-dna.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Post segmentation options",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Once you have your segmented records filtered out of the selected list, you can perform couple of helpful actions to better utilize the segmented records, e.g. sending an email to the segmented records, exporting a .CSV, moving or copying the records."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-directions.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      }
+    }
+  ]
+}

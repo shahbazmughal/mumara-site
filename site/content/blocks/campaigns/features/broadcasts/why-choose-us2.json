@@ -1,0 +1,72 @@
+{
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Instantaneously **broadcast scheduling**",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Have an opportunity to schedule the broadcasts instantly without having to wait for the previous queues to get finished. Mumara supports parallel processes and handles them wisely."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-directions.svg",
+        "bg": "#D3E7FE",
+        "color": "#276BF0"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "**Schedule the campaigns** ahead of time and do the future tasks today",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Planning to schedule the broadcasts for a later time? Schedule them now for the future time and never break a sweat. No need to keep a check once the campaign is scheduled. Start working on your next tasks."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-rocket.svg",
+        "bg": "#FEFAD6",
+        "color": "#F4D133"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "**Reschedule** an already sent broadcast",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Sometimes it’s super boring to schedule a broadcast from the scratch, especially when it’s being done by Arfan who works at our office. Just reschedule the pre-sent campaign and feel free from the worry of doing it all over again or making mistakes."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-chat.svg",
+        "bg": "#FEE8D1",
+        "color": "#F7491D"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Maximize the deliverability by throttling the **email sending speed**",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "You ought to have a check on your email transmission speed to enhance your email deliverability. Mumara lets you monitor the sending speed and throttle it according to the circumstances and best deliverability practices."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-dna.svg",
+        "bg": "#EBFDDA",
+        "color": "#64DB43"
+      }
+    }
+  ]
+}

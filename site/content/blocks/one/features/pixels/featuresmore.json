@@ -1,0 +1,56 @@
+{
+    "collection": [
+      {
+        "icon": {
+          "src": "../../../../assets/flexiblocks/icons/bx-target-lock.svg",
+          "bg": "omegaLighter",
+          "color": "alpha"
+        },
+        "text": [
+          {
+            "text": "**Prioritize** list columns",
+            "color": "omegaDarker",
+            "variant": "h4"
+          },
+          {
+            "text": "Rearrange the column listings on the view contacts page and select the fields that you want to be prioritized when sorting the column list. It is super helpful to view the desired data in a single table view."
+          }
+        ]
+      },
+      {
+        "text": [
+          {
+            "text": "Contact’s **timeline**",
+            "color": "omegaDarker",
+            "variant": "h4"
+          },
+          {
+            "text": "Keep track of the events performed on a contact e.g. emails sent, trigger actions, drip campaigns, field value changed, etc."
+          }
+        ],
+        "icon": {
+          "src": "../../../../assets/flexiblocks/icons/bx-dna.svg",
+          "bg": "omegaLighter",
+          "color": "alpha"
+        }
+      },
+      {
+        "text": [
+          {
+            "text": "**Bulk update** contacts",
+            "color": "omegaDarker",
+            "variant": "h4"
+          },
+          {
+            "text": "Update the existing contacts by importing a CSV file consisting of the email addresses and change their parameters."
+          }
+        ],
+        "icon": {
+          "src": "../../../../assets/flexiblocks/icons/bx-analyse.svg",
+          "bg": "omegaLighter",
+          "color": "alpha"
+        }
+      }
+    ]
+  }
+  

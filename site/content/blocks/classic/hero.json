@@ -1,0 +1,39 @@
+{
+  "text": [
+    {
+      "text": "Mumara Classic Pro",
+      "variant": "h4",
+      "color": "alpha"
+    },
+    {
+      "text": "Enjoy the Freedom of Sending Emails with Mumara (Classic)",
+      "variant": "h1"
+    },
+    {
+      "text": "A widely acknowledged and feature rich self-hosted Email Marketing Application for High Volume Email Delivery",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../assets/flexiblocks/classic/email-demo.jpg",
+      "alt": "Mumara Campaigns Email Demo",
+      "shadow": "default",
+      "effects": ["fadeInDown"]
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Features",
+      "type": "PAGE",
+      "link": "/classic/features/",
+      "variant": "primary"
+    },
+    {
+      "text": "Buy Now",
+      "type": "PAGE",
+      "link": "/classic/pricing/",
+      "variant": "secondary"
+    }
+  ]
+}

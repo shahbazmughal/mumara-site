@@ -1,0 +1,40 @@
+{
+  "text": [
+    {
+      "text": "Maximize Output, **Minimize Effort.**",
+      "variant": "h2"
+    },
+    {
+      "text": "Save time and energy for special things with Mumara’s Unbeatable & Creative Campaign Builder.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../assets/flexiblocks/one/feature1.jpg",
+      "alt": "Minimize Effort",
+      "radius": "lg",
+      "shadow": "default"
+    },
+    {
+      "src": "../../assets/flexiblocks/one/tab-feature-one-overlay-two.png",
+      "alt": "Effort",
+      "effects": ["fadeInDown", "float"],
+      "position": {
+        "bottom": "-15%",
+        "left": "-5%"
+      }
+    },
+    {
+      "src": "../../assets/flexiblocks/one/tab-feature-one-overlay-one.png",
+      "alt": "Output",
+      "radius": "lg",
+      "shadow": "default",
+      "effects": ["fadeInUp", "floatFaster"],
+      "position": {
+        "top": "-20%",
+        "right": "10%"
+      }
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "collection": [
+    {
+      "container": {
+        "variant": "cards.paper",
+        "bg": "white"
+      },
+      "text": [
+        {
+          "text": "Guaranteed Delivery",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "Use validation feature to force undeliverable and invalid contact apart from the list, and maintain a list carrying maximum number of deliverable contacts only.",
+          "color": "omegaDark"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Learn more  ➜",
+          "type": "PAGE",
+          "link": "/sms/sms-features/validation/",
+          "variant":"links.nav-dark"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-analyse.svg",
+        "size": "lg",
+        "color": "alpha"
+      }
+    },
+    {
+      "container": {
+        "variant": "cards.paper",
+        "bg": "white"
+      },
+      "text": [
+        {
+          "text": "Insights",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "EXECUTE PARALLEL SENDING ACTIVITY",
+          "color": "omegaDark",
+          "variant": "h6"
+        },
+        {
+          "text": "Collection of every metric that is required for performance analysis and to measure the ROI of your SMS marketing and text engagement campaigns.",
+          "color": "omegaDark"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Learn more  ➜",
+          "type": "PAGE",
+          "link": "/sms/sms-features/insights/",
+          "variant":"links.nav-dark"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-bar-chart-alt.svg",
+        "size": "lg",
+        "color": "alpha"
+      }
+    }
+  ]
+}

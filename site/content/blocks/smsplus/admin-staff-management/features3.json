@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Staff Member **Accounts**",
+      "variant": "h2"
+    },
+    {
+      "text": "Staff members accounts are easy to add, activate, delete or even temporarily deactivate. Each staff member account manages the account separately from the admin, and can have separate time zone preference that eventually helps the service providers with global client base to setup staff members as per the geographical outline of the clients.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/smsplus/inner/Staff-Member-Accounts.jpg",
+      "radius": "lg",
+      "alt": "Staff Accounts",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

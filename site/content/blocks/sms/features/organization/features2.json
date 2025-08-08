@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Organized & Categorized **Contacts**",
+      "variant": "h2"
+    },
+    {
+      "text": "Store, manage and dynamically control all of your contacts and the relevant information from one place. Organize new leads, prospects, current customers and all sorts of contacts you have with proper categorization of lists to carry the info.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/sms/inner/2.jpg",
+      "radius": "lg",
+      "alt": "Organized",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

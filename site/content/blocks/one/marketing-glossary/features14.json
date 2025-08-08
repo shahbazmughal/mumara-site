@@ -1,0 +1,18 @@
+{
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/one/marketing-glossary/7-1.png",
+      "alt": "Custom Fields"
+    }
+  ],
+  "text": [
+    {
+      "text": "Custom Fields",
+      "variant": "h3"
+    },
+    {
+      "text": "Remove or add fields as per your needs to customize the messages for each unique receiver. This is ideal for sending special promos based on each receiver’s activity, birthday wishes and more.",
+      "color": "black"
+    }
+  ]
+}

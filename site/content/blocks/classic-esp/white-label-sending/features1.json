@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "**Account Setup** Wizard",
+      "variant": "h2"
+    },
+    {
+      "text": "Your clients are provided with a step by step process well-knitted within account setup wizard. Setting up non-white label accounts would require filling couple of details, while white-labeling takes your client forward to setup the sending domain. Appropriately setting up the client account for white label sending would enable the client account to send the emails from his/her preferred sending domain, instead of using the domain of Email Service Provider.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/classic-esp/inner/Account-Wizard.jpg",
+      "radius": "lg",
+      "alt": "Account Setup",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

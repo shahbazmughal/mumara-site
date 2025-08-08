@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "What Brands **Prefer?**",
+      "variant": "h2"
+    },
+    {
+      "text": "Brands always tend to keep their reputation intact; it is how they can sustain and further their business growth. A well-recognized clothing store would never want its offers to send from a number unidentified for the recipients. The preferred way is always to send from brand’s own name.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/sms/inner/sender-id-01.jpg",
+      "radius": "lg",
+      "alt": "Prefer",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

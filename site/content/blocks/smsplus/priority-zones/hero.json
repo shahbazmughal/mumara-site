@@ -1,0 +1,18 @@
+{
+  "text": [
+    {
+      "text": "Mumara SMSplus",
+      "color": "alpha",
+      "variant": "h4"
+    },
+    {
+      "text": "Setup Destination Zones with Gateway Priority",
+      "color": "omegaDarker",
+      "variant": "h1"
+    },
+    {
+      "text": "Prioritize sending through specific gateways by setting up destination zones. Destination zone can comprise of recipients’ geographical outline, represented through their countries and mobile carriers operating within these countries.",
+      "variant": "medium"
+    }
+  ]
+}

@@ -1,299 +1,144 @@
 import React, { useState } from 'react'
-import { graphql, useStaticQuery } from 'gatsby'
-import { Container, Flex, Box, Badge } from 'theme-ui'
+import { Container, Flex, Box, Badge, css } from 'theme-ui'
+import Reveal from '@solid-ui-components/Reveal'
 import Divider from '@solid-ui-components/Divider'
-import Tabs from '@solid-ui-components/Tabs4'
-import ContentText from '@solid-ui-components/ContentText'
-import ContentButtons from '@solid-ui-components/ContentButtons'
 import ListItem from '@solid-ui-components/ListItem'
+import ContentText from '@solid-ui-components/ContentText'
 import Icon from '@solid-ui-components/ContentIcon'
 import ContentContainer from '@solid-ui-components/ContentContainer'
+import ContentButtons from '@solid-ui-components/ContentButtons'
+import Tabs from '@solid-ui-components/Tabs'
+import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 
-const STRAPI_BASE_URL = 'https://strapi5-dev-jt.mumara.com'
-const normalizeUrl = (url) => url?.startsWith('http') ? url : `${STRAPI_BASE_URL}${url}`
-const headingColors = ['#718096', '#a855f7', '#6366f1']
+const styles = {
+  middleBox: {
+    position: `relative`,
+    zIndex: 2
+  },
+  prevPrice: {
+    textDecoration: `line-through`,
+    opacity: 0.2
+  },
+  saveBadge: {
+    position: `absolute`,
+    top: 3,
+    right: 3
+  }
+}
 
-const safeText = (val, fallback = '') =>
-  typeof val === 'string' && val.trim() !== '' ? val : fallback
-
-const safeCurrency = (val, fallback = '$0') =>
-  typeof val === 'number'
-    ? val.toLocaleString('en-US', { style: 'currency', currency: 'USD' })
-    : fallback
-
-const safeFeatures = (list) =>
-  (list || []).map(item => {
-    if (typeof item === 'object' && item !== null && item.text) {
-      return item.text
-    }
-    return item
-  }).filter(item => typeof item === 'string' && item.trim() !== '')
-
-const PricingBlock01 = () => {
-  const { strapiPricing: data } = useStaticQuery(graphql`
-    query {
-      strapiPricing {
-        miniheading
-        heading
-        description
-        button
-        badge
-        checkicon { url }
-        Startericon { url }
-        Professionalicon { url }
-        Organizationicon { url }
-        StarterAnnuallyicon { url }
-        AnnuallyProfessionalicon { url }
-        OrganizationAnnuallyIcon { url }
-
-        Stater {
-          staterheading
-          staterrate
-          staterdescription
-          Customers
-          staterAgent
-          staterDeal
-          staterMeeting
-          staterReporting
-          staterbutton
-        }
-
-        Professional {
-          Professionalheading
-          Professionalrates
-          Professionaldescription
-          Professionalcustomers
-          Professionalagents
-          Professionalsales
-          Professionalrecords
-          Professionalcalculated
-          Professionalsmart
-          Professionalvideo
-          Professionalsingle
-          Professionalbutton
-        }
-
-        Organization {
-          Organizationheading
-          Organizationrates
-          Organizationdescription
-          Organizationcustomers
-          Organizationagents
-          Organizationpredictive
-          Organizationroels
-          Organizationcall
-          Organizationbutton
-        }
-
-        AnnuallyStarterPlan {
-          Starterheading
-          Starternumber
-          Starterdescription
-          Startercustomers
-          StarterAgents
-          Starterdeal
-          Startermeeting
-          StarterReporting
-          Starterbutton
-        }
-
-        AnnuallyProfessionalPlan {
-          Professionalheading
-          Professionalrate
-          Professionaldescription
-          Professionalcustomers
-          ProfessionalAgents
-          Professionalsales
-          Professionalrecords
-          Professionalcalculators
-          Professionalsmart
-          Professionalvideo
-          Professionalsingle
-          Professionalbuttons
-        }
-
-        OrganizationAnnually {
-          Organizationheading
-          Organizationrate
-          Organizationdescription
-          OrganizationCustommers
-          Organizationunlimited
-          Organizationpredictive
-          Organizationroles
-          Organizationcall
-          Organizationbutton
-        }
-      }
-    }
-  `)
-
+const PricingBlock01 = ({ content: { text, collection, buttons } }) => {
   const [plan, setPlan] = useState(0)
-  const checkIcon = { src: normalizeUrl(data?.checkicon?.url) }
-
-  const plans = [
-    {
-      icon: normalizeUrl(plan === 0 ? data?.Startericon?.url : data?.StarterAnnuallyicon?.url),
-      heading: safeText(plan === 0 ? data?.Stater?.staterheading : data?.AnnuallyStarterPlan?.Starterheading),
-      price: `${safeCurrency(plan === 0 ? data?.Stater?.staterrate : data?.AnnuallyStarterPlan?.Starternumber)}${plan === 0 ? '/month' : '/year'}`
-,
-      description: safeText(plan === 0 ? data?.Stater?.staterdescription : data?.AnnuallyStarterPlan?.Starterdescription),
-      button: safeText(plan === 0 ? data?.Stater?.staterbutton : data?.AnnuallyStarterPlan?.Starterbutton, 'Choose Starter'),
-      features: safeFeatures([
-        plan === 0 ? data?.Stater?.Customers : data?.AnnuallyStarterPlan?.Startercustomers,
-        plan === 0 ? data?.Stater?.staterAgent : data?.AnnuallyStarterPlan?.StarterAgents,
-        plan === 0 ? data?.Stater?.staterDeal : data?.AnnuallyStarterPlan?.Starterdeal,
-        plan === 0 ? data?.Stater?.staterMeeting : data?.AnnuallyStarterPlan?.Startermeeting,
-        plan === 0 ? data?.Stater?.staterReporting : data?.AnnuallyStarterPlan?.StarterReporting
-      ])
-    },
-    {
-      icon: normalizeUrl(plan === 0 ? data?.Professionalicon?.url : data?.AnnuallyProfessionalicon?.url),
-      heading: safeText(plan === 0 ? data?.Professional?.Professionalheading : data?.AnnuallyProfessionalPlan?.Professionalheading),
-      price: `${safeCurrency(plan === 0 ? data?.Professional?.Professionalrates : data?.AnnuallyProfessionalPlan?.Professionalrate)}${plan === 0 ? '/month' : '/year'}`,
-      description: safeText(plan === 0 ? data?.Professional?.Professionaldescription : data?.AnnuallyProfessionalPlan?.Professionaldescription),
-      button: safeText(plan === 0 ? data?.Professional?.Professionalbutton : data?.AnnuallyProfessionalPlan?.Professionalbuttons, 'Choose Professional'),
-      features: safeFeatures([
-        plan === 0 ? data?.Professional?.Professionalcustomers : data?.AnnuallyProfessionalPlan?.Professionalcustomers,
-        plan === 0 ? data?.Professional?.Professionalagents : data?.AnnuallyProfessionalPlan?.ProfessionalAgents,
-        plan === 0 ? data?.Professional?.Professionalsales : data?.AnnuallyProfessionalPlan?.Professionalsales,
-        plan === 0 ? data?.Professional?.Professionalrecords : data?.AnnuallyProfessionalPlan?.Professionalrecords,
-        plan === 0 ? data?.Professional?.Professionalcalculated : data?.AnnuallyProfessionalPlan?.Professionalcalculators,
-        plan === 0 ? data?.Professional?.Professionalsmart : data?.AnnuallyProfessionalPlan?.Professionalsmart,
-        plan === 0 ? data?.Professional?.Professionalvideo : data?.AnnuallyProfessionalPlan?.Professionalvideo,
-        plan === 0 ? data?.Professional?.Professionalsingle : data?.AnnuallyProfessionalPlan?.Professionalsingle
-      ])
-    },
-    {
-      icon: normalizeUrl(plan === 0 ? data?.Organizationicon?.url : data?.OrganizationAnnuallyIcon?.url),
-      heading: safeText(plan === 0 ? data?.Organization?.Organizationheading : data?.OrganizationAnnually?.Organizationheading),
-      price: `${safeCurrency(plan === 0 ? data?.Organization?.Organizationrates : data?.OrganizationAnnually?.Organizationrate)}${plan === 0 ? '/month' : '/year'}`,
-      description: safeText(plan === 0 ? data?.Organization?.Organizationdescription : data?.OrganizationAnnually?.Organizationdescription),
-      button: safeText(plan === 0 ? data?.Organization?.Organizationbutton : data?.OrganizationAnnually?.Organizationbutton, 'Choose Organization'),
-      features: safeFeatures([
-        plan === 0 ? data?.Organization?.Organizationcustomers : data?.OrganizationAnnually?.OrganizationCustommers,
-        plan === 0 ? data?.Organization?.Organizationagents : data?.OrganizationAnnually?.Organizationunlimited,
-        plan === 0 ? data?.Organization?.Organizationpredictive : data?.OrganizationAnnually?.Organizationpredictive,
-        plan === 0 ? data?.Organization?.Organizationroels : data?.OrganizationAnnually?.Organizationroles,
-        plan === 0 ? data?.Organization?.Organizationcall : data?.OrganizationAnnually?.Organizationcall
-      ])
-    }
-  ]
 
   return (
-    <Container sx={{ textAlign: 'center' }}>
-      <ContentText
-        content={[
-          { text: safeText(data?.miniheading), as: 'h2', color: '#6366f1' },
-          { text: safeText(data?.heading), as: 'h1', color: '#2d3748' },
-          { text: safeText(data?.description) }
-        ]}
-      />
-      <Divider space={3} />
-      <Tabs tabs={['Monthly', 'Annually (Save 10%)']} onChange={setPlan} variant='pill' />
-
-      <Flex
-        sx={{
-          flexWrap: 'wrap',
-          alignItems: 'stretch',
-          justifyContent: 'center',
-          mt: 4
-        }}
-      >
-        {plans.map((planData, index) => (
-          <Box key={index} sx={{ maxWidth: 400, p: 3, position: 'relative' }}>
-            <ContentContainer
-              variant="cards.paper"
-              sx={{
-                position: 'relative',
-                
-                transition: 'border 0.3s ease-in-out'
-              }}
-            >
-              {plan === 1 && safeText(data?.badge) && (
-                <Badge variant="tag-yellow" sx={{ position: 'absolute', top: 3, right: 3 }}>
-                  {data.badge}
-                </Badge>
-              )}
-
+    <Container sx={{ textAlign: `center` }}>
+      <ContentText content={text?.slice(0, 3)} />
+      {text?.[3]?.textGroup && (
+        <>
+          <Divider space={3} />
+          <Tabs tabs={text[3].textGroup} onChange={setPlan} variant='pill' />
+        </>
+      )}
+      {collection && (
+        <Flex
+          sx={{
+            flexWrap: `wrap`,
+            alignItems: `center`,
+            justifyContent: `center`,
+            mx: -3
+          }}
+        >
+          {collection.map(
+            ({ container, text, icon, collection, buttons }, i) => (
               <Box
-                sx={{
-                  bg: '#edf2f7',
-                  p: 3,
-                  borderRadius: '50%',
-                  display: 'inline-flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  width: 64,
-                  height: 64,
-                  mx: 'auto',
-                  mb: 3
-                }}
+                key={`item-${i}`}
+                sx={{ flex: [`auto`, 1], minWidth: 320, maxWidth: 500, p: 3 }}
               >
-                <Icon content={{ src: planData.icon }} size="sm" />
-              </Box>
-
-              <ContentText
-                content={[
-                  {
-                    text: planData.heading,
-                    as: 'h1',
-                    sx: { color: headingColors[index], fontWeight: 'bold', mb: 2 }
+                <Reveal
+                  effect={
+                    collection.length === 3
+                      ? i === 0
+                        ? 'fadeInDeepRight'
+                        : i === collection.length - 1
+                        ? 'fadeInDeepLeft'
+                        : null
+                      : 'fadeInUp'
                   }
-                ]}
-              />
-
-              <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'baseline', gap: 1 }}>
-                <ContentText content={[{ text: planData.price.split(/(?=\/)/)[0], as: 'h1', color: '#2d3748' }]} />
-                <Box as="span" sx={{ fontSize: 2, color: '#718096' }}>
-                  {planData.price.split(/(?=\/)/)[1]}
-                </Box>
-              </Box>
-
-              <ContentText content={[{ text: planData.description }]} />
-
-              <Divider space={2} />
-
-              {planData.features.length > 0 && (
-                <Box sx={{ textAlign: 'left', mt: 3, px: 0 }}>
-                  {planData.features.map((item, idx) =>
-                    item ? (
-                      <li
-                        key={idx}
-                        style={{
-                          marginBottom: '10px',
-                          listStyle: 'none',
-                          display: 'flex',
-                          gap: '10px'
-                        }}
-                      >
-                        <Icon content={checkIcon} size="xs" />
-                        {safeText(item)}
-                      </li>
-                    ) : null
+                  css={css(
+                    i !== 0 && i !== collection.length - 1 && styles.middleBox
                   )}
-                </Box>
-              )}
-
-              <Divider space={2} />
-              <ContentButtons
-                content={[
-                  {
-                    text: planData.button,
-                    variant:
-                      index === 0
-                        ? 'buttons.primary'
-                        : index === 1
-                        ? 'buttons.secondary'
-                        : 'buttons.primary'
-                  }
-                ]}
-              />
-            </ContentContainer>
-          </Box>
-        ))}
-      </Flex>
+                >
+                  <ContentContainer
+                    content={container}
+                    variant='cards.paper'
+                    sx={{ position: `relative` }}
+                  >
+                    {text?.[3]?.textGroup?.[plan] && (
+                      <Reveal effect='fadeInRight' css={css(styles.saveBadge)}>
+                        <Badge variant='tag-yellow'>
+                          {text?.[3].textGroup[plan]}
+                        </Badge>
+                      </Reveal>
+                    )}
+                    <Icon content={icon} size='sm' mb='2' round />
+                    <ContentText content={text?.[0]} />
+                    <Flex
+                      sx={{ alignItems: `center`, justifyContent: `center` }}
+                    >
+                      <ContentText
+                        content={{
+                          ...text?.[1],
+                          text:
+                            plan > 0
+                              ? text?.[1]?.textGroup?.[0]
+                              : text?.[1]?.textGroup?.[plan]
+                        }}
+                        mb='0'
+                        mr='2'
+                        ml='0'
+                        sx={{
+                          transition: `all .4s ease-in`,
+                          ...(plan > 0 && styles.prevPrice)
+                        }}
+                      />
+                      {plan > 0 && (
+                        <Reveal effect='fadeInDeepLeft'>
+                          <ContentText
+                            content={{
+                              ...text?.[1],
+                              text: text?.[1]?.textGroup?.[plan]
+                            }}
+                            mb='0'
+                            mr='2'
+                          />
+                        </Reveal>
+                      )}
+                      <ContentText content={text?.[2]} mb='0' mt='2' />
+                    </Flex>
+                    <ContentText content={text?.[4]} mb='0' mt='2' mx='auto' />
+                    {collection && (
+                      <>
+                        <Divider space={2} />
+                        {collection.map((props, index) => (
+                          <ListItem key={`item-${index}`} {...props} compact />
+                        ))}
+                      </>
+                    )}
+                    {buttons && (
+                      <>
+                        <Divider space={3} />
+                        <ContentButtons content={buttons} />
+                      </>
+                    )}
+                  </ContentContainer>
+                </Reveal>
+              </Box>
+            )
+          )}
+        </Flex>
+      )}
+      <ContentButtons content={buttons} />
     </Container>
   )
 }
 
-export default PricingBlock01
+export default WithDefaultContent(PricingBlock01)

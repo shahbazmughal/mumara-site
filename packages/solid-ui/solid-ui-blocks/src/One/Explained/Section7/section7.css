@@ -1,0 +1,155 @@
+.one-section-7 {
+    background: radial-gradient(circle at center, #46519d 0, #001160 100%);
+    background-size: contain;
+    background-position: inherit;
+    background-repeat: round;
+}
+.one-section-7 .img-my-st {
+    position: relative !important;
+    top: 0px !important;
+    left: 0px !important;
+    width: 100% !important;
+}
+
+.one-section-7 .divmy-img {
+    position: relative !important;
+    overflow: hidden !important;
+}
+
+.one-section-7 .divs-my-img {
+    position: relative !important;
+    width: 100% !important;
+    height: 100% !important;
+    -webkit-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+}
+
+.one-section-7 .checklist2 li {
+    background: url(./images/check3.png) no-repeat 0 -2px;
+    padding-left: 50px;
+    list-style: none;
+    margin-left: 0px;
+    padding-top: 1px;
+    padding-bottom: 0;
+    padding-right: 0;
+    margin-top: 0;
+}
+
+.one-section-7 .pading {
+    padding: 25px 10px;
+}
+
+.one-section-7 ul {
+    padding-left: 1rem;
+    display: grid;
+    justify-content: left;
+
+}
+
+.one-section-7 .fs-22 {
+    font-size: 22px !important;
+}
+
+
+.one-section-7 .recap1,
+.one-section-7 .recap2 {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+    max-width: 650px;
+    height: 325;
+}
+
+.one-section-7 .recap3 {
+    border-radius: 10px;
+    max-height: 325px;
+    object-fit: contain;
+    max-width: 650px;
+    width: 100%;
+}
+
+.one-section-7 .section29-box {
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: -10.607px 10.607px 49px 0px rgb(5 18 164 / 15%);
+    overflow: hidden;
+    padding: 30px;
+    text-align: left;
+    height: 100%;
+}
+
+.one-section-7 h1 {
+    font-size: 54px;
+}
+
+.one-section-7 .blk-box {
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    z-index: 3;
+    padding: 30px;
+}
+
+.inner-padding {
+    padding: 0px 5px;
+}
+
+.my-text-left {
+    text-align: left;
+}
+
+@media (max-width: 992px) {
+    .one-section-7 .ps-md-5 {
+        padding-left: 0px !important;
+    }
+
+    .one-section-7 .pading {
+        padding: 20px 7px;
+    }
+}
+
+@media (max-width: 767px) {
+    .one-section-7 h1 {
+        font-size: 36px;
+    }
+
+    .one-section-7 .pad-t {
+        padding-top: 20px;
+    }
+
+    .one-section-7 .blk-box,
+    .one-section-7 .section29-box {
+        padding: 30px 15px;
+    }
+
+    .one-section-7 .text-align-left {
+        text-align: center;
+    }
+}
+
+.one-section-7 .my-h {
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.one-section-7 p {
+    font-size: 20px;
+}
+.spikes {
+    position: relative;
+    height: 100%;
+  }
+  
+  .spikes::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    left: -0%;
+    top: 100%;
+    z-index: 10;
+    display: block;
+    height: 50px;
+    background-size: 20px 100%;
+    background-image: linear-gradient(135deg, #14237a 25%, transparent 25%), linear-gradient(225deg, #1d2c7a 25%, transparent 25%);
+    background-position: 0 0;
+  }

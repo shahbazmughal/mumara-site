@@ -1,0 +1,28 @@
+{
+  "text": [
+    {
+      "text": "**Feedback Loops** (FBL) To Process Spam Reports",
+      "variant": "h2"
+    },
+    {
+      "text": "Don't make the mistake of repeating the error of repeatedly sending mail to spam recipients. Use the built-in automated system to attach your feedback loop (FBL) email addresses in Mumara Campaigns to identify and process the spam.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../assets/flexiblocks/campaigns/fbl.jpg",
+      "alt": "Automate your marketing",
+      "radius": "lg",
+      "shadow": "default"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Learn More",
+      "type": "PAGE",
+      "link": "/campaigns/features/bounces-and-spam/#fbl",
+      "variant": "dark"
+    }
+  ]
+}

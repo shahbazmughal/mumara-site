@@ -1,0 +1,39 @@
+{
+  "text": [
+    {
+      "text": "**Automate your marketing tasks in one powerful engine.**",
+      "variant": "h4"
+    },
+    {
+      "text": "Become marketers of the year with Mumara ONE.",
+      "variant": "h2"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../assets/flexiblocks/one/cta.jpg",
+      "alt": "Automate your marketing",
+      "radius": "lg",
+      "shadow": "default"
+    },
+    {
+      "src": "../../assets/flexiblocks/one/tab-feature-three-overlay-one.png",
+      "alt": "powerful engine",
+      "radius": "lg",
+      "shadow": "default",
+      "effects": ["fadeInDown", "float"],
+      "position": {
+        "top": "-35%",
+        "left": "25%"
+      }
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Choose a Plan",
+      "type": "PAGE",
+      "link": "/one/pricing/",
+      "variant": "dark"
+    }
+  ]
+}

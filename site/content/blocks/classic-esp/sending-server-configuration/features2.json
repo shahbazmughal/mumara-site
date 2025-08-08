@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "**Configure PowerMTA** Mail Server",
+      "variant": "h2"
+    },
+    {
+      "text": "You obviously don’t just want to connect to your mail server; you want it to be well-optimized for best sending performance. MumaraESP takes you step by step to configure primary email authentications and fallback DKIM to manage DKIM failures. It also takes additional PowerMTA directives in consideration, directives to manage paths for Spool, Log and Acct path, gives you choice to deliver local DNS or not, and offers you the ability to avoid Log/Acct files growing too large by proposing rotation limit.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/classic-esp/inner/Configure-PowerMTA-Mail-Server.jpg",
+      "radius": "lg",
+      "alt": "Configure PowerMTA",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

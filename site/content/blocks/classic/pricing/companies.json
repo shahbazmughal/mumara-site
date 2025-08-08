@@ -1,0 +1,59 @@
+{
+  "text": [
+    {
+      "text": "Our Clients",
+      "variant": "h6"
+    },
+    {
+      "text": "Our customers TRUST us :-)",
+      "variant": "h2"
+    }
+  ],
+  "collection": [
+    {
+      "images": [
+        {
+          "src": "../../../assets/flexiblocks/classic/pricing/capterra.jpg",
+          "alt": "capterra",
+          "effects": ["fadeInDown"]
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../../assets/flexiblocks/classic/pricing/money-back-guarantee.jpg",
+          "alt": "money back guarantee",
+          "effects": ["fadeInDown"]
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../../assets/flexiblocks/classic/pricing/AB.jpg",
+          "alt": "AB",
+          "effects": ["fadeInDown"]
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../../assets/flexiblocks/classic/pricing/paypal.jpg",
+          "alt": "paypal",
+          "effects": ["fadeInDown"]
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../../assets/flexiblocks/classic/pricing/pstte-verified-badge.jpg",
+          "alt": "pstte verified",
+          "effects": ["fadeInDown"]
+        }
+      ]
+    }
+  ]
+}

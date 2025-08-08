@@ -1,0 +1,194 @@
+{
+  "text": [
+    {
+      "text": "A Glance on Mumara Products",
+      "variant": "h3"
+    },
+    {
+      "text": "Mumara is a vendor of multiple applications and below you can find them.",
+      "variant": "medium"
+    }
+  ],
+  "collection": [
+    {
+      "images": [
+        {
+          "src": "../../assets/flexiblocks/home/one.jpg",
+          "alt": "Mumara ONE",
+          "effects": ["fadeInDown"]
+        }
+      ],
+      "text": [
+        {
+          "text": "SaaS",
+          "variant": "small",
+          "align": "center",
+          "color": "dark"
+        }, 
+        {
+          "text": "An all-in-one solution for your newsletter.",
+          "variant": "p",
+          "align": "center"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "One",
+          "type": "PAGE",
+          "link": "/one",
+          "variant": "links.nav-dark"
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../assets/flexiblocks/home/campaigns.jpg",
+          "alt": "Mumara Campaigns",
+          "effects": ["fadeInDown"]
+        }
+      ],
+      "text": [
+        {
+          "text": "Cloud, Self-hosted",
+          "variant": "small",
+          "align": "center",
+          "color": "dark"
+        }, 
+        {
+          "text": "A powerful application for email marketing automation",
+          "variant": "p",
+          "align": "left"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Campaigns",
+          "type": "PAGE",
+          "link": "/campaigns",
+          "variant": "links.nav-dark"
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../assets/flexiblocks/home/smsplus.jpg",
+          "alt": "Mumara SMSplus",
+          "effects": ["fadeInDown"]
+        }
+      ],
+      "text": [
+        {
+          "text": "Cloud",
+          "variant": "small",
+          "align": "center",
+          "color": "dark"
+        }, 
+        {
+          "text": "Become an SMS service provider and start your own business",
+          "variant": "p",
+          "align": "left"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "SMS+",
+          "type": "PAGE",
+          "link": "/smsplus",
+          "variant": "links.nav-dark"
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../assets/flexiblocks/home/sms.jpg",
+          "alt": "MumaraSMS",
+          "effects": ["fadeInDown"]
+        }
+      ],
+      "text": [
+        {
+          "text": "SaaS",
+          "variant": "small",
+          "align": "center",
+          "color": "dark"
+        }, 
+        {
+          "text": "Send SMS worldwide using your own sender-id",
+          "variant": "p",
+          "align": "left"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "SMS",
+          "type": "PAGE",
+          "link": "/sms",
+          "variant": "links.nav-dark"
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../assets/flexiblocks/home/classic.jpg",
+          "alt": "MumaraClassic",
+          "effects": ["fadeInDown"]
+        }
+      ],
+      "text": [
+        {
+          "text": "Self-hosted",
+          "variant": "small",
+          "align": "center",
+          "color": "dark"
+        }, 
+        {
+          "text": "The legendary email marketing application with over 30,000 users",
+          "variant": "p",
+          "align": "left"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Classic",
+          "type": "PAGE",
+          "link": "/classic",
+          "variant": "links.nav-dark"
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../assets/flexiblocks/home/classic-esp.jpg",
+          "alt": "Mumara ClassicESP",
+          "effects": ["fadeInDown"]
+        }
+      ],
+      "text": [
+        {
+          "text": "Self-hosted",
+          "variant": "small",
+          "align": "center",
+          "color": "dark"
+        }, 
+        {
+          "text": "Build an email marketing company and automate the user’s setup",
+          "variant": "p",
+          "align": "left"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Classic ESP",
+          "type": "PAGE",
+          "link": "/classic-esp",
+          "variant": "links.nav-dark"
+        }
+      ]
+    }
+  ]
+}

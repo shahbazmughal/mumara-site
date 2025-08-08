@@ -1,0 +1,26 @@
+{
+  "text": [
+    {
+      "text": "Mumara ONE Marketing Glossary",
+      "color": "alpha",
+      "variant": "h6"
+    },
+    {
+      "text": "Marketing glossary for beginners.",
+      "color": "omegaDarker",
+      "variant": "h1"
+    },
+    {
+      "text": "Familiarize, Learn Grow and Dominate with Mumara ONE.",
+      "color": "omegaDark",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/one/marketing-glossary/05.png",
+      "alt": "Grow with Mumara ONE",
+      "effects": ["fadeInDown"]
+    }
+  ]
+}

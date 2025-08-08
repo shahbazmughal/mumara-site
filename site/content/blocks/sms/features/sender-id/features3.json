@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Unique **Sender-ID** for All",
+      "variant": "h2"
+    },
+    {
+      "text": "One platform capable to cater the Branding needs of companies/brands belong to variety of industries. Apply a custom Sender-ID to best represent your brand, get it approved and then instantly activated for your account to send business texts from it.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/sms/inner/sender-id-03.jpg",
+      "radius": "lg",
+      "alt": "Unique Sender-ID",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

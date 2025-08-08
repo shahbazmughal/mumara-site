@@ -1,0 +1,182 @@
+{
+  "images": [
+    {
+      "src": "../../assets/flexiblocks/shared/logo-footer.jpg",
+      "alt": "Mumara Logo",
+      "title": "Mumara"
+    }
+  ],
+  "text": [
+    {
+      "text": "Welcome to Mumara App Store, it started after the immense success of the Self-Hosted edition of Mumara Email, largely accepted worldwide.",
+      "variant": "small"
+    }
+  ],
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Apps"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Campaigns",
+          "type": "PAGE",
+          "link": "/campaigns",
+          "variant": "links.nav-light"
+        },
+        {
+          "text": "One",
+          "type": "PAGE",
+          "link": "/one",
+          "variant": "links.nav-light"
+        },
+        {
+          "text": "SMS+",
+          "type": "PAGE",
+          "link": "/smsplus/",
+          "variant": "links.nav-light"
+        },
+        {
+          "text": "SMS",
+          "type": "PAGE",
+          "link": "/sms",
+          "variant": "links.nav-light"
+        },
+        {
+          "text": "Classic",
+          "type": "PAGE",
+          "link": "/classic/",
+          "variant": "links.nav-light"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "RESOURCES"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Community",
+          "type": "PAGE",
+          "link": "https://community.mumara.com/",
+          "variant": "links.nav-light"
+        },
+        {
+          "text": "School",
+          "type": "PAGE",
+          "link": "https://school.mumara.com/",
+          "variant": "links.nav-light"
+        },
+        {
+          "text": "Docs",
+          "type": "PAGE",
+          "link": "https://support.mumara.com/",
+          "variant": "links.nav-light"
+        },
+        {
+          "text": "Blog",
+          "type": "PAGE",
+          "link": "https://blog.mumara.com/",
+          "variant": "links.nav-light"
+        },
+        {
+          "text": "Developers",
+          "type": "PAGE",
+          "link": "https://developers.mumara.com/",
+          "variant": "links.nav-light"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "COMPANY"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "About us",
+          "type": "PAGE",
+          "link": "/about-us/",
+          "variant": "links.nav-light"
+        },
+        {
+          "text": "Terms of Services",
+          "type": "PAGE",
+          "link": "/terms-of-services",
+          "variant": "links.nav-light"
+        },
+        {
+          "text": "Privacy Policy",
+          "type": "PAGE",
+          "link": "/privacy-policy",
+          "variant": "links.nav-light"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Social Media"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Facebook",
+          "type": "PAGE",
+          "link": "https://www.facebook.com/MumaraApps/",
+          "variant": "links.nav-light",
+          "icon": {
+            "src": "../../assets/flexiblocks/icons/bxl-facebook.svg",
+            "color": "#1877f2",
+            "fill": "#1877f2"
+          }
+        },
+        {
+          "text": "Twitter",
+          "type": "PAGE",
+          "link": "https://twitter.com/MumaraApps",
+          "variant": "links.nav-light",
+          "icon": {
+            "src": "../../assets/flexiblocks/icons/bxl-twitter.svg",
+            "color": "#1da1f2"
+          }
+        },
+        {
+          "text": "Youtube",
+          "type": "PAGE",
+          "link": "https://www.youtube.com/channel/UC1k6voQOVss0_PWg7CfJTdw",
+          "variant": "links.nav-light",
+          "icon": {
+            "src": "../../assets/flexiblocks/icons/bxl-youtube.svg",
+            "color": "#f44336"
+          }
+        },
+        {
+          "text": "Linkedin",
+          "type": "PAGE",
+          "link": "https://www.linkedin.com/company/mumara",
+          "variant": "links.nav-light",
+          "icon": {
+            "src": "../../assets/flexiblocks/icons/bxl-linkedin.svg",
+            "color": "#0078d4"
+          }
+        },
+        {
+          "text": "Email us",
+          "type": "PAGE",
+          "link": "mailto:support@mumara.com",
+          "variant": "links.nav-light",
+          "icon": {
+            "src": "../../assets/flexiblocks/icons/bx-envelope.svg",
+            "color": "#333333"
+          }
+        }
+      ]
+    }
+  ]
+}

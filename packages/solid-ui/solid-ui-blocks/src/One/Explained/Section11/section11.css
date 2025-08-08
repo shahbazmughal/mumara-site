@@ -1,0 +1,24 @@
+.one-section-11 {
+    background: #1a4440;
+}
+
+.one-section-11 .card {
+    border: 5px solid #63994d;
+}
+
+.one-section-11 p {
+    font-size: 20px;
+}
+.one-section-11 .sentmsg {
+    padding: 30px 0;
+}
+
+@media (max-width: 993px) {
+    .one-section-11 {
+        margin-top: -88px !important;
+    }
+
+    .one-section-11 .p-5 {
+        padding: 3rem 20px !important;
+    }
+}

@@ -1,0 +1,142 @@
+{
+  "text": [
+    {
+      "text": "**NEED ANSWERS? WE GOT’EM**",
+      "variant": "h6"
+    },
+    {
+      "text": "Frequently Asked Questions",
+      "variant": "h2"
+    }
+  ],
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "What is “Mumara Campaigns”?",
+          "variant": "h5"
+        },
+        {
+          "text": "Mumara Campaigns, specifically, is an email marketing platform designed to help businesses create, send, and analyze email campaigns effectively. It provides features such as email template creation, contact list management, segmentation, drip campaigns, triggers, and analytics."
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-chat.svg",
+        "bg": "white",
+        "color": "alpha"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Can I upgrade/downgrade my license?",
+          "variant": "h5"
+        },
+        {
+          "text": "You can upgrade or downgrade your license at any time by navigating to the associated product/service under your billing panel and finding the upgrade options there."
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-chat.svg",
+        "bg": "white",
+        "color": "alpha"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "How does the billing work?",
+          "variant": "h5"
+        },
+        {
+          "text": "Upon signup, you’ll be taken to the invoice where you can select from the available payment methods, and upon successful payment, you’ll get the product activated for instant download. If you have subscribed to auto-billing, you’ll be automatically charged at the end of every billing cycle."
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-chat.svg",
+        "bg": "white",
+        "color": "alpha"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "What is the difference between self-hosted and cloud editions?",
+          "variant": "h5"
+        },
+        {
+          "text": "The self-hosted version downloads the product to your computer that you’ll need to deploy on your own, on a live server, or a VPS. It involves technical knowledge of setting up the PHP environment, however, it comes up with an easy GUI wizard that will help you install the product. The cloud version comes up with a server and will auto-provision Mumara dependencies to give you an installed copy of the product. You’ll receive the Mumara login details in an email within a few minutes of placing a successful order. If you are not willing to take the hassles of going through server setup and installation processes, this is the right choice for you."
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-chat.svg",
+        "bg": "white",
+        "color": "alpha"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Do I need an SMTP to send emails?",
+          "variant": "h5"
+        },
+        {
+          "text": "Yes, you’ll need to have at least one SMTP account or an integrated ESP account to send your emails."
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-chat.svg",
+        "bg": "white",
+        "color": "alpha"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Can I cancel my subscription?",
+          "variant": "h5"
+        },
+        {
+          "text": "Yes, you can cancel your subscription at any time prior to your next billing date."
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-chat.svg",
+        "bg": "white",
+        "color": "alpha"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "What is the refund policy?",
+          "variant": "h5"
+        },
+        {
+          "text": "Mumara doesn’t offer post purchase product returns. We do offer a 7-day trial plan on our cloud hosting which includes all addons. So, our clients purchase once they are fully satisfied with the product. During the trial period you can test the app to your satisfaction, can read the help guides, can ask as many questions as you want and you will find our support team proactively responding to your concerns. We don’t currently accept any post purchase claims for the refund."
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-chat.svg",
+        "bg": "white",
+        "color": "alpha"
+      }
+    },
+    {
+        "text": [
+          {
+            "text": "What server specs do I need?",
+            "variant": "h5"
+          },
+          {
+            "text": "Although Mumara Campaigns can run on shared hosting plans, we highly recommend a dedicated machine with at least 4GB or higher RAM. The more sugar you add, the sweeter it becomes."
+          }
+        ],
+        "icon": {
+          "src": "../../../assets/flexiblocks/icons/bx-chat.svg",
+          "bg": "white",
+          "color": "alpha"
+        }
+    }
+  ]
+}

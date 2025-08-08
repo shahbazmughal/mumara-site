@@ -1,0 +1,28 @@
+{
+  "text": [
+    {
+      "text": "**Bounce Addresses** and IMAP/POP processing",
+      "variant": "h3"
+    },
+    {
+      "text": "Add bounce addresses and authenticate them over the IMAP or POP connection so Mumara can log in to the bounce mailboxes, read the delivery status notifications (DSN), and flag the bounced recipients.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../assets/flexiblocks/campaigns/Bounce-addresses-processing.jpg",
+      "alt": "Banksy",
+      "radius": "lg",
+      "shadow": "default"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Learn More",
+      "type": "PAGE",
+      "link": "/campaigns/features/bounces-and-spam/#bounce-rules",
+      "variant": "dark"
+    }
+  ]
+}

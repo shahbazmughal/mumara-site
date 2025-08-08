@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Multiple methods to **redirect traffic** from your tracking domains",
+      "variant": "h2"
+    },
+    {
+      "text": "Mumara comes up with three built-in ways to point your tracking domains to the application i.e. cname, htacces, and cloak. These multiple methods were introduced for multiple reasons, e.g. cloak method will keep your Mumara’s primary domain and the server’s IP undisclosed.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/campaigns/features/swift-relay.png",
+      "radius": "lg",
+      "alt": "Importing",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

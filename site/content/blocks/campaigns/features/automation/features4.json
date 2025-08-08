@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Deploy **evergreen campaigns** to keep your subscribers up-to-date",
+      "variant": "h2"
+    },
+    {
+      "text": "Create a campaign that stays relevant at all times and can be sent over and over again at regular intervals having static/dynamic content. With evergreen campaigns, Mumara can be assigned to send repeated broadcasts at a defined frequency to an unlimited loop e.g. today’s jobs for you, weekly deals of your interests, etc.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/campaigns/features/automation-best.png",
+      "radius": "lg",
+      "alt": "Importing",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

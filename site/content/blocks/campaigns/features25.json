@@ -1,0 +1,28 @@
+{
+  "text": [
+    {
+      "text": "Add **administrators** and split the duties",
+      "variant": "h2"
+    },
+    {
+      "text": "Power up your infrastructure by adding more hands to it and handling it more professionally. Create admin roles and let them work for you.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../assets/flexiblocks/campaigns/add-administrators.jpg",
+      "radius": "lg",
+      "alt": "administrators",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Learn More",
+      "type": "PAGE",
+      "link": "/campaigns/features/administrators/#administrators",
+      "variant": "primary-light"
+    }
+  ]
+}

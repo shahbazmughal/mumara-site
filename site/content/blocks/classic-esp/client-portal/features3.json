@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "**Data Driven** Marketing",
+      "variant": "h2"
+    },
+    {
+      "text": "List of features are available for your clients to make use of data driven email marketing, features like dynamic tags and custom variables would help your clients to create more relevant and personalized email experience. Every email that your clients send would be tracked to generate detailed reports and insights. And list of other valuable tools are made part of the client side portal. To learn more about the client side features, click following link.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/classic-esp/inner/Personalized-Content.jpg",
+      "radius": "lg",
+      "alt": "Data Driven",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

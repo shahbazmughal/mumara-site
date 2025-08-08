@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Delete the duplicates by using **Dedupe**:",
+      "variant": "h2"
+    },
+    {
+      "text": "Use the “Dedupe List” feature in order to delete contacts from the selected or other than selected list, that are matching in various lists. ",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/sms/inner/1-1.jpg",
+      "radius": "lg",
+      "alt": "Importing",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

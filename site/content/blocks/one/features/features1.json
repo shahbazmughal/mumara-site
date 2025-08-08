@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Contact List",
+      "variant": "h2"
+    },
+    {
+      "text": "Manage thousands of usable leads in simple, organized and effective lists with Mumara ONE.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/one/features/contact-list.jpg",
+      "radius": "lg",
+      "alt": "Contact List",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

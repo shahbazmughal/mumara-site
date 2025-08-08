@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Use spintags to bring **variations** in the email body",
+      "variant": "h2"
+    },
+    {
+      "text": "Spintag offers the capability to spin the word from your preset variations to help make the email body and headers look unique. This permits the mail to bypass a number of spam filters by producing distinctive body content.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/campaigns/features/personalization-spintag.png",
+      "radius": "lg",
+      "alt": "Organized",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

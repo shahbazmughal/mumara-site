@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Get relevant by using **Custom Fields**:",
+      "variant": "h2"
+    },
+    {
+      "text": "Never let the recipients feel they’re getting messages from a robot. Add a personalized touch to the campaigns and make the recipients feel special and exclusive. Custom fields allow the sender to greet the recipients with their name, include the geo-location of the recipient and many other details specific to them.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/sms/inner/1-1.jpg",
+      "radius": "lg",
+      "alt": "Importing",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Time zone and **reporting**",
+      "variant": "h2"
+    },
+    {
+      "text": "Manage tasks based on your selected local or preferred time zone. Mumara facilitates the Time Zone function of the program to be changed for a better outcome and helps improve reporting based on your preferred time zone.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/campaigns/features/profile-ip.png",
+      "radius": "lg",
+      "alt": "Flexible",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

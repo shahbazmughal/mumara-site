@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Know about the best **performing campaign**",
+      "variant": "h2"
+    },
+    {
+      "text": "Get to know the most engaging campaign and figure out how it's distinct from the others.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/campaigns/features/ab-best.png",
+      "radius": "lg",
+      "alt": "Organized",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

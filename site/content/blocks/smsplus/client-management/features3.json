@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "**Broadcast** Email & SMS",
+      "variant": "h2"
+    },
+    {
+      "text": "Being admin, you may frequently need to communicate with your clients for important service announcements. This feature will help you send the announcements as broadcast email message or text message, to all existing clients or to certain number of clients belonging to one or multiple groups, country, subscriber of specific package(s) etc.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/smsplus/inner/Send-Broadcast.jpg",
+      "radius": "lg",
+      "alt": "Broadcast",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

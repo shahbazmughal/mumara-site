@@ -1,0 +1,19 @@
+{
+  "text": [
+    {
+      "text": "More Sales with **Targeted Landing**",
+      "variant": "h3"
+    },
+    {
+      "text": "Drive your users to customized landing pages to display your specific product or service. Pick an astounding template and make it all yours with a free drag & drop builder, and HTML editor, where no coding is required. "
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/one/features/more-sales.jpg",
+      "radius": "lg",
+      "alt": "More Sales with Targeted Landing",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

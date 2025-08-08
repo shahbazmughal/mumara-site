@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Integration with the top **Email Service Providers (ESP)**",
+      "variant": "h2"
+    },
+    {
+      "text": "Mumara comes up with built-in API integration with the top Email Service Providers e.g. Mumara ONE, Amazon SES, Mailgun, Mailjet, Sparkpost, SendGrid, Elastic Email, SMTP2GO, and more. Moreover, other providers can also be integrated in an easy way.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/campaigns/features/swift-batch.png",
+      "radius": "lg",
+      "alt": "Importing",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "collection": [
+    {
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-radio-circle-marked.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      },
+      "text": [
+        {
+          "text": "Setup Trigger events",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "From date based triggers i.e. specific calendar date, birthday to action oriented triggers i.e. opening, clicking, unsubscribing etc. you can explore fairly wide of options to setup event based triggers. It also includes an option to setup trigger based on delivery status of contacts email."
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Triggers- Options for Qualifiers",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "More than a few choices to take a course of suitable action for the contacts that qualified for the trigger event. The qualified contact can automatically be moved, copied to another list, can be deleted or added to a suppression list or can also be sent an email."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-webcam.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Triggers- Occurrence and Frequency",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Setup system to take predefined action On, Before or After the event, i.e. an hour after the contact opened the email etc. You can moreover direct system to perform onetime action on the Date of Event only, or repeat it on the Next Anniversary or keeping on repeating it on each Anniversary of Event."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-calendar-check.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      }
+    }
+  ]
+}

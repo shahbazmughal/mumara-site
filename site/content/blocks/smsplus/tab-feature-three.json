@@ -1,0 +1,43 @@
+{
+  "text": [
+    {
+      "text": "Validation Module",
+      "color": "white"
+    },
+    {
+      "text": "**Validation** Module",
+      "variant": "h3"
+    },
+    {
+      "text": "Offer your clients a way to validate numbers saved against the contacts within the list. Enable system by selecting the preferred validation service between the available. It eventually helps you and your clients to keep the message failure rate as low as insignificant.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../assets/flexiblocks/smsplus/nvalidate.jpg",
+      "alt": "Validation Module",
+      "radius": "lg",
+      "shadow": "default"
+    },
+    {
+      "src": "../../assets/flexiblocks/smsplus/validate.jpg",
+      "alt": "Validations",
+      "radius": "lg",
+      "shadow": "default",
+      "effects": ["fadeInDown", "float"],
+      "position": {
+        "top": "10%",
+        "left": "15%"
+      }
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Learn more   ➜",
+      "type": "PAGE",
+      "link": "/smsplus/validation-module/",
+      "variant": "links.normal"
+    }
+  ]
+}

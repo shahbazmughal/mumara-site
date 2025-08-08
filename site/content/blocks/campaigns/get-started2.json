@@ -1,0 +1,16 @@
+{
+  "text": [
+    {
+      "text": "Still Looking for Enhanced Explanation?",
+      "variant": "h2"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Mumara Campaigns Explained Here",
+      "type": "PAGE",
+      "link": "/campaigns/explained",
+      "variant": "primary"
+    }
+  ]
+}

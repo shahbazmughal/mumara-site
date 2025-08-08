@@ -1,0 +1,28 @@
+{
+  "text": [
+    {
+      "text": "Multiple **Contact Lists** for Multiple Niches",
+      "variant": "h3"
+    },
+    {
+      "text": "Mapping contacts into different contact lists is the best way to stay organized. you start collaborating with Mumara, your contacts will be better organized than ever before.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../assets/flexiblocks/campaigns/contact-list.jpg",
+      "radius": "lg",
+      "alt": "Multiple contact lists",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Learn More",
+      "type": "PAGE",
+      "link": "/campaigns/features/contact-management/#contact-lists",
+      "variant": "primary-light"
+    }
+  ]
+}

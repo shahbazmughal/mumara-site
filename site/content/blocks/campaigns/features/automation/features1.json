@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Send a series of targeted emails using **drip campaigns**",
+      "variant": "h2"
+    },
+    {
+      "text": "Don't let your clients think that your brand is inactive. Maintain their interest with an automated series of emails, sent out at predetermined intervals, that does not allow them to forget about your brand. Drip Campaigns work like a seed sown only once and can be harvested all through life.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/campaigns/features/automation-mind.png",
+      "radius": "lg",
+      "alt": "Flexible",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

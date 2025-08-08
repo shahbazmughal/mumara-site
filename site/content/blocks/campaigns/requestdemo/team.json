@@ -1,0 +1,26 @@
+{
+  "container": {
+    "bg": "linear-gradient(180deg, {{alpha}} 100%, {{beta}} 0%)"
+  },
+  "text": [
+    {
+      "text": "REQUEST A DEMO",
+      "color": "alphaLight",
+      "variant": "h1"
+    },
+    {
+      "text": "Request A Free Business Consultation",
+      "color": "white",
+      "variant": "h3"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/contacts/banner.jpg",
+      "alt": "REQUEST A DEMO",
+      "radius": "lg",
+      "shadow": "lg",
+      "effects": ["fadeInLeft"]
+    }
+  ]
+}

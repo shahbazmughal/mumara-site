@@ -1,0 +1,44 @@
+{
+  "text": [
+    {
+      "text": "Do an **Audit**",
+      "color": "omegaDarker",
+      "variant": "h4"
+    },
+    {
+      "text": "Since the GDPR would also apply to the data you have collected before the GDPR effective date, you should do an audit of your current database.",
+      "color": "omegaDark",
+      "variant": "medium"
+    }, 
+    {
+      "text": "Authorization",
+      "color": "omegaDarker",
+      "variant": "h4"
+    },
+    {
+      "text": "You must be authorized to send email marketing campaigns to the contacts in your list. If the permission is ambiguous, you must resort to obtain a clear authorization again.",
+      "color": "omegaDark",
+      "variant": "medium"
+    }, 
+    {
+      "text": "Clear **Unsubscribe**",
+      "color": "omegaDarker",
+      "variant": "h4"
+    },
+    {
+      "text": "Providing a clear and easy method of opt-out or unsubscribe is equally important for GDPR compliance, as it was for the CAN-SPAM and other regulations. You should have a proper system in place, where a subscriber can request to discontinue specific marketing communication at any stage, and can also request to discontinue all kind of communication from your side.",
+      "color": "omegaDark",
+      "variant": "medium"
+    }, 
+    {
+      "text": "Profiling",
+      "color": "omegaDarker",
+      "variant": "h4"
+    },
+    {
+      "text": "If you are using certain type of automated workflows to predict certain characteristics of the subscriber/contact through the personal date you have, you must.",
+      "color": "omegaDark",
+      "variant": "medium"
+    }
+  ]
+}

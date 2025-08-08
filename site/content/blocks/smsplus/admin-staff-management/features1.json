@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Admin **Staff Roles**",
+      "variant": "h2"
+    },
+    {
+      "text": "Staff roles are the groups with complete access control list to help admin define access levels for the staff members in specific group. Admin can decide whether the staff members in specific group will have the ability to view the client lists or not? Will they be able to edit the client profile or change the status of clients? Everything can be controlled through Admin Staff Roles.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/smsplus/inner/Admin-Staff-Roles.jpg",
+      "radius": "lg",
+      "alt": "Staff Roles",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

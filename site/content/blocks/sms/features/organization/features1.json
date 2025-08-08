@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Flexible Structure of **Creating Lists**",
+      "variant": "h2"
+    },
+    {
+      "text": "Stop worrying if you have gathered info more than just standard contact’s number, name etc.? The flexibility that our platform offers will help you manage standard data fields with an ability to create as many custom fields to store additional contact info as you want.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/sms/inner/1.jpg",
+      "radius": "lg",
+      "alt": "Flexible",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

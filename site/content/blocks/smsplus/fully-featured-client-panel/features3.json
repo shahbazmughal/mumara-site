@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Intuitive **Processes**",
+      "variant": "h2"
+    },
+    {
+      "text": "Each of your clients can login to separately manage contact lists and the contacts within, compose and send text engagement campaigns, can apply Sender-ID to send branded SMS, and can view the performance analysis reports of the campaigns. Every function that your client performs is supported by assistive texts. For a closer look at what your clients can do, click the link to explore the client side features with more details.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/smsplus/inner/Intuitive-Processes.jpg",
+      "radius": "lg",
+      "alt": "Intuitive Processes",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

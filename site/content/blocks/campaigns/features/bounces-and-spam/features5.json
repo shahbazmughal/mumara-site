@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Process spam reports by setting up **Feedback Loops**",
+      "variant": "h2"
+    },
+    {
+      "text": "Automate processing of spam reports by setting up feedback loops. Configure the feedback loop email address on Mumara over IMAP or POP connection. Choose the folder to receive spam reports, encryption type and much more.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/campaigns/features/bounce-feedback.svg",
+      "radius": "lg",
+      "alt": "Importing",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

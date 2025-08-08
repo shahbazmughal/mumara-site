@@ -1,0 +1,26 @@
+{
+  "text": [
+    {
+      "text": "Self-Hosted, Flexible, Quick And Efficient",
+      "variant": "h2"
+    },
+    {
+      "text": "Mumara Self-Hosted is the best suitable application for those who are looking for ultimate freedom to send emails. No matter how big the volume of your sending is Mumara is well capable of handling it. From the most essential features required for creating and sending emails, to the most advanced ones for sustainable reputation and deliverability, Mumara Classic brings all in one pack. Get it installed on your web server, easily configure it with your MTA/SMTP, and start sending sizeable amount of emails speedily right in the target inbox",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../assets/flexiblocks/campaigns/feature-one.png",
+      "alt": "Self-Hosted"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Complete Features  ➜",
+      "type": "PAGE",
+      "link": "/classic/features/",
+      "variant": "links.normal"
+    }
+  ]
+}

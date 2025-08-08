@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Message **Concatenation**",
+      "variant": "h2"
+    },
+    {
+      "text": "With the use of right technology we are able to remove this barrier from the way of message delivery. All of your messages exceeding to the standard 160 character length will automatically be concatenated on the recipient’s end.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/sms/inner/validation-3.jpg",
+      "radius": "lg",
+      "alt": "Concatenation",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

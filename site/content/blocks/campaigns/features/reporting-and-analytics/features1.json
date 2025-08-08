@@ -1,0 +1,28 @@
+{
+  "text": [
+    {
+      "text": "View **graphical statistics** on the Dashboard",
+      "variant": "h2"
+    },
+    {
+      "text": "Keep an eye on all the important statistics by viewing them on the dashboard. Mumara's dash provides an organized view of statistics to keep you updated. Below you’ll find the key features",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/campaigns/features/analytics-stats.png",
+      "radius": "lg",
+      "alt": "Flexible",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Learn More",
+      "type": "PAGE",
+      "link": "/campaigns/features/dashboard-statistics",
+      "variant": "primary-light"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Send a **“Thank you”** email upon subscription",
+      "variant": "h2"
+    },
+    {
+      "text": "Create an autoresponder as a “Thank You” email to be sent to any individual who completes the web form.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/campaigns/features/webform-thanks.png",
+      "radius": "lg",
+      "alt": "Organized",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

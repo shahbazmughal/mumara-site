@@ -1,0 +1,28 @@
+{
+  "text": [
+    {
+      "text": "Multithreading to Speed up the **Email Shipment**",
+      "variant": "h2"
+    },
+    {
+      "text": "Accelerate the process of supplying emails to the mail server(s) by opening up parallel connections with the help of multithreading.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../assets/flexiblocks/campaigns/multithreading-speedup.jpg",
+      "radius": "lg",
+      "alt": "Multithreading",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Learn More",
+      "type": "PAGE",
+      "link": "/campaigns/features/swift-sending/#multithreading",
+      "variant": "primary-light"
+    }
+  ]
+}

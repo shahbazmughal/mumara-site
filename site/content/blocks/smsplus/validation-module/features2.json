@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "**Validation Gateway** and Cost",
+      "variant": "h2"
+    },
+    {
+      "text": "Admin has the ability to set parental controls, preferred validation gateway (service) between the available, and can also set forth per number validation cost for the client. Similar to the scope of zoning, admin can setup one or more gateways and can prioritize them accordingly. Once the client account requests validation, system shows the cost set for the validation and validates the contact using top priority validation service.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/smsplus/inner/Validation-Gateway-and-Cost-1.jpg",
+      "radius": "lg",
+      "alt": "Validation Gateway",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

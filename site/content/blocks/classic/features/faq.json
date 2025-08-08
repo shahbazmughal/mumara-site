@@ -1,0 +1,64 @@
+{
+  "text": [
+    {
+      "text": "High Volume Delivery and Sustainable Sender-Reputation",
+      "color": "omegaDarker",
+      "variant": "h2"
+    },
+    {
+      "text": "When you are high volume email marketer busy in making your database grow by targeting millions every day, you always need refined processes and set of features to keep the sender reputation intact and contact lists clean on the go. MumaraClassic has carefully collected all necessary features to give an extended protection against low sender-reputation, offers bunch of features to customize sending pattern, optimize sending speed and effortless performance of crucial tasks like keeping the list clean.",
+      "color": "omegaDark",
+      "variant": "medium"
+    }
+  ],
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Maintain Clean Email List",
+          "variant": "h5"
+        },
+        {
+          "text": "You would need not to separately invest time and budget to get your list scrubbed anymore; MumaraClassic brings powerful features to help you keeping the list squeaky clean. From list verification to bounce processing, hit the link to learn the features that MumaraClassic has collected in its arsenal to maintain list hygiene."
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Learn more  ➜",
+          "type": "PAGE",
+          "link": "/classic/features/maintain-clean-email-list",
+          "variant":"links.nav-dark"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-envelope.svg",
+        "bg": "white",
+        "color": "alpha"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Speed & Multiplicity Of Options",
+          "variant": "h5"
+        },
+        {
+          "text": "It requires speedy processes and multiplicity of options to handle high volume email delivery. Stop getting your system resource chocked for the next big campaign or while importing large email lists. MumaraClassic is perfect match for the email marketers with large lists to import and time critical management and delivery of emails."
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Learn more  ➜",
+          "type": "PAGE",
+          "link": "/classic/features/speed-multiplicity-of-options",
+          "variant":"links.nav-dark"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-rocket.svg",
+        "bg": "white",
+        "color": "alpha"
+      }
+    }
+  ]
+}

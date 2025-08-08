@@ -1,0 +1,23 @@
+{
+  "text": [
+    {
+      "text": "**Easy to Use**",
+      "variant": "h3"
+    },
+    {
+      "text": "Without Any Business",
+      "variant": "h3"
+    },
+    {
+      "text": "Mumara One Landing pages are easy to use, just select and get ready for conversion. Keep your competitors miles behind by using the technology you intend. "
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/one/features/easy-use.jpg",
+      "radius": "lg",
+      "alt": "Earn Money",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

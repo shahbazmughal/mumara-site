@@ -1,0 +1,16 @@
+{
+  "text": [
+    {
+      "text": "Build Stronger Relationships With Your Contacts.",
+      "variant": "h1"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Start Now  ➜",
+      "type": "PAGE",
+      "link": "/one/pricing",
+      "variant": "primary"
+    }
+  ]
+}

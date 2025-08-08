@@ -1,0 +1,37 @@
+{
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Segmentation And Export",
+          "variant": "h5"
+        },
+        {
+          "text": "Ensure better response rate by applying list of filters to slice and dice your email marketing list. Avoid rejection and stop sending irrelevant and randomized email content to all the contacts. Segment your lists by applying appropriate filters to classify your contacts according to their sort, and better categorize the filtered subsets by using the export feature."
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-chat.svg",
+        "bg": "white",
+        "color": "alpha"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Effectively Deal With Spam Complaints",
+          "variant": "h5"
+        },
+        {
+          "text": "Feedback loop reports back the spam complaints to you as original sender. Our FBL processing feature helps you to flag and automatically process these complainants before you schedule your next campaign. So setup your system for the Feedback Loops of all major providers, conveniently process complaints before your deliverability suffer."
+        }
+      ],
+
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-comment-detail.svg",
+        "bg": "white",
+        "color": "alpha"
+      }
+    }
+  ]
+}

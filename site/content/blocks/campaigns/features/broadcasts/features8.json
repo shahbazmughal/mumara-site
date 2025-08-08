@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "**Split a contact list** into multiple:",
+      "variant": "h2"
+    },
+    {
+      "text": "Create multiple chunks of a contact list by splitting it into two or more. Splitting a list can be done by defining the number of contacts per list and also by defining just the number of lists which will create the desired number of lists containing equal contacts.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/sms/inner/1-1.jpg",
+      "radius": "lg",
+      "alt": "Importing",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

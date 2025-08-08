@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "GDPR Compliant Email Marketing",
+      "color": "alpha",
+      "variant": "h2"
+    },
+    {
+      "text": "Since Mumara Campaigns was already designed to adapt the existing spam laws including the major ones like CAN-Spam or Canadian Anti-Spam Legislation (CASL), it doesn’t take much to fit in for the provisions of General Data Protection Regulation (GDRP) newly adopted regulation in EU member states. A collection of all essential features to ensure GDPR compliance with a unique model of configuring the system with desired email relay (e.g. Mailgun, SendGrid etc.) makes Mumara Campaigns a fully GDPR compliant Email Product.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../assets/flexiblocks/campaigns/map.jpg",
+      "alt": "Compliant Email Marketing",
+      "effects": ["fadeInDown"]
+    }
+  ]
+}

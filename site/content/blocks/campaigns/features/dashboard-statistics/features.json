@@ -1,0 +1,36 @@
+{
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Top devices on which emails are **being opened**",
+          "variant": "h4"
+        },
+        {
+          "text": "Design and create an email marketing strategy by knowing the devices of the audience who open your emails. Design the emails look to be responsive to those devices."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-hive.svg",
+        "bg": "#FFF2DD",
+        "color": "#FF9655"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "**Geographical analytics** of the emails being opened",
+          "variant": "h4"
+        },
+        {
+          "text": "Mumara's heat map displays intuitive areas on the dashboard where the recipients of emails have opened them."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-analyse.svg",
+        "bg": "#FEE9E3",
+        "color": "#F87488"
+      }
+    }
+  ]
+}

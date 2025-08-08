@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Why **Personalization?**",
+      "variant": "h2"
+    },
+    {
+      "text": "Content personalization is one of the most noteworthy aspects of the marketing text that converts. Brands that utilize consumers’ personal info while interacting or create personalized offers appear more relevant to consumer and thus end up making more conversions.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/sms/inner/1-1.jpg",
+      "radius": "lg",
+      "alt": "Personalization",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

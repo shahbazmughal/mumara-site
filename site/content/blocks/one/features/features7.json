@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Marketing Wizard",
+      "variant": "h2"
+    },
+    {
+      "text": "Here’s to us taking the genius product ten notches up! Meet our marketing wizard, this adds creative magic to everything.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/one/features/marketingwizard.jpg",
+      "radius": "lg",
+      "alt": "Marketing Wizard",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

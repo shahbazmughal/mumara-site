@@ -1,0 +1,17 @@
+{
+  "text": [
+    {
+      "text": "Look closely at what your visitors are searching in your online store.",
+      "variant": "h2"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Start Now",
+      "type": "PAGE",
+      "link": "https://account.mumara.com/signup/",
+      "variant": "dark",
+      "target": "_blank"
+    }
+  ]
+}

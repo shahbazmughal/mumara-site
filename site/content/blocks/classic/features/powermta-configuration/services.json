@@ -1,0 +1,55 @@
+{
+  "collection": [
+    {
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-analyse.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      },
+      "text": [
+        {
+          "text": "Make use of VMTA characteristics of PowerMTA",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Following its default behavior, addon equally distributes the available IPs on currently provided sending domain(s) to Independently Perform Sending Operation."
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Rearrange the default distribution of IPs per Domain",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Use simple drag and drop operation to move IP or multiple IPs from the properties of one domain to another, to rearrange the default distribution of IPs per domain."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-planet.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Couple of options to configure SMTP(s) with Available IPs",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "You can opt for the option to create and automatically configure One SMTP per IP, or select to create and automatically configure one SMTP for all the IPs."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-directions.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      }
+    }
+  ]
+}

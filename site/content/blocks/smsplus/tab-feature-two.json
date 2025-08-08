@@ -1,0 +1,62 @@
+{
+  "text": [
+    {
+      "text": "Priority Zones",
+      "color": "white"
+    },
+    {
+      "text": "Priority **Zones**",
+      "variant": "h3"
+    },
+    {
+      "text": "Setup geographically distributed zones to define custom sending preferences for each zone. Prioritize sending among the available gateways, and position gateway according the sending priority, i.e. preferred gateway on the top followed by the second and 3rd priority.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../assets/flexiblocks/smsplus/pzone.jpg",
+      "alt": "Priority Zones",
+      "radius": "lg",
+      "shadow": "default"
+    },
+    {
+      "src": "../../assets/flexiblocks/smsplus/zone.png",
+      "alt": "Priority",
+      "radius": "lg",
+      "shadow": "default",
+      "effects": ["fadeInDown", "floatFaster"],
+      "position": {
+        "bottom": "0%",
+        "right": "25%"
+      }
+    },
+    {
+      "src": "../../assets/flexiblocks/smsplus/tab-feature-two-overlay-two.png",
+      "alt": "Setup geographically",
+      "effects": ["fadeInBounce", "float"],
+      "position": {
+        "top": "-15%",
+        "left": "20%"
+      }
+    },
+
+    {
+      "src": "../../assets/flexiblocks/sms/tab-feature-two-overlay-three.png",
+      "alt": "Zones",
+      "effects": ["fadeInBounce", "floatFaster"],
+      "position": {
+        "bottom": "-10%",
+        "left": "20%"
+      }
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Learn more   ➜",
+      "type": "PAGE",
+      "link": "/smsplus/priority-zones/",
+      "variant": "links.normal"
+    }
+  ]
+}

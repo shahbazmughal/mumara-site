@@ -1,0 +1,22 @@
+{
+  "text": [
+    {
+      "text": "Mumara Classic",
+      "color": "alpha",
+      "variant": "h4"
+    },
+    {
+      "text": "User Management with Access Control List",
+      "color": "omegaDarker",
+      "variant": "h1"
+    },
+    {
+      "text": "As an email marketer, you sometime would give access to your clients to display the volumes you have sent and results you have generated without sharing the figures belonging to your other clients. Or you are following a business model where you want to give a separate account to each of your client to send on its own, without interfering or affecting the data/sending of other clients. It is where User Management helps you create user accounts while maintaining the level of security required.",
+      "variant": "medium"
+    },
+    {
+      "text": "User Management allows the admin user to setup user groups with proper access control levels to restrict number of lists, subscribers, SMTPs and put email limit for every user that will be added into this user group. A user account can create separate email lists, can add the subscribers, design email campaigns and can manage everything which the user group allows it to perform.",
+      "variant": "medium"
+    }
+  ]
+}

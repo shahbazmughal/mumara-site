@@ -1,0 +1,58 @@
+{
+  "text": [
+    {
+      "text": "MumaraSMS",
+      "color": "beta",
+      "variant": "h4"
+    },
+    {
+      "text": "MumaraSMS: Engage Customers on the Move",
+      "color": "omegaDarker",
+      "variant": "h1"
+    },
+    {
+      "text": "SMS Marketing and Text Engagement Campaigns with Global Coverage",
+      "color": "omegaDark",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../assets/flexiblocks/sms/hero.jpg",
+      "alt": "MumaraSMS",
+      "effects": ["fadeInDown"]
+    },
+    {
+      "src": "../../assets/flexiblocks/sms/hero-overlay-one.png",
+      "alt": "Engage Customers",
+      "effects": ["fadeInRight", "float"],
+      "position": {
+        "bottom": "22%",
+        "left": "5%"
+      }
+    },
+    {
+      "src": "../../assets/flexiblocks/sms/hero-overlay-two.png",
+      "alt": "SMS Marketing",
+      "effects": ["fadeInLeft", "floatFaster"],
+      "position": {
+        "top": "5%",
+        "right": "12%"
+      }
+    }
+  ],
+  "buttons": [
+    {
+      "text": "SMS Features",
+      "type": "PAGE",
+      "link": "/sms/sms-features",
+      "variant": "primary"
+    },
+    {
+      "text": "Signup Free",
+      "type": "PAGE",
+      "link": "/sms/pricing/",
+      "variant": "primary-light"
+    }
+  ]
+}

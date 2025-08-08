@@ -1,0 +1,38 @@
+{
+  "text": [
+    {
+      "text": "Deliver **Strategic Marketing** to Converge Behavior",
+      "variant": "h2"
+    },
+    {
+      "text": "No customer is too hard to get with Mumara’s Intelligence. Trigger the customer’s behavior with contextually sound marketing automation. Give your strategy a brain of its own.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../assets/flexiblocks/one/feature-two.jpg",
+      "alt": "Deliver",
+      "radius": "lg"
+    },
+    {
+      "src": "../../assets/flexiblocks/one/feature-two-overlay.png",
+      "alt": "strategic marketing",
+      "radius": "lg",
+      "shadow": "default",
+      "effects": ["fadeInRight", "float"],
+      "position": {
+        "top": "40%",
+        "left": "-5%"
+      }
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Explore",
+      "type": "PAGE",
+      "link": "/one/features/#automation",
+      "variant": "primary-light"
+    }
+  ]
+}

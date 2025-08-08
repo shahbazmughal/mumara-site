@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Topup **Plan**",
+      "variant": "h2"
+    },
+    {
+      "text": "It is one of the most suitable plans to run SMS marketing service, fitting for both the admin as well as for the clients. It offers all required options to set forth different pricing slabs; among which clients can select the appropriate slab according to their sending volume and topup funds. Topup plans are most flexible, where you can set per SMS cost on different levels. One parent price for all the system, per SMS cost on country level and per SMS cost on network level.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/smsplus/inner/Topup-Plan.jpg",
+      "radius": "lg",
+      "alt": "Topup Plan",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

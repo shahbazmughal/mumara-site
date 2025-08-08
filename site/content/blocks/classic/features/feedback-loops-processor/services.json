@@ -1,0 +1,55 @@
+{
+  "collection": [
+    {
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-analyse.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      },
+      "text": [
+        {
+          "text": "Easy Configuration",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Step by step easy process to configure your FBL processing account with spam server/spam to email account, later after the configuration is done, system automatically starts and keep on processing the abuse reports to keep lists clean from spam."
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Secure access",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Option to select between POP and IMAP to access email on remote server/spam server, it offers secure access to spam server with ability to validate the Security Certificates (SSL/ TLS)."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-lock-alt.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Details of Complainants",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Once you have your FBL account configured and appropriately working, you will view the list of emails system has processed as spam for specific FBL account. You moreover can view the accurate time when the email was being marked as spam."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-comment-detail.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      }
+    }
+  ]
+}

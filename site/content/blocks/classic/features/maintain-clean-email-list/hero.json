@@ -1,0 +1,18 @@
+{
+  "text": [
+    {
+      "text": "Mumara Classic",
+      "color": "alpha",
+      "variant": "h4"
+    },
+    {
+      "text": "Integrated Email Verifier",
+      "color": "omegaDarker",
+      "variant": "h1"
+    },
+    {
+      "text": "Email list hygiene is one of the key prerequisites of results oriented email marketing. Invalid emails constitute potential threat to the reputation of the sending IPs, and it is largely damaging to the overall delivery rates. Therefore, it is highly recommended practice to keep the list unpolluted, free from invalid emails and hard bounces. Email verifier helps keeping the list clean by performing the complete process of checking the validity of email addresses in selected email list(s). During the process, email verification tool utilizes more than one source to check if the email is valid. It establishes connection to the email server of the contact, inspects if the email contact has working MX record, does the domain exist or not? It also tries to confirm the existence of the actual username for the specific domain. And moreover, it automatically fetches the geographical location of the contact’s mail server.",
+      "variant": "medium"
+    }
+  ]
+}

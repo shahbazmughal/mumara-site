@@ -1,0 +1,82 @@
+{
+  "text": [
+    {
+      "text": "Extra Goodies for **Avid** Marketers.",
+      "variant": "h3"
+    }
+  ],
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Success Stories",
+          "variant": "h5"
+        },
+        {
+          "text": "People are absolutely loving Mumara, check it out for real."
+        }
+      ],
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-directions.svg",
+        "bg": "white",
+        "color": "alpha"
+      },
+      "buttons": [
+        {
+          "text": "Explore   ➜",
+          "type": "PAGE",
+          "link": "/one/testimonials/",
+          "variant": "links.normal"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Mumara ONE Handbook for Quick Help",
+          "variant": "h5"
+        },
+        {
+          "text": "Out of ideas? We have got some in stock waiting for you. Check out the Help book and our Marketing blog right here."
+        }
+      ],
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-chat.svg",
+        "bg": "white",
+        "color": "alpha"
+      },
+      "buttons": [
+        {
+          "text": "Explore   ➜",
+          "type": "PAGE",
+          "link": "https://school.mumara.com/",
+          "variant": "links.normal"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Marketing Cheatsheet for Beginners",
+          "variant": "h5"
+        },
+        {
+          "text": "Here is a little something extra for your business. Print and gauge where your marketing strategy stands with our Marketing Cheatsheet."
+        }
+      ],
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-dna.svg",
+        "bg": "white",
+        "color": "alpha"
+      },
+      "buttons": [
+        {
+          "text": "Explore   ➜",
+          "type": "PAGE",
+          "link": "/one/marketing-cheatsheet/",
+          "variant": "links.normal"
+        }
+      ]
+    }
+  ]
+}

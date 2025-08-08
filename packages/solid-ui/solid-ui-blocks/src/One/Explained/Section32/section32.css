@@ -1,0 +1,68 @@
+.one-section-32 {
+    background: no-repeat center bottom;
+    background-size: cover;
+    overflow: hidden;
+    background: #0c3b7b;
+    background: linear-gradient(#036cae,#0c3b7b);
+}
+
+.one-section-32 .new-sec-margin-top-bot {
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+
+}
+
+.one-section-32 .box2-style-box {
+    padding: 15px;
+
+}
+
+.one-section-32 .box2-text-style {
+    color: #FFFFFF;
+    font-family: "Neue Plak", Sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+
+.one-section-32 .headline {
+    background: no-repeat center;
+    background-size: contain;
+    padding: 1px 22px 34px 22px;
+}
+
+.one-section-32 .fs26 {
+    font-size: 26px;
+}
+
+.max-w1100 {
+    max-width: 1100px;
+}
+
+.one-section-32 .pera {
+    margin-top: 50px;
+}
+
+@media (max-width: 992px) {
+    .one-section-32 .fs26 {
+        font-size: 18px;
+    }
+
+    .one-section-32 .licence-shape {
+        padding: 29px 30px 35px 20px !important;
+    }
+}
+
+.one-section-32 .my-padding-section-top-plus-bottom1 {
+    padding-top: 100px !important;
+    padding-bottom: 100px;
+}
+
+.one-section-32a {
+    background-color: #003e6d !important;
+    background-size: cover;
+    background-position: center;
+}

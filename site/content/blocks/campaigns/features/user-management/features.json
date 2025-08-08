@@ -1,0 +1,72 @@
+{
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Admin access to the **user accounts**",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Keep an eye on the user activity. Mumara provides site admins with the capability to log in as the user at any time."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-lock-alt.svg",
+        "bg": "#D3E7FE",
+        "color": "#276BF0"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "**Suspend or unsuspend** user account",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "You can suspend the account at any time for any suspicious activity or failure to pay for the services. Unsuspending the account is simple when required."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-directions.svg",
+        "bg": "#FEFAD6",
+        "color": "#F4D133"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "**Soft Delete** or hard delete user account",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Delete the account and keep the associated data by soft deleting the account or permanently delete the account and its associated data by hard deleting the user account."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-hive.svg",
+        "bg": "#FEE8D1",
+        "color": "#F7491D"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Force **delete or restore** user account",
+          "color": "omegaDarker",
+          "variant": "h5"
+        },
+        {
+          "text": "Restore the soft-deleted user account and its associated data at any time or permanently delete the soft-deleted account by using the force delete feature."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-dna.svg",
+        "bg": "#EBFDDA",
+        "color": "#64DB43"
+      }
+    }
+  ]
+}

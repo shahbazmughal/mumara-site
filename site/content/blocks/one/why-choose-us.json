@@ -1,0 +1,81 @@
+{
+  "text": [
+    {
+      "text": "Perform Better",
+      "variant": "h2"
+    },
+    {
+      "text": "Mumara ONE allows Scalable Emails for Modern Businesses. Upgrade your branding, change the game rules."
+    }
+  ],
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Reach More Ears in Lesser Time",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Stop wondering how to route back clients to you. Just make it happen with the magical Mumara ONE."
+        }
+      ],
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-analyse.svg",
+        "bg": "#D3E7FE",
+        "color": "#276BF0"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Help Sluggish Customers Run",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Some people need a push. Some people need a few. Boost your sales by pivoting customers."
+        }
+      ],
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-chat.svg",
+        "bg": "#FEFAD6",
+        "color": "#F4D133"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Nourish Immature Leads into Conversions",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Not every person who lands on your page shops right away. Keep an eye on the visitors & nurture sales."
+        }
+      ],
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-dna.svg",
+        "bg": "#FEE8D1",
+        "color": "#F7491D"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Save Time For More Creative Work",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Leave the tedious and repetitive tasks to Mumara ONE. Automate workflow & Grow your business."
+        }
+      ],
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-directions.svg",
+        "bg": "#EBFDDA",
+        "color": "#64DB43"
+      }
+    }
+  ]
+}

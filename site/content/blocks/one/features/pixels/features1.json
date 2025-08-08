@@ -1,0 +1,19 @@
+{
+  "text": [
+    {
+      "text": "Track Your **Recipients’ Footprints**",
+      "variant": "h2"
+    },
+    {
+      "text": "Running an online store and unable to figure out who is visiting your website? We got you covered! Use Mumara One with all its advanced features and track the footprints of your visitor on your website. All you need to design your emails and send them to the users. As soon as your recipient clicks the CTA, you will get all the information about the activity he performs on your website including the pages he visits and adds items to the cart."
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/one/features/pixels/website.png",
+      "radius": "lg",
+      "alt": "Flexible",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

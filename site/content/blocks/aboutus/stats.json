@@ -1,0 +1,74 @@
+{
+  "container": {
+    "variant": ""
+  },
+  "text": [
+    {
+      "text": "Our Values",
+      "variant": "h1",
+      "space": 3
+    },
+    {
+      "text": "Companies and brands across the globe trusted Mumara to help them leverage business growth.",
+      "variant": "medium"
+    }
+  ],
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "21947",
+          "color": "green",
+          "variant": "h1"
+        },
+        {
+          "text": "Happy Customers",
+          "color": "omegaDark",
+          "variant": "h5"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "100",
+          "color": "beta",
+          "variant": "h1"
+        },
+        {
+          "text": "Countries",
+          "color": "omegaDark",
+          "variant": "h5"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "17",
+          "color": "betaLight",
+          "variant": "h1"
+        },
+        {
+          "text": "Years",
+          "color": "omegaDark",
+          "variant": "h5"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "35360",
+          "color": "betaDarker",
+          "variant": "h1"
+        },
+        {
+          "text": "Hours Of Support",
+          "color": "omegaDark",
+          "variant": "h5"
+        }
+      ]
+    }
+  ]
+}

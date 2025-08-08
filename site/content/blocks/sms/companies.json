@@ -1,0 +1,54 @@
+{
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "AirBnB"
+        }
+      ],
+      "icon": {
+        "src": "../../assets/flexiblocks/companies/company-airbnb.svg"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Amazon Web Services"
+        }
+      ],
+      "icon": {
+        "src": "../../assets/flexiblocks/companies/company-amazon-web-services.svg"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Cisco"
+        }
+      ],
+      "icon": {
+        "src": "../../assets/flexiblocks/companies/company-shopify.svg"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Confluence"
+        }
+      ],
+      "icon": {
+        "src": "../../assets/flexiblocks/companies/company-confluence.svg"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Linkedin"
+        }
+      ],
+      "icon": {
+        "src": "../../assets/flexiblocks/companies/company-linkedin.svg"
+      }
+    }
+  ]
+}

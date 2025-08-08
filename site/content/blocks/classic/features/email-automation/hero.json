@@ -1,0 +1,22 @@
+{
+  "text": [
+    {
+      "text": "Mumara Classic",
+      "color": "alpha",
+      "variant": "h4"
+    },
+    {
+      "text": "Autoresponders | Event based Triggers",
+      "color": "omegaDarker",
+      "variant": "h1"
+    },
+    {
+      "text": "Automate your workflow and setup follow-up series or work with autoresponder to ensure swift flow of recurring communication. Send the prewritten message to the contacts as soon as they join subscriber list, or make use of simple fields on the interface to send this message after the contact has spent specific period of time in selected contact list(s).",
+      "variant": "medium"
+    },
+    {
+      "text": "Celebrate every occasion that matters to the contacts in the list, whether it is their birthday, marriage anniversary or their joining date/ buying date, celebrate every moment with them. Make use of integrated event based trigger function within Mumara to auto perform actions on these momentous events. It moreover offers the ability to define more specific rules for the subscribers to qualify for the present actions.",
+      "variant": "medium"
+    }
+  ]
+}

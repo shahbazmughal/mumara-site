@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Get your Offer **Picked**",
+      "variant": "h2"
+    },
+    {
+      "text": "Avoid the cost of getting your message ignored by the recipient during the high-time events of the year. When recipients are receiving floods of offers during Sales Season, they would incline to pick yours when they clearly identify with your brand name among all.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/sms/inner/sender-id-02.jpg",
+      "radius": "lg",
+      "alt": "Picked",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

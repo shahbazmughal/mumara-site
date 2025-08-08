@@ -1,0 +1,55 @@
+{
+  "collection": [
+    {
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-coin.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      },
+      "text": [
+        {
+          "text": "Multilevel process of verification",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "It verifies the MX Record of contact’s email, connects to the mail server and ability to obtain the Geographical Location Data (Country). Verifies the existence of Domain Name, e.g. if the email address abc@example.fr is created using the domain example.fr, system verifies if the domain example.fr exists or not."
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Geo Location & Advanced Verification",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Ability to go even advance and verify the Username of the contact on the particular domain. E.g. it will check if the username “abc” exists on the domain “example.fr”. It also has ability to connect to the destination mail server to obtain the geographical location of the contact."
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-planet.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Possibilities for more targeted segments",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Create Segments by contact’s Geo location obtained through the verification process. Apply advance Filtration options after the verification process is over for particular list, e.g. separate out the subscribers marked as “Verified” within the selected list(s)"
+        }
+      ],
+      "icon": {
+        "src": "../../../../assets/flexiblocks/icons/bx-radio-circle-marked.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Create multiple **user roles** as per the packages",
+      "variant": "h2"
+    },
+    {
+      "text": "Mumara Campaigns facilitates the creation of a number of users for commercial purposes. Determine the extent to which features can be accessed with user roles.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/campaigns/features/user-roles.png",
+      "radius": "lg",
+      "alt": "Flexible",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

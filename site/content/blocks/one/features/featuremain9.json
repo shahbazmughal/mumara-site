@@ -1,0 +1,70 @@
+{
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "",
+          "color": "alphaDark"
+        },
+        {
+          "text": "Product Recommendations & Integrations Directory",
+          "color": "omegaDarker",
+          "variant": "h3"
+        },
+        {
+          "text": "The more you show, the more you sell. Don’t flood the customer with useless junk. Care to personalize. Invest some of Mumara’s brain into integrating products. An API integration Specialist can help you out with this. Connect these dots and do the search for the customer."
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../assets/flexiblocks/one/features/recommendations.jpg",
+          "alt": "Product Recommendations"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "",
+          "color": "alphaDark"
+        },
+        {
+          "text": "First Purchase Coupons",
+          "color": "omegaDarker",
+          "variant": "h3"
+        },
+        {
+          "text": "The customer just signed up, they are viewing things and actively judging your band. Allow them to be nice by giving them a unique first purchase coupon. Or even better, use the first purchase coupon to lure them in to sign up for the email subscription real smooth. Extra subscribers, more reach, even more sales."
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../assets/flexiblocks/one/features/first-purchase.jpg",
+          "alt": "First Purchase Coupons"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "",
+          "color": "alphaDark"
+        },
+        {
+          "text": "Restock Notifications",
+          "color": "omegaDarker",
+          "variant": "h3"
+        },
+        {
+          "text": "Customers want things that are out of stock. Make your business look big by showing to them that so many of your things run out of stock on a daily basis. Create hype. And quickly allow customers to sign up and allow them to buy it asap when your stock is refilled say a week or over the weekend."
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../assets/flexiblocks/one/features/restock.png",
+          "alt": "Restock Notifications"
+        }
+      ]
+    }
+  ]
+}

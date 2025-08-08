@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Generate more unique content with **spintags**",
+      "variant": "h2"
+    },
+    {
+      "text": "Rotating content is a great way to keep your email new. By using the Spintag feature, you can add variations to your content, making it unique and interesting. This is a great way to engage your readers and keep them coming back for more.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/campaigns/features/broadcasts-send.png",
+      "radius": "lg",
+      "alt": "Importing",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

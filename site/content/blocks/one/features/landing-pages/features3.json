@@ -1,0 +1,19 @@
+{
+  "text": [
+    {
+      "text": "Use **Pre-made Landing Pages** Without Being Tech-Savvy",
+      "variant": "h2"
+    },
+    {
+      "text": "What is more helpful to create your beautiful website without being tech-savvy? We come up with more than 40 striking landing pages you can use on your website. Other than that, you can design, crop, and resize your landing page using Drag & Drop Editor. Say goodbye to your designer and choose from stylish, pre-made landing pages to get the full attention of your audience. Save your time and start with the editable templates to add a special touch to grab all the attention."
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/one/features/landing-pages/website.jpg",
+      "radius": "lg",
+      "alt": "Importing",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

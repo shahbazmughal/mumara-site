@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Client **Panel**",
+      "variant": "h2"
+    },
+    {
+      "text": "Like the admin panel of MumaraSMS+, the client panel is full of options that offer a password protected access to your clients. The client panel can be hosted on a separate domain, like a subdomain belonging to the main service domain i.e. portal.smsstream.com. All of the client accounts registered with your service would access client panel by providing login credentials to the URL.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/smsplus/inner/Client-Panel.jpg",
+      "radius": "lg",
+      "alt": "client panel",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

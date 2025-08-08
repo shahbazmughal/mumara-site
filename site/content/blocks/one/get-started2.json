@@ -1,0 +1,16 @@
+{
+  "text": [
+    {
+      "text": "To Earn More, You Must Learn More!",
+      "variant": "h2"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Click for More Explanation",
+      "type": "PAGE",
+      "link": "/one/email-marketing-tool",
+      "variant": "primary"
+    }
+  ]
+}

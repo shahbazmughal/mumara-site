@@ -1,0 +1,10 @@
+{
+"buttons": [
+    {
+      "text": "Read More",
+      "type": "PAGE",
+      "link": "/one/features/landing-pages",
+      "variant": "primary"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+"buttons": [
+    {
+      "text": "Learn More about Mumara ONE",
+      "type": "PAGE",
+      "link": "/one",
+      "variant": "primary-light"
+    }
+  ]
+}

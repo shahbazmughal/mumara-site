@@ -1,0 +1,28 @@
+{
+  "text": [
+    {
+      "text": "**Packages**",
+      "variant": "h2"
+    },
+    {
+      "text": "Create packages and define the limits e.g. contacts, hourly rate, daily/monthly emailing limits, overall limits, sending domains, sending nodes, triggers, segments, and more.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../assets/flexiblocks/campaigns/packages.jpg",
+      "radius": "lg",
+      "alt": "Packages",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Learn More",
+      "type": "PAGE",
+      "link": "/campaigns/features/user-management/#packages",
+      "variant": "primary-light"
+    }
+  ]
+}

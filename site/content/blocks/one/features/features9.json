@@ -1,0 +1,19 @@
+{
+  "text": [
+    {
+      "text": "Real-Time **Reporting**",
+      "variant": "h3"
+    },
+    {
+      "text": "Get detailed intuitions and insights into the performance of your landing pages. Manage your marketing with real-time reporting. "
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/one/features/real-reporting.jpg",
+      "radius": "lg",
+      "alt": "Real-Time Reporting",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

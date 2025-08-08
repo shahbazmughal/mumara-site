@@ -1,0 +1,35 @@
+{
+  "text": [
+    {
+      "text": "Contact Validation",
+      "color": "omegaDark",
+      "variant": "h4"
+    },
+    {
+      "text": "INTEGRATED CONTACT VALIDATION",
+      "variant": "h4"
+    },
+    {
+      "text": "Every Message Sent is Every Message Delivered",
+      "variant": "h2"
+    },
+    {
+      "text": "Get your list processed through validation, automatically separate out the undeliverable contacts before sending, and ensure every message sent is every message delivered.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../assets/flexiblocks/sms/1.jpg",
+      "alt": "CONTACT VALIDATION"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Learn more   ➜",
+      "type": "PAGE",
+      "link": "/sms/sms-features/validation/",
+      "variant": "links.normal"
+    }
+  ]
+}

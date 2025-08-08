@@ -1,0 +1,83 @@
+.one-section-18 .titleBg3 {
+    line-height: 1.5;
+    text-align: center;
+    padding: 20px 0px;
+    background: #0c6e65;
+    position: relative;
+    bottom: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.one-section-18 {
+    background-color: #e7f5eb;
+    margin-top: -100px;
+    z-index: -11;
+}
+
+.one-section-18 .img-style {
+    max-width: 500px;
+    object-fit: contain;
+    border-radius: 6px;
+}
+
+@media (min-width: 1380px) {
+
+    .one-section-18 h1,
+    .one-section-18 p {
+        padding-left: 100px;
+    }
+    .one-section-18 p {
+        padding: 0 100px;
+    }
+}
+
+@media (max-width: 767px) {
+    .one-section-18 .odd-section {
+
+        padding: 20px 20px !important;
+    }
+
+    .one-section-18 .even-section {
+        padding: 20px 20px !important;
+    }
+
+    .one-section-18 .titleBg3 {
+        padding: 30px 20px;
+        background: #2b9463;
+        border: 2px dashed #f9f717;
+        margin-bottom: 50px;
+    }
+}
+
+.problem-text {
+    padding: 0 10px;
+}
+
+.one-section-18 .odd-section {
+    border-radius: 20px;
+    background-color: #92e3a954;
+    border: 3px solid #0c6e65;
+    padding: 20px 40px;
+}
+
+.one-section-18 .even-section {
+    border-radius: 20px;
+    background-color: #92e3a954;
+    border: 3px solid #0c6e65;
+    padding: 20px 40px;
+}
+
+.one-section-18 .my-font-s {
+    font-size: 34px;
+}
+
+@media only screen and (max-width: 992px) and (min-width: 767px) {
+    .one-section-18 .titleBg3 {
+        padding: 50px 50px 70px 50px;
+    }
+
+    .one-section-18 .my-font-s {
+        font-size: 29px;
+    }
+}

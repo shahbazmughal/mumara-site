@@ -3,9 +3,11 @@ import colors from './color-preset'
 //Primary
 const alpha = {
   alphaLighter: colors.indigo[100],
+  alphaLighter2: "#eefffc",
   alphaLight: colors.indigo[300],
-  alpha: colors.indigo[500],
-  alphaDark: colors.indigo[600],
+  alpha: colors.successColor[100],
+  alpha2: colors.indigo[500],
+  alphaDark: colors.successDark[100],
   alphaDarker: colors.indigo[800]
 }
 
@@ -13,7 +15,8 @@ const alpha = {
 const beta = {
   betaLighter: colors.purple[100],
   betaLight: colors.purple[300],
-  beta: colors.purple[500],
+  beta: colors.infoColor[100],
+  beta2: colors.purple[500],
   betaDark: colors.purple[600],
   betaDarker: colors.purple[800]
 }

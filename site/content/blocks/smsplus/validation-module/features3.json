@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Pre-sending Network Identification",
+      "variant": "h2"
+    },
+    {
+      "text": "Validation helps the system to accurately identify the network and the country of the mobile carrier before processing it for the sending. This ability to identify the mobile carrier eventually enables making the network based priority relevant for the sending. It enables system to first run the internal process of detecting the destination zone, and identifying with the network to send it keeping the gateway priority setting of that specific network.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/smsplus/inner/Pre-sending-Network-Identification.jpg",
+      "radius": "lg",
+      "alt": "Pre-sending",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

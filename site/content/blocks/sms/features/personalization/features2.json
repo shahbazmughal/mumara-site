@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "Create **Personalized* Offers",
+      "variant": "h2"
+    },
+    {
+      "text": "A clear majority of consumers find it more appealing when brands send them personalized offers. Our platform lets you dynamically use the contacts info saved within data fields, custom variables will help you create highly personalized content experience for the recipients.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/sms/inner/2-1.jpg",
+      "radius": "lg",
+      "alt": "Personalized Ofers",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

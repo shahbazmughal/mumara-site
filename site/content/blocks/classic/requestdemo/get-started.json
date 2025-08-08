@@ -1,0 +1,84 @@
+{
+  "text": [
+    {
+      "text": "Request A Demo",
+      "variant": "h2"
+    },
+    {
+      "text": "PLEASE COMPLETE AND SUBMIT THE SHORT FORM BELOW TO SCHEDULE A FREE, BUSINESS CONSULTATION WITH ONE OF OUR EXPERTS.",
+      "color": "alpha",
+      "variant": "medium"
+    }
+  ],
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Address",
+          "color": "omegaDark",
+          "variant": "h5"
+        },
+        {
+          "text": "A108 Adam Street, \n New York, NY 535022"
+        }
+      ],
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-building-house.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Call Us",
+          "color": "omegaDark",
+          "variant": "h5"
+        },
+        {
+          "text": "+1 5589 55488 55 \n +1 6678 254445 41"
+        }
+      ],
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-phone.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Email Us",
+          "color": "omegaDark",
+          "variant": "h5"
+        },
+        {
+          "text": "info@example.com, contact@example.com"
+        }
+      ],
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-envelope.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Open Hours",
+          "color": "omegaDark",
+          "variant": "h5"
+        },
+        {
+          "text": "Monday - Friday 9:00AM - 05:00PM"
+        }
+      ],
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-alarm-snooze.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      }
+    }
+  ]
+  
+}

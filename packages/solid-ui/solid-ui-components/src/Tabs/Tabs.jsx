@@ -1,16 +1,16 @@
-import React, { useState, useEffect, useRef, useContext, Children } from 'react'
+import React, { Children, useState, useEffect, useRef, useContext } from 'react'
 import PropTypes from 'prop-types'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 import { Box, Button } from 'theme-ui'
 import Divider from '@solid-ui-components/Divider'
 import { TabsContext } from '@solid-ui-components/Tabs'
-import { useStaticQuery, graphql } from 'gatsby'
 import styles from './styles'
+import './tabs.css'
 
 const StyledTabs = ({
   id,
+  tabs,
   children,
-  tabsData,
   variant,
   space,
   position,
@@ -24,49 +24,27 @@ const StyledTabs = ({
   const [tabIndex, setTabIndex] = useState(0)
   const interval = useRef(null)
 
-  // Static GraphQL query for miniheadings
-  const queryData = useStaticQuery(graphql`
-    query FeatureHeadingsQuery {
-      strapiSaasv2Featureone {
-        miniheading
-      }
-      strapiSaasv2Featuretwo {
-        miniheading
-      }
-      strapiSaasv2Featurethree {
-        miniheading
-      }
-    }
-  `)
-
-  const strapiTabsData = [
-    { heading: queryData.strapiSaasv2Featureone?.miniheading },
-    { heading: queryData.strapiSaasv2Featuretwo?.miniheading },
-    { heading: queryData.strapiSaasv2Featurethree?.miniheading }
-  ]
-
-  const finalTabsData = tabsData?.length ? tabsData : strapiTabsData
+  const selectedIndex = id ? activeTab?.index || 0 : tabIndex
   const childrenArray = Children.toArray(children)
-
-  const isUsingStrapi = Array.isArray(finalTabsData) && finalTabsData.some(tab => !!tab?.heading)
-  const totalTabs = isUsingStrapi ? finalTabsData.length : childrenArray.length
+  const totalTabs = tabs?.length || childrenArray?.length
 
   useEffect(() => {
-    if (autoplay && totalTabs > 1) {
-      interval.current = setInterval(() => {
-        setTabIndex(prev => (prev < totalTabs - 1 ? prev + 1 : 0))
+    interval.current =
+      autoplay &&
+      setInterval(() => {
+        setTabIndex(tabIndex => {
+          return tabIndex < totalTabs - 1 ? tabIndex + 1 : 0
+        })
       }, autoplayInterval)
-    }
     return () => clearInterval(interval.current)
-  }, [autoplay, autoplayInterval, totalTabs])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
 
   useEffect(() => {
-    return () => {
-      if (id) {
-        setActiveTab(state => (state.identifier === id ? {} : state))
-      }
-    }
-  }, [id, setActiveTab])
+    return () =>
+      id && setActiveTab(state => (state.identifier === id ? {} : state))
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
 
   const handleSelect = index => {
     clearInterval(interval.current)
@@ -75,26 +53,40 @@ const StyledTabs = ({
   }
 
   const handleNext = () => {
-    setTabIndex(prev => (prev < totalTabs - 1 ? prev + 1 : 0))
+    setTabIndex(tabIndex => {
+      return tabIndex < totalTabs - 1 ? tabIndex + 1 : 0
+    })
   }
 
   const handlePrev = () => {
-    setTabIndex(prev => (prev > 0 ? prev - 1 : totalTabs - 1))
+    setTabIndex(tabIndex => {
+      return tabIndex !== 0 ? tabIndex - 1 : totalTabs - 1
+    })
   }
+
+  const customTabButtons = () =>
+    tabs.filter(Boolean).map((item, index) => (
+      <Tab key={`item-${index}`} className='tabs_tab'>
+        {item}
+      </Tab>
+    ))
+
+  const contentTabButtons = () =>
+    childrenArray.map(({ props }, index) =>
+      variant === 'dots' ? (
+        <Tab key={`item-${index}`} className='tabs_tab' />
+      ) : (
+        props?.content?.text?.[0] && (
+          <Tab key={`item-${index}`} className='tabs_tab'>
+            {props.content.text[0].text}
+          </Tab>
+        )
+      )
+    )
 
   const tabButtons = (
     <TabList className='tabs_tabList'>
-      {isUsingStrapi
-        ? finalTabsData.map((tab, index) => (
-            <Tab key={`tab-${index}`} className='tabs_tab'>
-              {tab.heading || `Tab ${index + 1}`}
-            </Tab>
-          ))
-        : childrenArray.map(({ props }, index) => (
-            <Tab key={`tab-${index}`} className='tabs_tab'>
-              {props?.heading || `Tab ${index + 1}`}
-            </Tab>
-          ))}
+      {tabs ? customTabButtons() : contentTabButtons()}
     </TabList>
   )
 
@@ -102,7 +94,7 @@ const StyledTabs = ({
     <Box sx={styles[variant]}>
       <Tabs
         selectedTabClassName='tabs_selectedTab'
-        selectedIndex={id ? activeTab?.index || 0 : tabIndex}
+        selectedIndex={selectedIndex}
         onSelect={handleSelect}
       >
         {position === 'top' && (
@@ -111,13 +103,11 @@ const StyledTabs = ({
             <Divider space={space} />
           </>
         )}
-
-        {(isUsingStrapi ? childrenArray : childrenArray).map((child, index) => (
-          <TabPanel key={`panel-${index}`} forceRender={forceRender}>
-            {child}
+        {childrenArray.map((item, index) => (
+          <TabPanel key={`item-${index}`} forceRender={forceRender}>
+            {item}
           </TabPanel>
         ))}
-
         {position === 'bottom' && (
           <>
             <Divider space={space} />
@@ -125,7 +115,6 @@ const StyledTabs = ({
           </>
         )}
       </Tabs>
-
       {arrows && (
         <>
           <Button
@@ -148,6 +137,8 @@ const StyledTabs = ({
   ) : null
 }
 
+export default StyledTabs
+
 StyledTabs.defaultProps = {
   variant: 'underline',
   position: 'top',
@@ -158,22 +149,6 @@ StyledTabs.defaultProps = {
 }
 
 StyledTabs.propTypes = {
-  id: PropTypes.string,
   variant: PropTypes.oneOf(Object.keys(styles)),
-  children: PropTypes.node,
-  tabsData: PropTypes.arrayOf(
-    PropTypes.shape({
-      heading: PropTypes.string,
-      content: PropTypes.string
-    })
-  ),
-  space: PropTypes.number,
-  position: PropTypes.oneOf(['top', 'bottom']),
-  autoplay: PropTypes.bool,
-  autoplayInterval: PropTypes.number,
-  arrows: PropTypes.bool,
-  onChange: PropTypes.func,
-  forceRender: PropTypes.bool
+  tabs: PropTypes.array
 }
-
-export default StyledTabs

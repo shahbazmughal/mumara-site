@@ -1,0 +1,25 @@
+.one-section-22 {
+  background: no-repeat top center;
+  background-size: cover;
+  padding-top: 220px !important;
+  position: relative;
+  margin-top: -140px;
+}
+
+.one-section-22 p {
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+.one-section15 h3 {
+  font-size: 25px;
+}
+
+.one-section-22 .max-h550 {
+  max-height: 550px;
+}
+@media (max-width: 767px) {
+  .one-section-22 .text-left{
+    text-align: center;
+  }
+}

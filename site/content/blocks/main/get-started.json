@@ -1,0 +1,71 @@
+{
+  "text": [
+    {
+      "text": "Mumara Campaigns",
+      "color": "omegaDark",
+      "variant": "h4"
+    },
+    {
+      "text": "Hello, Ready to Get Started with Mumara Campaigns?",
+      "variant": "h2"
+    },
+    {
+      "text": "Host it on Your Server or Our, the Choice is Yours",
+      "color": "alpha",
+      "variant": "medium"
+    }
+  ],
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Self Hosted",
+          "color": "omegaDark",
+          "variant": "h5"
+        },
+        {
+          "text": "Download the product and host it on your server or a hosting account."
+        }
+      ],
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-data.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      },
+      "buttons": [
+        {
+          "text": "View Pricing",
+          "type": "PAGE",
+          "link": "/campaigns/pricing/?tab=self",
+          "variant": "primary-light"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Cloud",
+          "color": "omegaDark",
+          "variant": "h5"
+        },
+        {
+          "text": "Host the product on our cloud computing and get benefited from the managed services."
+        }
+      ],
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-analyse.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      },
+      "buttons": [
+        {
+          "text": "View Pricing",
+          "type": "PAGE",
+          "link": "/campaigns/pricing/?tab=cloud",
+          "variant": "primary-light"
+        }
+      ]
+    }
+  ]
+  
+}

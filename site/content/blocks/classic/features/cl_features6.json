@@ -1,0 +1,74 @@
+{
+  "collection": [
+    {
+      "container": {
+        "variant": "cards.paper",
+        "bg": "white"
+      },
+      "text": [
+        {
+          "text": "IP/Domain Reputation Monitor",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "PROTECT YOUR SENDER-REPUTATION",
+          "color": "omegaDark",
+          "variant": "h6"
+        },
+        {
+          "text": "Value added features for the high volume senders having large infrastructure of IPs & Sending Domains to keep the IP/Domain reputation automatically monitored across large number of web monitors and blocklists.",
+          "color": "omegaDark"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Learn more  ➜",
+          "type": "PAGE",
+          "link": "/classic/features/reputation-monitoring",
+          "variant":"links.nav-dark"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bxs-window-alt.svg",
+        "size": "lg",
+        "color": "alpha"
+      }
+    },
+    {
+      "container": {
+        "variant": "cards.paper",
+        "bg": "white"
+      },
+      "text": [
+        {
+          "text": "AdStation Integrated",
+          "color": "alpha",
+          "variant": "h5"
+        },
+        {
+          "text": "MAXIMIZE AFFILIATE COMMISION",
+          "color": "omegaDark",
+          "variant": "h6"
+        },
+        {
+          "text": "Easily integrate with AdStation the leading resource of email data monetization. Schedule, send, track and analyze Adstation campaigns to boost your affiliate revenue.",
+          "color": "omegaDark"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Learn more  ➜",
+          "type": "PAGE",
+          "link": "/classic/features/adstation-integrated",
+          "variant":"links.nav-dark"
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-target-lock.svg",
+        "size": "lg",
+        "color": "alpha"
+      }
+    }
+  ]
+}

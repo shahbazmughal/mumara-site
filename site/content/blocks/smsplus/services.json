@@ -1,0 +1,79 @@
+{
+  "collection": [
+    {
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-user-voice.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      },
+      "text": [
+        {
+          "text": "Admin Staff Management",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Create staff member accounts to help you perform the administrative tasks more conveniently. Staff members you create can separately login to manage the things and perform the administrative actions that the admin account allowed them to perform."
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Learn more   ➜",
+          "type": "PAGE",
+          "link": "/smsplus/admin-staff-management/",
+          "variant": "links.normal"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Billing Integration",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "MumaraSMS+ covers every important aspect that you may need to run text messaging platform successfully, including the billing operations. It offers integration with comprehensive billing system that would automate the billing and invoicing part of your SMS platform."
+        }
+      ],
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-data.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      },
+      "buttons": [
+        {
+          "text": "Learn more   ➜",
+          "type": "PAGE",
+          "link": "/smsplus/billing-system-integration/",
+          "variant": "links.normal"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Tools",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "MumaraSMS+ offers bunch of tools to help you well-tune your text messaging platform and flawlessly manage the operations. Tools that can help you take required security measures, keep the list of global mobile carriers updated and add multiple languages."
+        }
+      ],
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-dna.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      },
+      "buttons": [
+        {
+          "text": "Learn more   ➜",
+          "type": "PAGE",
+          "link": "/smsplus/tools/",
+          "variant": "links.normal"
+        }
+      ]
+    }
+  ]
+}

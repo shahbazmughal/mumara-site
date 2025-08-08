@@ -1,66 +1,37 @@
-import icon from '../../assets/placeholder.svg'
 import image from '../../assets/placeholder.jpg'
 
 const placeholderImage = {
   isPlaceholder: true,
-  objectFit: 'none',
+  objectfit: 'none',
   medium: {
     src: image,
-    maxWidth: 500,
+    maxWidth: 600,
     aspectRatio: 1,
     sizes: '',
     srcSet: ''
+  },
+  large: {
+    fontSize:`6rem`,
+    lineHeight:1
   }
 }
 
 export default {
   text: [
-    { text: 'KICKER TEXT', variant: 'h4' },
-    { text: 'Title Text', variant: 'h2' },
-    { text: 'First placeholder for description text.', variant: 'medium' },
-    { text: 'Second placeholder for description text.', variant: 'medium' }
+    { text: 'NOT FOUND', variant: 'h4' },
+    { text: '404', variant: 'h1' },
+    { text: 'Page not found.', variant: 'medium' },
+    { text: 'The page you were looking for doesn`t exist.', variant: 'small' }
   ],
   images: [
     {
       src: placeholderImage
     }
   ],
-  collection: [
-    {
-      text: [{ text: 'Text Content No.1' }, { text: 'Text Content No.2' }],
-      description: 'Lorem ipsum dolor sit amet, dopi se contetur adicing elit.',
-      icon: {
-        src: icon,
-        color: '#667eea',
-        bg: 'transparent'
-      }
-    },
-    {
-      text: [{ text: 'Text Content No.1' }, { text: 'Text Content No.2' }],
-      description: 'Lorem ipsum dolor sit amet, dopi se contetur adicing elit.',
-      icon: {
-        src: icon,
-        color: '#667eea',
-        bg: 'transparent'
-      }
-    },
-    {
-      text: [{ text: 'Text Content No.1' }, { text: 'Text Content No.2' }],
-      description: 'Lorem ipsum dolor sit amet, dopi se contetur adicing elit.',
-      icon: {
-        src: icon,
-        color: '#667eea',
-        bg: 'transparent'
-      }
-    }
-  ],
   buttons: [
     {
-      text: 'Button One',
-      link: '/'
-    },
-    {
-      text: 'Button Two',
+      text: 'Go to Home',
+      type: "PAGE",
       link: '/'
     }
   ]

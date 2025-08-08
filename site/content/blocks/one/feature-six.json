@@ -1,0 +1,38 @@
+{
+  "text": [
+    {
+      "text": "Get into the **Client’s DNA**",
+      "variant": "h2"
+    },
+    {
+      "text": "So your client wants you to play catch with them? Hardball them with Mumara ONE’s Personalized Marketing toolkit. Play with the client’s sweet spot. Tap deep into their cognitive makeup.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../assets/flexiblocks/one/feature-six.jpg",
+      "alt": "client DNA",
+      "radius": "lg"
+    },
+    {
+      "src": "../../assets/flexiblocks/one/feature-two-overlay.png",
+      "alt": "clients",
+      "radius": "lg",
+      "shadow": "default",
+      "effects": ["fadeInRight", "float"],
+      "position": {
+        "top": "60%",
+        "left": "-5%"
+      }
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Explore",
+      "type": "PAGE",
+      "link": "/one/features/#personalized-marketing",
+      "variant": "primary-light"
+    }
+  ]
+}

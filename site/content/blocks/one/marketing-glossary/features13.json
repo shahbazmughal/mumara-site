@@ -1,0 +1,14 @@
+{
+  "text": [
+    {
+      "text": "CTR (click-through-rate)",
+      "variant": "h3"
+    },
+    {
+      "text": "The number of people who click or tap on the links in your email contributes to the click-through-rate."
+    }
+  ],
+  "padding": [
+    {"text": "90px"}
+  ]
+}

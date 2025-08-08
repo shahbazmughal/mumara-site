@@ -1,0 +1,79 @@
+{
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "“Greatest mailing app you’ll ever need! Drip/trigger functions are amazing. Superb support. Hands down the best mailing app I ever used.”",
+          "color": "omegaDarker",
+          "color": "white"
+        },
+        {
+          "text": "Zito Cladren",
+          "variant": "h4",
+          "color": "white"
+        },
+        {
+          "text": "Jordan and Zito Law Firm",
+          "variant": "h6",
+          "color": "white"
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../assets/flexiblocks/one/testimonials/1.png",
+          "alt": "Zito Cladren"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "“I tried several email marketing services before and, hands down, “Mumara” was the one for me. Since I started using “Mumara” my open rate improved by 300%. The benefits are crystal; I put things on autopilot and never have to look at them again. The list grows, the functionality works, and the process does exactly what it’s designed to do… set it and forget it.”",
+          "color": "omegaDarker",
+          "color": "white"
+        },
+        {
+          "text": "Mumara’s",
+          "variant": "h4",
+          "color": "white"
+        },
+        {
+          "text": "Top 3rd Mailer",
+          "variant": "h6",
+          "color": "white"
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../assets/flexiblocks/one/testimonials/2.png",
+          "alt": "Top 3rd Mailer"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "“We have been using Mumara since it was first launched and can honestly say it is the most sophisticated, powerful and intuitive email marketing platform available. It really puts the so-called “industry standard” mailing systems to shame with its sheer array of power and features.”",
+          "color": "omegaDarker",
+          "color": "white"
+        },
+        {
+          "text": "Pete Anderson",
+          "variant": "h4",
+          "color": "white"
+        },
+        {
+          "text": "Among Top 10 Mailers of Mumara",
+          "variant": "h6",
+          "color": "white"
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../assets/flexiblocks/one/testimonials/3.png",
+          "alt": "Pete Anderson"
+        }
+      ]
+    }
+  ]
+}

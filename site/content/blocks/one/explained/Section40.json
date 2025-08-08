@@ -1,0 +1,64 @@
+{
+  "text": [
+    {
+      "text": "Mumara One Enables You to View and Evaluate the Stats for the Sent Broadcasts",
+      "variant": "h2"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/flexiblocks/homepage/oneSale_images/svg/Subscriptions-pana1.svg",
+      "alt": "alt text"
+    }
+  ],
+  "collection": [
+    {
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+        "color": "#0c6e65"
+      },
+      "text": [
+        {
+          "text": "Get complete Broadcast and Trigger stats.",
+          "variant": "h5"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+        "color": "#0c6e65"
+      },
+      "text": [
+        {
+          "text": "Learn the location where your Email is opened or clicked.",
+          "variant": "h5"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+        "color": "#0c6e65"
+      },
+      "text": [
+        {
+          "text": "Evaluate which ISP is most promising in terms of open rate, and which one ranks low to fix the delivery issues",
+          "variant": "h5"
+        }
+      ]
+    },
+    {
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-check-circle.svg",
+        "color": "#0c6e65"
+      },
+      "text": [
+        {
+          "text": "Get the full stats of your email broadcasts and keep yourself updated about how many emails were successfully sent, delivered, opened, clicked, delayed, failed, or complaints",
+          "variant": "h5"
+        }
+      ]
+    }
+  ]
+}

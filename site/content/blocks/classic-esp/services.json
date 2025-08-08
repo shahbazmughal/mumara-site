@@ -1,0 +1,79 @@
+{
+  "collection": [
+    {
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-user-voice.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      },
+      "text": [
+        {
+          "text": "Client Portal",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Offer your client a feature rich platform to kick start the email marketing journey. MumaraESP separately maintains a client portal, where registered client accounts would use their login credentials to log into the portal. The client side offers extensive list of features for contact list management and email marketing automation."
+        }
+      ],
+      "buttons": [
+        {
+          "text": "Learn more   ➜",
+          "type": "PAGE",
+          "link": "/classic-esp/client-portal/",
+          "variant": "links.normal"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "White Label Sending",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Clients registered with MumaraESP can setup their accounts for white label sending. White label sending would enable the client account to setup its own domain for sending, as well as a bounce to mailbox to collect bounce notifications. The process of white labeling the client account is well-knitted within a step by step wizard to complete."
+        }
+      ],
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-comment-detail.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      },
+      "buttons": [
+        {
+          "text": "Learn more   ➜",
+          "type": "PAGE",
+          "link": "/classic-esp/white-label-sending/",
+          "variant": "links.normal"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "Admin Management Tools",
+          "color": "omegaDarker",
+          "variant": "h4"
+        },
+        {
+          "text": "Set of tools and settings to effectively control, present, manage the application and monitor the email stream. Make use of white labeling function to private label the application, effectively manage the parental controls/settings and make use of support agent account for uninterrupted support to your clients and proactive monitoring of email stream."
+        }
+      ],
+      "icon": {
+        "src": "../../assets/flexiblocks/icons/bx-dna.svg",
+        "bg": "omegaLighter",
+        "color": "alpha"
+      },
+      "buttons": [
+        {
+          "text": "Learn more   ➜",
+          "type": "PAGE",
+          "link": "/classic-esp/admin-management-tools/",
+          "variant": "links.normal"
+        }
+      ]
+    }
+  ]
+}

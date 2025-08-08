@@ -1,0 +1,133 @@
+{
+  "collection": [
+    {
+      "buttons": [
+        {
+          "text": "SMS plus",
+          "type": "PAGE",
+          "link": "/smsplus",
+          "variant": "links.nav-dark"
+        },
+        {
+          "text": "Features",
+          "type": "SUB",
+          "variant": "links.nav-dark",
+          "buttons": [
+            {
+              "text": "Adminstrative Control",
+              "type": "PAGE",
+              "link": "/smsplus/adminstrative-control/",
+              "variant": "links.nav-dark",
+              "icon": {
+                "src": "../../assets/flexiblocks/icons/bx-mobile-alt.svg",
+                "color": "#0e997e"
+              }
+            },
+            {
+              "text": "Priority Zones",
+              "type": "PAGE",
+              "link": "/smsplus/priority-zones",
+              "variant": "links.nav-dark",
+              "icon": {
+                "src": "../../assets/flexiblocks/icons/bx-mobile-alt.svg",
+                "color": "#0e997e"
+              }
+            },
+            {
+              "text": "Validation Module",
+              "type": "PAGE",
+              "link": "/smsplus/validation-module/",
+              "variant": "links.nav-dark",
+              "icon": {
+                "src": "../../assets/flexiblocks/icons/bx-mobile-alt.svg",
+                "color": "#0e997e"
+              }
+            },
+            {
+              "text": "Client Management",
+              "type": "PAGE",
+              "link": "/smsplus/client-management/",
+              "variant": "links.nav-dark",
+              "icon": {
+                "src": "../../assets/flexiblocks/icons/bx-mobile-alt.svg",
+                "color": "#0e997e"
+              }
+            },
+            {
+              "text": "Fully Featured Client Panel",
+              "type": "PAGE",
+              "link": "/smsplus/fully-featured-client-panel/",
+              "variant": "links.nav-dark",
+              "icon": {
+                "src": "../../assets/flexiblocks/icons/bx-mobile-alt.svg",
+                "color": "#0e997e"
+              }
+            },
+            {
+              "text": "Packages and Pricing Plans",
+              "type": "PAGE",
+              "link": "/smsplus/packages-and-pricing-plans/",
+              "variant": "links.nav-dark",
+              "icon": {
+                "src": "../../assets/flexiblocks/icons/bx-mobile-alt.svg",
+                "color": "#0e997e"
+              }
+            },
+            {
+              "text": "Multi-Gateway Integration",
+              "type": "PAGE",
+              "link": "/smsplus/multi-gateway-integration/",
+              "variant": "links.nav-dark",
+              "icon": {
+                "src": "../../assets/flexiblocks/icons/bx-mobile-alt.svg",
+                "color": "#0e997e"
+              }
+            },
+            {
+              "text": "Admin Staff Management",
+              "type": "PAGE",
+              "link": "/smsplus/admin-staff-management/",
+              "variant": "links.nav-dark",
+              "icon": {
+                "src": "../../assets/flexiblocks/icons/bx-mobile-alt.svg",
+                "color": "#0e997e"
+              }
+            },
+            {
+              "text": "Billing Integration",
+              "type": "PAGE",
+              "link": "/smsplus/billing-system-integration/",
+              "variant": "links.nav-dark",
+              "icon": {
+                "src": "../../assets/flexiblocks/icons/bx-mobile-alt.svg",
+                "color": "#0e997e"
+              }
+            },
+            {
+              "text": "Tools",
+              "type": "PAGE",
+              "link": "/smsplus/tools/",
+              "variant": "links.nav-dark",
+              "icon": {
+                "src": "../../assets/flexiblocks/icons/bx-mobile-alt.svg",
+                "color": "#0e997e"
+              }
+            }
+          ]
+        },
+        {
+          "text": "Pricing",
+          "type": "PAGE",
+          "link": "/smsplus/pricing/",
+          "variant": "links.nav-dark"
+        },
+        {
+          "text": "Free Trial",
+          "type": "PAGE",
+          "link": "/smsplus/pricing/",
+          "variant": "links.nav-dark"
+        }
+      ]
+    }
+  ]
+}

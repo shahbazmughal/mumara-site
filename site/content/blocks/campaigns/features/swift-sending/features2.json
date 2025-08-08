@@ -1,0 +1,20 @@
+{
+  "text": [
+    {
+      "text": "**Custom tracking domains** to brand your hyperlinks",
+      "variant": "h2"
+    },
+    {
+      "text": "Upgrade your online appearance by replacing the hyperlinks and image links in your emails with your own tracking domains that can be the subdomains of your sending domains.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../../assets/flexiblocks/campaigns/features/swift-mask.png",
+      "radius": "lg",
+      "alt": "Organized",
+      "effects": ["fadeInLeft", "float"]
+    }
+  ]
+}

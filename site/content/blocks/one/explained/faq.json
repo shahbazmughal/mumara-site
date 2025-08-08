@@ -1,0 +1,121 @@
+{
+  "text": [
+    {
+      "text": "NEED ANSWERS? WE GOT’EM",
+      "variant": "h6",
+      "color": "#ffd34a"
+    },
+    {
+      "text": "Frequently Asked Questions",
+      "variant": "h2",
+      "color": "#ffffff"
+    }
+  ],
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "What is Mumara One?",
+          "variant": "h5"
+        },
+        {
+          "text": "Mumara One is an email marketing automation system that enables businesses and marketers to easily design and send emails to the audience. Our easy-to-use interface is tremendously helpful for the users, and intelligent infrastructure sophisticatedly handles the transactional processes so you don’t have to put much effort into nurturing the leads. You can use ready-made landing pages and web forms to use instantly boost your sales and mailing list."
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-chat.svg",
+        "color": "#ffd34a"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Will My Sales Hike Due to an Email Marketing Campaign?",
+          "variant": "h5"
+        },
+        {
+          "text": "Email marketing is a tested channel that can surely hike sales. It inspires the audience in the one-on-one communication process – compelling them to invest money in your brand. It gives you a tremendous return on investment of $42 for every $1 spent. Mumara One gives you an all-in-one solution for your marketing automation obstructions the way you idealize."
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-chat.svg",
+        "color": "#ffd34a"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Can I Change My Plan on Mumara One?",
+          "variant": "h5"
+        },
+        {
+          "text": "Yes, you can change/upgrade your current plan according to your requirements, whenever you want. Simply navigate to Subscription and change your plan under Mumara One Pricing Plan."
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-chat.svg",
+        "color": "#ffd34a"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "How Do I Grow My Email Subscriber List?",
+          "variant": "h5"
+        },
+        {
+          "text": "We offer a pre-made subscription form ready to use to grow your healthy email list. We don’t believe in buying mailing lists because most of them do not subscribe to receive emails from you. Select a beautifully designed subscription/web form to get more interested users."
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-chat.svg",
+        "color": "#ffd34a"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Do I Need an SMTP to Send Emails?",
+          "variant": "h5"
+        },
+        {
+          "text": "Yes, you need at least one SMTP account or an integrated ESP account to send your emails."
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-chat.svg",
+        "color": "#ffd34a"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Can I Cancel My Subscription?",
+          "variant": "h5"
+        },
+        {
+          "text": "Yes, you can cancel your subscription at any time before your next billing date."
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-chat.svg",
+        "color": "#ffd34a"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "Can I Track User Activity on My Website?",
+          "variant": "h5"
+        },
+        {
+          "text": "Mumara One has made it easy for you to track the movement of your user on your website through tracking pixels. Track the visitor’s movement on the pages he visits and the abandoned shipping carts. After tracking the movement, you can send emails to narrow down the checkout process."
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-chat.svg",
+        "color": "#ffd34a"
+      }
+    }
+  ]
+}

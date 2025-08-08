@@ -1,0 +1,18 @@
+#team {
+    position: relative;
+    overflow: hidden;
+}
+#team .gatsby-image-wrapper img {
+    height: 100%;
+}
+@media (max-width:767px) {
+    #team .gatsby-image-wrapper img {
+        height: 55vh;
+    }
+}
+.classic-featuresBlk.sms-features-main #cl_features h2 {
+    font-size: 3rem;
+}
+.innerpage-heroblock.sms-inner {
+    padding-top: 160px;
+}

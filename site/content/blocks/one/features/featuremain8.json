@@ -1,0 +1,70 @@
+{
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "",
+          "color": "alphaDark"
+        },
+        {
+          "text": "Branded Emails",
+          "color": "omegaDarker",
+          "variant": "h3"
+        },
+        {
+          "text": "Give your emails the branded sass it needs. Mumara lets you brand your emails and customise the sending domain to give you that chic look that any premium business deserves."
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../assets/flexiblocks/one/features/mask.jpg",
+          "alt": "Branded Emails"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "",
+          "color": "alphaDark"
+        },
+        {
+          "text": "Flexibility",
+          "color": "omegaDarker",
+          "variant": "h3"
+        },
+        {
+          "text": "Make emails much more impactful by preparing the content accordingly. Add Dynamic Content Tags, Personalization and more to make them amazing, special and heartfelt."
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../assets/flexiblocks/one/features/flexibilty.jpg",
+          "alt": "Flexibility"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
+          "text": "",
+          "color": "alphaDark"
+        },
+        {
+          "text": "Custom Email Headers",
+          "color": "omegaDarker",
+          "variant": "h3"
+        },
+        {
+          "text": "Headers can send tracking systems to your contacts with your emails. To extract juicy intelligence use the Custom Email Headers. Know what each recipient is upto."
+        }
+      ],
+      "images": [
+        {
+          "src": "../../../assets/flexiblocks/one/features/custom-head.jpg",
+          "alt": "Custom Email Headers"
+        }
+      ]
+    }
+  ]
+}

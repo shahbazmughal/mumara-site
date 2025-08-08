@@ -1,0 +1,47 @@
+{
+  "text": [
+    {
+      "text": "Solution For Variety Of Industries",
+      "color": "omegaDarker",
+      "variant": "h2"
+    },
+    {
+      "text": "To grow your business you need to sell more and sell to more. And since text engagement campaigns are relevant for every industry and business of every size from startup saloon to large corporates, it can help you make certain of both the ways of business growth. First, by engaging the existing customers to sell more, and second by reaching out new markets and prospects to sell it to more. Whether you are planning to send a text offers, or your application triggers notifications, alerts or reminders for customers/ partners, we have got a solution for you. It is easy to use on its marketing side, and adaptable on the transactional messaging side. Our platform is flexible to integrate across variety of industries. Moreover! If you are interested in custom development tailored according to your specific requirements.",
+      "color": "omegaDark",
+      "variant": "medium"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Contact us",
+      "type": "PAGE",
+      "link": "/contact-us",
+      "variant":"links.nav-dark"
+    }
+  ],
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "Easy GUI and Spontaneous Processes",
+          "variant": "h5"
+        },
+        {
+          "text": "Our endeavor is all about providing you an effortless experience of sending and scaling text engagement campaigns. So that you concentrate on your goals, marketing strategies and business growth, while MumaraSMS takes care of the rest."
+        },
+        {
+          "text": "It takes zero technical effort on your side to write a success story through text offers and SMS marketing. Every element on GUI is easily navigable and all processes are well-knitted even for a layman to understand and kick start successful text marketing. You are moreover supported by short helping texts on every step you perform, and detailed knowledgebase about the features you operate with."
+        }
+      ]
+    },
+    {
+      "images": [
+        {
+          "src": "../../../assets/flexiblocks/sms/mumara-client.jpg",
+          "alt": "SMS Features",
+          "effects": ["fadeInLeft"]
+        }
+      ]
+    }
+  ]
+}
