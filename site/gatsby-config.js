@@ -15,7 +15,12 @@ module.exports = {
   plugins: [
     {
       resolve: `gatsby-source-strapi`,
-      options: strapiConfig,
+      options: {
+        apiURL: "https://strapi5-dev-jt.mumara.com", // <-- Check this URL carefully
+        // accessToken: "YOUR_STRAPI_TOKEN", // optional
+        collectionTypes: ["homehero", "clintlogo", "featureone", "highlightedfeature", "whychooseus", "featuretwo", "stat", "strategie", "download", "testimonial", "getstarted", "blog", "saashero", "saasstrategie", "saasfeaturetabone", "saasfeaturetabtwo", "pricing", "saasv2featureone", "saasv2featuretwo", "saasv2featurethree", "tab", "saasv2screenshort", "saasv2feature", "process", "faq", "fintechfeature", "fintchfeatureone", "fintchfeaturetwo", "fintchwhychooseus", "featurethreemore", "mobilehero", "mobilefeatureone", "mobilefeaturetwo", "mobilefeaturethree", "markeeetingfeature", "pricing03testmonial", "aboutusone", "aboutusoneteam", "aboutustwostrategie", "servicesonehero", "servicesonefeature", "servicesonecalltoaction", "servicestwohome", "servicestwoservice", "servicesjoincompanie", "servicestwophoto", "servicesthreeblog", "servicesthreecontent", "base", "seomain", "seometa"],
+      singleTypes: ["footer", "header"],
+      },
     },
     {
       resolve: '@elegantstack/gatsby-theme-flexiblocks',
