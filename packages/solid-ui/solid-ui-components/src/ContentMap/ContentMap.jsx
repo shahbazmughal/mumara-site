@@ -15,7 +15,7 @@ const MapMarker = ({ lat, lng }) => (
 const GoogleMap = ({ content, lat, lng, zoom }) => (
   <GoogleMapReact
     bootstrapURLKeys={{
-      key: process.env.GATSBY_GOOGLE_MAP_KEY
+      key: "6df6s4df6sd45f4sd6f4s6d4f6sd4f6sd"
     }}
     defaultCenter={{
       lat: content.lat || lat,

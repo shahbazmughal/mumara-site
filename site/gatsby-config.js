@@ -1,9 +1,8 @@
 // 👇 Disable TLS error (for self-signed certs, dev only)
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 
-
 // ✅ Get API URL from env
-const STRAPI_API_URL = process.env.GATSBY_STRAPI_API_URL || "https://strapi5-dev-jt.mumara.com";
+const STRAPI_API_URL = "https://strapi5-dev-jt.mumara.com";
 
 const strapiConfig = {
   apiURL: STRAPI_API_URL,
