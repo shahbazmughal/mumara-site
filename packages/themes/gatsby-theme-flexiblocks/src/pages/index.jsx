@@ -2,51 +2,39 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import { Container } from 'theme-ui'
 import Layout from '@solid-ui-layout/Layout'
-import Seo from '@solid-ui-components/Seo'
+import Hero from '@solid-ui-blocks/Hero/Block01'
 import Divider from '@solid-ui-components/Divider'
-import Demos from '@solid-ui-blocks/Gallery/Block01'
-import Brand from '@solid-ui-blocks/FeaturesWithPhoto/Block03'
-import PoweredByGatsby from '@solid-ui-components/PoweredByGatsby'
+import ModalWithTabs from '@solid-ui-blocks/Modal/Block01'
+import ModalSimple from '@solid-ui-blocks/Modal/Block02'
+import Header from '@solid-ui-blocks/Header/Block01'
+import Footer from '@solid-ui-blocks/Footer/Block01'
+import Pricing from '@solid-ui-blocks/Pricing/Block02'
+import Testimonials from '@solid-ui-blocks/Testimonials/Block04'
+import Faq from '@solid-ui-blocks/Faq/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 
-const styles = {
-  poweredByContainer: {
-    textAlign: `center`,
-    fontSize: 4,
-    'a > svg': {
-      height: 35
-    }
-  }
-}
-
-const HomePage = props => {
-  const { allBlockContent } = props.data
-  const content = normalizeBlockContentNodes(allBlockContent?.nodes)
+const Pricing03 = props => {
 
   return (
     <Layout {...props}>
-      <Seo title='Home' />
-      <Divider space='5' />
-      <Brand content={content['brand']} />
-      <Divider space='3' />
-      <Container sx={styles.poweredByContainer}>
-        <PoweredByGatsby />
-      </Container>
-      <Divider space='4' />
-      <Demos content={content['demos']} />
+      {/* Modals */}
+      {/* <ModalWithTabs content={content['authentication']} reverse />
+      <ModalWithTabs content={content['contact']} />
+      <ModalSimple content={content['advertisement']} /> */}
+      {/* Blocks */}
       <Divider space='6' />
+      <Hero />
+      <Divider space='6' />
+      <Pricing />
+      <Divider space='5' />
+      <Container variant='narrow'>
+        <Testimonials />
+        <Divider space='5' />
+        <Faq />
+      </Container>
+      <Divider space='5' />
+      <Footer />
     </Layout>
   )
 }
-
-export const query = graphql`
-  query miscIndexBlockContent {
-    allBlockContent(filter: { page: { in: ["demos"] } }) {
-      nodes {
-        ...BlockContent
-      }
-    }
-  }
-`
-
-export default HomePage
+export default Pricing03
