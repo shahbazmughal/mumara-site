@@ -97,34 +97,7 @@ const ColorMode = () => {
 
   return (
     <Box sx={styles.wrapper}>
-      <Box
-        sx={{
-          ...styles.items,
-          ...(open && styles.items.open),
-          ...(open && { maxHeight: modeNames.length * 40 + 50 })
-        }}
-      >
-        {modeNames.map((mode, index) => (
-          <Box
-            key={`item-${index}`}
-            sx={styles.item}
-            title={mode}
-            onClick={() => handleChange(mode)}
-          >
-            <Box bg={modes[mode].alphaLight}></Box>
-            <Box bg={modes[mode].alpha}></Box>
-            <Box bg={modes[mode].beta}></Box>
-            <Box bg={modes[mode].betaLight}></Box>
-          </Box>
-        ))}
-        <Box sx={styles.close} onClick={handleToggle}>
-          <FaChevronDown size={20} />
-        </Box>
-      </Box>
-      <Box sx={styles.button} onClick={handleToggle}>
-        <MdInvertColors size={26} />
-        <span>Colors</span>
-      </Box>
+      
     </Box>
   )
 }

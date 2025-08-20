@@ -1,79 +1,89 @@
-import React from 'react'
-import { Container, Flex, Box, css } from 'theme-ui'
-import ContentText from '@solid-ui-components/ContentText'
-import Reveal from '@solid-ui-components/Reveal'
-import Divider from '@solid-ui-components/Divider'
-import ContentImages from '@solid-ui-components/ContentImages'
-import QuickSignupForm from '@solid-ui-components/QuickSignupForm'
-import ContentButtons from '@solid-ui-components/ContentButtons'
-import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
+import React from 'react';
+import { graphql, useStaticQuery } from 'gatsby';
+import { Container, Flex, Box } from 'theme-ui';
+import ContentText from '@solid-ui-components/ContentText';
+import Reveal from '@solid-ui-components/Reveal';
+import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent';
 
-const HeroBlock01 = ({
-  content: { text = [], images, buttons, form },
-  reverse
-}) => (
+const STRAPI_BASE_URL = process.env.GATSBY_STRAPI_API_URL;
+const normalizeUrl = (url) =>
+ url?.startsWith('http') ? url : `${STRAPI_BASE_URL}${url}`;
+
+const HeroBlock01 = () => {
+ const data = useStaticQuery(graphql`
+  query {
+   strapiHero {
+    heading
+    description
+    image {
+     url
+    }
+   }
+  }
+ `);
+
+ const { heading, description, image } = data.strapiHero;
+ const mainImageUrl = normalizeUrl(image?.url);
+
+ const titleContent = [
+  { type: 'heading', text: heading, as: 'h2', color: '#2d3748' },
+ ];
+
+ const descriptionContent = [
+  { type: 'text', text: description, color: '#718096' },
+ ];
+
+ return (
   <Container>
-    <Flex
-      sx={{
-        alignItems: [null, null, null, `center`],
-        flexDirection: [
-          reverse ? `column-reverse` : `column`,
-          null,
-          null,
-          reverse ? `row-reverse` : `row`
-        ]
-      }}
+   <Flex
+    sx={{
+     alignItems: ['center', null, null, 'center'],
+     flexDirection: ['column', null, null, 'row'],
+    }}
+   >
+    {/* Left Side Content */}
+    <Box
+     sx={{
+      textAlign: ['center', null, 'left'],
+      mx: ['auto', null, 0],
+      flexBasis: ['100%', null, null, '90%'], // Increased width for larger screens
+      pr: [0, null, 4]
+     }}
     >
-      <Box
-        sx={{
-          flexBasis: [null, null, null, `3/5`],
-          [reverse ? 'ml' : 'mr']: [null, null, null, 5],
-          position: `relative`,
-          textAlign: `center`
-        }}
-      >
-        <ContentImages
-          content={{ images }}
-          loading='eager'
-          reverse={reverse}
-          imagePosition='center'
-        />
+     <Reveal effect="fadeInDown" delay={0.1}>
+      <Box sx={{ maxWidth: ['100%', '95%'], fontSize: [2, 3, 4], lineHeight: 1.5 }}>
+       <ContentText content={titleContent} />
       </Box>
-      <Box
-        sx={{
-          flexBasis: `2/5`,
-          textAlign: [`center`, null, null, `left`]
-        }}
-      >
-        <Reveal effect='fadeInDown'>
-          <ContentText content={text} />
-        </Reveal>
-        {buttons && (
-          <Reveal
-            effect='fadeInRight'
-            delay={1}
-            css={css({ mb: [4, null, null, 0] })}
-          >
-            {buttons && (
-              <>
-                <Divider space={3} />
-                <ContentButtons content={buttons} />
-              </>
-            )}
-          </Reveal>
-        )}
-        {form && (
-          <Reveal
-            effect='fadeInRight'
-            delay={1}
-            css={css({ mb: [4, null, null, 0] })}
-          >
-            <QuickSignupForm {...form} space={3} />
-          </Reveal>
-        )}
+     </Reveal>
+     <Reveal effect="fadeInDown" delay={0.2}>
+      <Box sx={{ maxWidth: ['100%', '95%'], fontSize: [1, 2, 3], mt: 3 }}>
+       <ContentText content={descriptionContent} />
       </Box>
-    </Flex>
-  </Container>
-)
+     </Reveal>
+    </Box>
 
-export default WithDefaultContent(HeroBlock01)
+    {/* Right Side Image */}
+    <Box
+     sx={{
+      flexBasis: ['100%', null, null, '30%'], // Decreased width for larger screens
+      position: 'relative',
+      textAlign: 'center',
+      mt: [4, null, null, 0],
+     }}
+    >
+     {mainImageUrl ? (
+      <img
+       src={mainImageUrl}
+       alt="Hero Image"
+       style={{ maxWidth: '100%', height: 'auto', display: 'block' }}
+      />
+     ) : (
+      <p>No image available</p>
+     )}
+    </Box>
+   </Flex>
+  </Container>
+ );
+};
+
+export default WithDefaultContent(HeroBlock01);

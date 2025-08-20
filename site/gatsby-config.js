@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+});
+
 // 👇 Disable TLS error (for self-signed certs, dev only)
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 
