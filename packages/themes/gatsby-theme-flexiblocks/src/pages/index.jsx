@@ -6,11 +6,12 @@ import Divider from '@solid-ui-components/Divider'
 import ModalWithTabs from '@solid-ui-blocks/Modal/Block01'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
+// import Tabs from '@solid-ui-components/Tabs1'
 import Tabs from '@solid-ui-components/Tabs'
 import Hero from '@solid-ui-blocks/Hero/Block01'
 import Pricing from '@solid-ui-blocks/Pricing/Block01'
+import Pricingone from '@solid-ui-blocks/Pricingone/Block01'
 import Services from '@solid-ui-blocks/Features/Block05'
-import FeatureOne from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import WhyChooseUs from '@solid-ui-blocks/Features/Block01'
 import FeatureTwo from '@solid-ui-blocks/FeaturesWithPhoto/Block02'
 import Strategies from '@solid-ui-blocks/Stats/Block01'
@@ -38,10 +39,16 @@ const IndexPage = props => {
         <Hero />
       </Container>
       <Divider space='5' />
-      <Container variant='wide' sx={styles.tabsContainer}>
+      {/* <Container variant='wide' sx={styles.tabsContainer}>
         <Tabs space={4} variant='pill'>
           <Pricing />
           <Pricing />
+        </Tabs>
+      </Container> */}
+      <Container variant='wide' sx={styles.tabsContainer}>
+        <Tabs space={4} variant='pill'>
+          <Pricing />
+          <Pricingone />
         </Tabs>
       </Container>
       <Divider space='5' />
@@ -49,7 +56,6 @@ const IndexPage = props => {
       <Services />
       <Divider space='5' />
       <Divider space='5' />
-      <FeatureOne />
       <Divider space='5' />
       <Divider space='5' />
       <Container variant='wide' sx={styles.whyChooseUsContainer}>

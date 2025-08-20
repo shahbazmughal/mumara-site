@@ -12,7 +12,7 @@ export default {
       fontWeight: `medium`,
       cursor: `pointer`,
       transition: `all 400ms ease`,
-      color: `omegaDark`, // Text color for unselected tabs
+      color: `omegaDark`,
       borderBottomColor: `omegaLight`,
       borderBottomWidth: `md`,
       borderBottomStyle: `solid`,
@@ -20,23 +20,14 @@ export default {
       px: 4,
       pb: 3,
       m: 0,
-      ':not(.tabs_selectedTab)': {
-        color: `omegaDark`, // Explicitly set text color for unselected tabs
-      },
       ':not(.tabs_selectedTab):hover': {
         color: `omegaDarker`,
         borderBottomColor: `omegaDarker`
       }
     },
-    '.tabs_selectedTab:nth-child(1)': {
-      color: `white`, 
-      borderBottomColor: `alpha`, 
-      backgroundColor: `alpha` 
-    },
-    '.tabs_selectedTab:nth-child(2)': {
-      color: `white`, 
-      borderBottomColor: `green`, 
-      backgroundColor: `green`
+    '.tabs_selectedTab': {
+      color: `alpha`,
+      borderBottomColor: `alpha`
     },
     '.react-tabs__tab-panel:not([class$="--selected"])': {
       display: `none`
@@ -59,23 +50,17 @@ export default {
       cursor: `pointer`,
       transition: `all 400ms ease`,
       bg: `white`,
-      color: `alpha`, // Default text color for unselected tabs
+      color: `alpha`,
       boxShadow: `0 0 35px rgba(140,152,164,.2)`,
       outline: `none`,
       px: 4,
       py: 3,
       m: 0,
-      ':not(.tabs_selectedTab)': {
-        color: `alpha`, // Text color for first unselected tab
-      },
-      ':not(.tabs_selectedTab):nth-child(2)': {
-        color: `rgb(48, 129, 242)`,
-      },
       ':last-of-type': {
         borderRadius: t => `0 ${t.radii.xl} ${t.radii.xl} 0`
       },
       ':first-of-type': {
-        borderRadius: t => `${t.radii.xl} 0 0 ${t.radii.xl}`
+        borderRadius: t => `${t.radii.xl}  0 0 ${t.radii.xl}`
       },
       ':not(.tabs_selectedTab):hover': {
         bg: `omegaDark`,
@@ -85,12 +70,8 @@ export default {
     '.tabs_tab + .tabs_tab': {
       ml: `1px`
     },
-    '.tabs_selectedTab:nth-child(1)': {
+    '.tabs_selectedTab': {
       bg: `alpha`,
-      color: `white`
-    },
-    '.tabs_selectedTab:nth-child(2)': {
-      bg: `rgb(48, 129, 242)`,
       color: `white`
     }
   },
@@ -104,26 +85,18 @@ export default {
     },
     '.tabs_tab': {
       listStyle: `none`,
+      size: `14px`,
+      textIndent: `-9999px`,
       bg: `omega`,
       borderRadius: `full`,
       cursor: `pointer`,
       mx: 1,
-      color: `omegaDark`, // Text color for unselected tabs
-      ':not(.tabs_selectedTab)': {
-        color: `omegaDark`, // Explicitly set text color for unselected tabs
-      },
       ':not(.tabs_selectedTab):hover': {
-        bg: `omegaDarker`,
-        color: `white` // Optional: Text color on hover for unselected tabs
+        bg: `omegaDarker`
       }
     },
-    '.tabs_selectedTab:nth-child(1)': {
-      bg: `alpha`,
-      color: `white` // Text color for selected first tab
-    },
-    '.tabs_selectedTab:nth-child(2)': {
-      bg: `rgb(48, 129, 242)`,
-      color: `white` // Text color for selected second tab
+    '.tabs_selectedTab': {
+      bg: `alpha`
     }
   },
   arrowButton: {

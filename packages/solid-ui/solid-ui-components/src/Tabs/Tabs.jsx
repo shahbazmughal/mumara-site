@@ -1,15 +1,16 @@
-import React, { Children, useState, useEffect, useRef, useContext } from 'react'
+import React, { useState, useEffect, useRef, useContext, Children } from 'react'
 import PropTypes from 'prop-types'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 import { Box, Button } from 'theme-ui'
 import Divider from '@solid-ui-components/Divider'
 import { TabsContext } from '@solid-ui-components/Tabs'
+import { useStaticQuery, graphql } from 'gatsby'
 import styles from './styles'
 
 const StyledTabs = ({
   id,
-  tabs,
   children,
+  tabsData,
   variant,
   space,
   position,
@@ -23,27 +24,62 @@ const StyledTabs = ({
   const [tabIndex, setTabIndex] = useState(0)
   const interval = useRef(null)
 
-  const selectedIndex = id ? activeTab?.index || 0 : tabIndex
+  // GraphQL query for strapiPricingtab and strapiPricing
+  const queryData = useStaticQuery(graphql`
+    query PricingTabsQuery {
+      strapiPricingtab {
+        heading
+        description
+      }
+      strapiPricing {
+        MarketersandDevelopers {
+          planname
+          plandescription
+        }
+      }
+    }
+  `)
+
+  // Map strapiPricingtab and strapiPricing to tabs
+  const strapiTabsData = [
+    ...(queryData.strapiPricingtab
+      ? [{ heading: queryData.strapiPricingtab.heading, description: queryData.strapiPricingtab.description }]
+      : []),
+    ...(queryData.strapiPricing?.MarketersandDevelopers
+      ? Array.isArray(queryData.strapiPricing.MarketersandDevelopers)
+        ? queryData.strapiPricing.MarketersandDevelopers.map(item => ({
+            heading: item.planname,
+            description: item.plandescription
+          }))
+        : [{
+            heading: queryData.strapiPricing.MarketersandDevelopers.planname,
+            description: queryData.strapiPricing.MarketersandDevelopers.plandescription
+          }]
+      : [])
+  ]
+
+  const finalTabsData = tabsData?.length ? tabsData : strapiTabsData
   const childrenArray = Children.toArray(children)
-  const totalTabs = tabs?.length || childrenArray?.length
+
+  const isUsingStrapi = Array.isArray(finalTabsData) && finalTabsData.some(tab => !!tab?.heading)
+  const totalTabs = isUsingStrapi ? finalTabsData.length : childrenArray.length
 
   useEffect(() => {
-    interval.current =
-      autoplay &&
-      setInterval(() => {
-        setTabIndex(tabIndex => {
-          return tabIndex < totalTabs - 1 ? tabIndex + 1 : 0
-        })
+    if (autoplay && totalTabs > 1) {
+      interval.current = setInterval(() => {
+        setTabIndex(prev => (prev < totalTabs - 1 ? prev + 1 : 0))
       }, autoplayInterval)
+    }
     return () => clearInterval(interval.current)
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [])
+  }, [autoplay, autoplayInterval, totalTabs])
 
   useEffect(() => {
-    return () =>
-      id && setActiveTab(state => (state.identifier === id ? {} : state))
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [])
+    return () => {
+      if (id) {
+        setActiveTab(state => (state.identifier === id ? {} : state))
+      }
+    }
+  }, [id, setActiveTab])
 
   const handleSelect = index => {
     clearInterval(interval.current)
@@ -52,40 +88,40 @@ const StyledTabs = ({
   }
 
   const handleNext = () => {
-    setTabIndex(tabIndex => {
-      return tabIndex < totalTabs - 1 ? tabIndex + 1 : 0
-    })
+    setTabIndex(prev => (prev < totalTabs - 1 ? prev + 1 : 0))
   }
 
   const handlePrev = () => {
-    setTabIndex(tabIndex => {
-      return tabIndex !== 0 ? tabIndex - 1 : totalTabs - 1
-    })
+    setTabIndex(prev => (prev > 0 ? prev - 1 : totalTabs - 1))
   }
-
-  const customTabButtons = () =>
-    tabs.filter(Boolean).map((item, index) => (
-      <Tab key={`item-${index}`} className='tabs_tab'>
-        {item}
-      </Tab>
-    ))
-
-  const contentTabButtons = () =>
-    childrenArray.map(({ props }, index) =>
-      variant === 'dots' ? (
-        <Tab key={`item-${index}`} className='tabs_tab' />
-      ) : (
-        props?.content?.text?.[0] && (
-          <Tab key={`item-${index}`} className='tabs_tab'>
-            {props.content.text[0].text}
-          </Tab>
-        )
-      )
-    )
 
   const tabButtons = (
     <TabList className='tabs_tabList'>
-      {tabs ? customTabButtons() : contentTabButtons()}
+      {isUsingStrapi
+        ? finalTabsData.map((tab, index) => (
+            <Tab key={`tab-${index}`} className='tabs_tab'>
+              <Box>
+                <Box sx={{ fontWeight: 'bold' }}>{tab.heading || `Tab ${index + 1}`}</Box>
+                {tab.description && (
+                  <Box sx={{ mt: 1, fontSize: '0.875rem', color: 'text.secondary' }}>
+                    {tab.description}
+                  </Box>
+                )}
+              </Box>
+            </Tab>
+          ))
+        : childrenArray.map(({ props }, index) => (
+            <Tab key={`tab-${index}`} className='tabs_tab'>
+              <Box>
+                <Box sx={{ fontWeight: 'bold' }}>{props?.heading || `Tab ${index + 1}`}</Box>
+                {props?.description && (
+                  <Box sx={{ mt: 1, fontSize: '0.875rem', color: 'text.secondary' }}>
+                    {props.description}
+                  </Box>
+                )}
+              </Box>
+            </Tab>
+          ))}
     </TabList>
   )
 
@@ -93,7 +129,7 @@ const StyledTabs = ({
     <Box sx={styles[variant]}>
       <Tabs
         selectedTabClassName='tabs_selectedTab'
-        selectedIndex={selectedIndex}
+        selectedIndex={id ? activeTab?.index || 0 : tabIndex}
         onSelect={handleSelect}
       >
         {position === 'top' && (
@@ -102,11 +138,13 @@ const StyledTabs = ({
             <Divider space={space} />
           </>
         )}
-        {childrenArray.map((item, index) => (
-          <TabPanel key={`item-${index}`} forceRender={forceRender}>
-            {item}
+
+        {(isUsingStrapi ? childrenArray : childrenArray).map((child, index) => (
+          <TabPanel key={`panel-${index}`} forceRender={forceRender}>
+            {child}
           </TabPanel>
         ))}
+
         {position === 'bottom' && (
           <>
             <Divider space={space} />
@@ -114,6 +152,7 @@ const StyledTabs = ({
           </>
         )}
       </Tabs>
+
       {arrows && (
         <>
           <Button
@@ -136,8 +175,6 @@ const StyledTabs = ({
   ) : null
 }
 
-export default StyledTabs
-
 StyledTabs.defaultProps = {
   variant: 'underline',
   position: 'top',
@@ -148,6 +185,22 @@ StyledTabs.defaultProps = {
 }
 
 StyledTabs.propTypes = {
+  id: PropTypes.string,
   variant: PropTypes.oneOf(Object.keys(styles)),
-  tabs: PropTypes.array
+  children: PropTypes.node,
+  tabsData: PropTypes.arrayOf(
+    PropTypes.shape({
+      heading: PropTypes.string,
+      description: PropTypes.string
+    })
+  ),
+  space: PropTypes.number,
+  position: PropTypes.oneOf(['top', 'bottom']),
+  autoplay: PropTypes.bool,
+  autoplayInterval: PropTypes.number,
+  arrows: PropTypes.bool,
+  onChange: PropTypes.func,
+  forceRender: PropTypes.bool
 }
+
+export default StyledTabs

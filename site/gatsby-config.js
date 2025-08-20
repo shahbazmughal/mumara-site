@@ -11,7 +11,7 @@ const STRAPI_API_URL = process.env.GATSBY_STRAPI_API_URL || "https://strapi5-mum
 
 const strapiConfig = {
   apiURL: STRAPI_API_URL,
-  collectionTypes: ["hero", "feature", "pricing"],
+  collectionTypes: ["hero", "feature", "pricing", "pricingtab"],
   // singleTypes: ["footer", "header"],
 };
 
