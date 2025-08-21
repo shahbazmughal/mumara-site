@@ -66,7 +66,7 @@ const PricingBlockScroll = () => {
     }
   `);
 
-  const pricingData = data.allStrapiPricing.nodes[0];
+  const pricingData = data.allStrapiPricing.nodes[1];
   const marketersData = pricingData.MarketersandDevelopers || {};
   const sliderValues = [
     marketersData.plan1 || "1,000",
@@ -76,9 +76,7 @@ const PricingBlockScroll = () => {
     marketersData.plan5 || "100,000",
     marketersData.plan6 || "250,000",
     marketersData.plan7 || "1,000,000",
-    marketersData.plan8 || "2,500,000",
-    marketersData.plan9 || "5,000,000",
-    <span>5,000,000+</span>
+    <span>5000000+</span>
   ];
   const maxPlans = sliderValues.length;
 
@@ -201,7 +199,7 @@ const PricingBlockScroll = () => {
               backgroundColor: "#FFFFFF",
               borderRadius: "50%",
               transform: "translateX(-50%)",
-              border: "2px solid #38B2AC",
+              border: "2px solid #599df7",
               transition: "left 0.3s ease",
               "&:focus": { outline: "none", boxShadow: "0 0 0 2px #E6FFFA" },
             }}
@@ -246,11 +244,19 @@ const PricingBlockScroll = () => {
       {/* ✅ Three Cards */}
       <Flex sx={{ flexWrap: "wrap", justifyContent: "center", mx: -3 }}>
         {/* Essential Card */}
+        {/* Essential Card */}
         <Box sx={{ flex: ["auto", 1], minWidth: 320, maxWidth: 400, p: 3, ml: 0 }}>
           <Reveal effect="fadeInUp">
             <ContentContainer
               variant="cards.paper"
-              sx={{ backgroundColor: "#E6FFFA", color: "#2d3748", borderRadius: 8, p: 3 }}
+              sx={{
+                backgroundColor: "#bfe8fc",
+                color: "#2d3748",
+                borderRadius: 8,
+                p: 3,
+                opacity: selectedEssentialPlan.amount ? 1 : 0.5, 
+                pointerEvents: selectedEssentialPlan.amount ? "auto" : "none" 
+              }}
             >
               <ContentText
                 content={{ type: "heading", text: selectedEssentialPlan.heading || "Essential", as: "h2", color: "#2d3748" }}
@@ -260,36 +266,33 @@ const PricingBlockScroll = () => {
                 mb={2}
               />
               <ContentText
-                content={{ type: "heading", text: `$${selectedEssentialPlan.amount}/month` || "$175/month", as: "h2", color: "#ffffffff", backgroundColor: "#3081f2" }}
-                mb={2}
-              />
-              <ContentText
-                content={{ type: "text", text: selectedEssentialPlan.emailcredits || "20,000,000",as: "h3", color: "#333333" }}
-              />
-              <ContentText
-                content={{ type: "text", text: selectedEssentialPlan.cradittext || "Email Credits", color: "#718096" }}
+                content={{ type: "heading", text: selectedEssentialPlan.amount ? `$${selectedEssentialPlan.amount}/month` : "--", as: "h2", color: "#ffffffff", backgroundColor: "#3081f2" }}
                 mb={4}
               />
-              <Box sx={{ cursor: "pointer", "&:hover": { color: "#2d3748" } }}mb={2}>
+              <Box sx={{ cursor: "pointer", "&:hover": { color: "#2d3748" } }} mb={2}>
                 <ContentButtons
                   content={[
                     {
                       type: "button",
-                      text: selectedBusinessPlan.buttontext ,
+                      text: selectedEssentialPlan.buttontext || "Signup",
                     }
                   ]}
                 />
               </Box>
             </ContentContainer>
           </Reveal>
-        </Box>
+        </Box>      
+
 
         {/* Professional Card */}
-        <Box sx={{ flex: ["auto", 1], minWidth: 320, maxWidth: 400, p: 3 }}>
+        <Box sx={{ flex: ["auto", 1], minWidth: 320, maxWidth: 400, p: 3 ,
+          opacity: selectedProfessionalPlan.amount ? 1 : 0.5, 
+                pointerEvents: selectedProfessionalPlan.amount ? "auto" : "none" 
+        }}>
           <Reveal effect="fadeInUp">
             <ContentContainer
               variant="cards.paper"
-              sx={{ backgroundColor: "#E6FFFA", color: "#2d3748", borderRadius: 8, p: 3 }}
+              sx={{ backgroundColor: "#c7fffa", color: "#2d3748", borderRadius: 8, p: 3 }}
             >
               <ContentText
                 content={{ type: "heading", text: selectedProfessionalPlan.heading || "Professional", as: "h2", color: "#2d3748" }}
@@ -299,14 +302,7 @@ const PricingBlockScroll = () => {
                 mb={2}
               />
               <ContentText
-                content={{ type: "heading", text: `$${selectedProfessionalPlan.amount}/month` || "$8,000",  as: "h2", color: "#ffffffff", backgroundColor: "#3081f2" }}
-                mb={2}
-              />
-              <ContentText
-                content={{ type: "text", text: selectedProfessionalPlan.credits || "40,000,000", as: "h3", color: "#333333" }}
-              />
-              <ContentText
-                content={{ type: "text", text: selectedEssentialPlan.cradittext || "Email Credits", color: "#718096" }}
+                content={{ type: "heading", text: selectedProfessionalPlan.amount ? `$${selectedProfessionalPlan.amount}/month` : "--",  as: "h2", color: "#ffffffff", backgroundColor: "#3081f2" }}
                 mb={4}
               />
               <Box sx={{ cursor: "pointer", "&:hover": { color: "#2d3748" } }}mb={2}>
@@ -314,7 +310,7 @@ const PricingBlockScroll = () => {
                   content={[
                     {
                       type: "button",
-                      text: selectedBusinessPlan.buttontext ,
+                      text: selectedBusinessPlan.buttontext || "Signup",
                     }
                   ]}
                 />
@@ -324,11 +320,13 @@ const PricingBlockScroll = () => {
         </Box>
 
         {/* Business Card */}
-        <Box sx={{ flex: ["auto", 1], minWidth: 320, maxWidth: 400, p: 3 }}>
+        <Box sx={{ flex: ["auto", 1], minWidth: 320, maxWidth: 400, p: 3,
+          opacity: selectedBusinessPlan.amount ? 1 : 0.5, 
+                pointerEvents: selectedBusinessPlan.amount ? "auto" : "none" }}>
           <Reveal effect="fadeInUp">
             <ContentContainer
               variant="cards.paper"
-              sx={{ backgroundColor: "#E6FFFA", color: "#2d3748", borderRadius: 8, p: 3, position: "relative" }}
+              sx={{ backgroundColor: "#fcf7d1", color: "#2d3748", borderRadius: 8, p: 3, position: "relative" }}
             >
               <ContentText
                 content={{ type: "heading", text: selectedBusinessPlan.heading || "Business", as: "h2", color: "#2d3748" }}
@@ -338,14 +336,7 @@ const PricingBlockScroll = () => {
                 mb={2}
               />
               <ContentText
-                content={{ type: "heading", text: `$${selectedBusinessPlan.amount}/month` || "$12,500",  as: "h2", color: "#ffffffff", backgroundColor: "#3081f2"  }}
-                mb={2}
-              />
-              <ContentText
-                content={{ type: "text", text: selectedBusinessPlan.cradits || "200,000", as: "h3", color: "#333333" }}
-              />
-              <ContentText
-                content={{ type: "text", text: selectedEssentialPlan.cradittext || "Email Credits", color: "#718096" }}
+                content={{ type: "heading",text: selectedBusinessPlan.amount ? `$${selectedBusinessPlan.amount}/month` : "--",   as: "h2", color: "#ffffffff", backgroundColor: "#3081f2"  }}
                 mb={4}
               />
               <Box sx={{ cursor: "pointer", "&:hover": { color: "#2d3748" } }}mb={2}>
@@ -353,7 +344,7 @@ const PricingBlockScroll = () => {
                   content={[
                     {
                       type: "button",
-                      text: selectedBusinessPlan.buttontext ,
+                      text: selectedBusinessPlan.buttontext || "Signup",
                     }
                   ]}
                 />

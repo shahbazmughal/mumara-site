@@ -6,7 +6,6 @@ import Divider from '@solid-ui-components/Divider'
 import ModalWithTabs from '@solid-ui-blocks/Modal/Block01'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
-// import Tabs from '@solid-ui-components/Tabs1'
 import Tabs from '@solid-ui-components/Tabs'
 import Hero from '@solid-ui-blocks/Hero/Block01'
 import Pricing from '@solid-ui-blocks/Pricing/Block01'
@@ -39,12 +38,6 @@ const IndexPage = props => {
         <Hero />
       </Container>
       <Divider space='5' />
-      {/* <Container variant='wide' sx={styles.tabsContainer}>
-        <Tabs space={4} variant='pill'>
-          <Pricing />
-          <Pricing />
-        </Tabs>
-      </Container> */}
       <Container variant='wide' sx={styles.tabsContainer}>
         <Tabs space={4} variant='pill'>
           <Pricing />
