@@ -61,13 +61,6 @@ const PricingBlockScroll = () => {
             button
             buttontext
           }
-          Modal{
-            heading
-            unlimited
-            button
-            buttontext
-          }
-          Recommended
         }
       }
     }
@@ -294,9 +287,7 @@ const PricingBlockScroll = () => {
         </Box>
 
         {/* Professional Card */}
-        <Box sx={{ flex: ["auto", 1], minWidth: 320, maxWidth: 400, p: 3 ,
-          opacity: selectedProfessionalPlan.amount ? 1 : 0.5, 
-                pointerEvents: selectedProfessionalPlan.amount ? "auto" : "none" }}>
+        <Box sx={{ flex: ["auto", 1], minWidth: 320, maxWidth: 400, p: 3 ,}}>
           <Reveal effect="fadeInUp">
             <ContentContainer
               variant="cards.paper"
@@ -335,9 +326,7 @@ const PricingBlockScroll = () => {
         </Box>
 
         {/* Business Card */}
-        <Box sx={{ flex: ["auto", 1], minWidth: 320, maxWidth: 400, p: 3 ,
-          opacity: selectedBusinessPlan.amount ? 1 : 0.5, 
-                pointerEvents: selectedBusinessPlan.amount ? "auto" : "none" }}>
+        <Box sx={{ flex: ["auto", 1], minWidth: 320, maxWidth: 400, p: 3 ,}}>
           <Reveal effect="fadeInUp">
             <ContentContainer
               variant="cards.paper"
