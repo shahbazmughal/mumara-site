@@ -370,23 +370,22 @@ const PricingBlockScroll = () => {
               />
               <ContentText
                 content={{
-                  type: "text",
-                  text:
-                    selectedEssentialPlan.description ||
-                    "Empower your business with foundational email features.",
-                  color: "#718096",
-                }}
-                mb={2}
-              />
-              <ContentText
-                content={{
                   type: "heading",
                   text: selectedEssentialPlan.amount
                     ? `$${selectedEssentialPlan.amount}/month`
                     : "--",
                   as: "h2",
-                  color: "#ffffffff",
-                  backgroundColor: "#007d6c",
+                  color: "#333333",
+                }}
+                mb={2}
+              />
+              <ContentText
+                content={{
+                  type: "text",
+                  text:
+                    selectedEssentialPlan.description ||
+                    "Empower your business with foundational email features.",
+                  color: "#718096",
                 }}
                 mb={2}
               />
@@ -449,23 +448,22 @@ const PricingBlockScroll = () => {
               />
               <ContentText
                 content={{
-                  type: "text",
-                  text:
-                    selectedProfessionalPlan.description ||
-                    "Take ownership of your sending to maximize email.",
-                  color: "#718096",
-                }}
-                mb={2}
-              />
-              <ContentText
-                content={{
                   type: "heading",
                   text: selectedProfessionalPlan.amount
                     ? `$${selectedProfessionalPlan.amount}/month`
                     : "--",
                   as: "h2",
-                  color: "#ffffffff",
-                  backgroundColor: "#007d6c",
+                  color: "#333333",
+                }}
+                mb={2}
+              />
+              <ContentText
+                content={{
+                  type: "text",
+                  text:
+                    selectedProfessionalPlan.description ||
+                    "Take ownership of your sending to maximize email.",
+                  color: "#718096",
                 }}
                 mb={2}
               />
@@ -528,23 +526,22 @@ const PricingBlockScroll = () => {
               />
               <ContentText
                 content={{
-                  type: "text",
-                  text:
-                    selectedBusinessPlan.description ||
-                    "Amplify your email program with extra support.",
-                  color: "#718096",
-                }}
-                mb={2}
-              />
-              <ContentText
-                content={{
                   type: "heading",
                   text: selectedBusinessPlan.amount
                     ? `$${selectedBusinessPlan.amount}/month`
                     : "--",
                   as: "h2",
-                  color: "#ffffffff",
-                  backgroundColor: "#007d6c",
+                  color: "#333333",
+                }}
+                mb={2}
+              />
+              <ContentText
+                content={{
+                  type: "text",
+                  text:
+                    selectedBusinessPlan.description ||
+                    "Amplify your email program with extra support.",
+                  color: "#718096",
                 }}
                 mb={2}
               />
