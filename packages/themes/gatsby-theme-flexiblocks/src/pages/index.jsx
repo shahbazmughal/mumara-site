@@ -38,12 +38,10 @@ const IndexPage = props => {
         <Hero />
       </Container>
       <Divider space='5' />
-      <Container variant='wide' sx={styles.tabsContainer}>
         <Tabs space={4} variant='pill'>
           <Pricing />
           <Pricingone />
         </Tabs>
-      </Container>
       <Divider space='5' />
       <Divider space='5' />
       <Services />
