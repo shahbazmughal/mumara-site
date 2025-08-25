@@ -1,11 +1,12 @@
 import React, { useState, useEffect, useRef } from "react";
-import { Container, Flex, Box, Divider } from "theme-ui";
+import { Container, Flex, Box } from "theme-ui";
 import Reveal from "@solid-ui-components/Reveal";
 import ContentText from "@solid-ui-components/ContentText";
 import ContentContainer from "@solid-ui-components/ContentContainer";
-import ContentButtons from '@solid-ui-components/ContentButtons1'
+import ContentButtons from "@solid-ui-components/ContentButtons1";
 import WithDefaultContent from "@solid-ui-blocks/WithDefaultContent";
 import { graphql, useStaticQuery } from "gatsby";
+import { gray } from "@solid-ui-theme/color-preset";
 
 const PricingBlockScroll = () => {
   const [planIndex, setPlanIndex] = useState(0);
@@ -23,7 +24,6 @@ const PricingBlockScroll = () => {
             heading
             plandescription
             planname
-            plandescription
             planheading
             plansubheading
             plan1
@@ -78,7 +78,6 @@ const PricingBlockScroll = () => {
 
   const pricingData = data.allStrapiPricing.nodes[1];
   const marketersData = pricingData.MarketersandDevelopers || {};
-  const modalData = pricingData.Modal || {}; // Define modalData
   const sliderValues = [
     marketersData.plan1 || "1,000",
     marketersData.plan2 || "5,000",
@@ -87,31 +86,42 @@ const PricingBlockScroll = () => {
     marketersData.plan5 || "100,000",
     marketersData.plan6 || "250,000",
     marketersData.plan7 || "1,000,000",
-    <span>5000000+</span>
+    <span>5,000,000+</span>,
   ];
   const maxPlans = sliderValues.length;
 
   const essentialPlans = pricingData.Essentialplans || [];
   const professionalPlans = pricingData.Professionalplans || [];
   const businessPlans = pricingData.Businessplans || [];
+  const modalData = pricingData.Modal || {};
 
-  // FIX: prevent negative array length
   const paddedEssentialPlans = [
     ...essentialPlans,
-    ...Array(Math.max(0, maxPlans - essentialPlans.length)).fill({})
+    ...Array(maxPlans - essentialPlans.length).fill({}),
   ];
   const paddedProfessionalPlans = [
     ...professionalPlans,
-    ...Array(Math.max(0, maxPlans - professionalPlans.length)).fill({})
+    ...Array(maxPlans - professionalPlans.length).fill({}),
   ];
   const paddedBusinessPlans = [
     ...businessPlans,
-    ...Array(Math.max(0, maxPlans - businessPlans.length)).fill({})
+    ...Array(maxPlans - businessPlans.length).fill({}),
   ];
 
   const selectedEssentialPlan = paddedEssentialPlans[planIndex] || paddedEssentialPlans[0];
   const selectedProfessionalPlan = paddedProfessionalPlans[planIndex] || paddedProfessionalPlans[0];
   const selectedBusinessPlan = paddedBusinessPlans[planIndex] || paddedBusinessPlans[0];
+
+  // Determine which card is "Recommended" based on planIndex
+  const getRecommendedCard = () => {
+    if (planIndex >= 0 && planIndex <= 1) return "Essential";
+    if (planIndex >= 2 && planIndex <= 4) return "Professional";
+    if (planIndex >= 5 && planIndex <= 6) return "Business";
+    if (planIndex === 7) return "Enterprise";
+    return "";
+  };
+
+  const recommendedCard = getRecommendedCard();
 
   // Mouse Drag Handler
   useEffect(() => {
@@ -122,7 +132,13 @@ const PricingBlockScroll = () => {
     const handleMouseMove = (e) => {
       if (!isDragging) return;
       const sliderWidth = slider.offsetWidth;
-      const progress = Math.max(0, Math.min(1, (e.clientX - slider.getBoundingClientRect().left) / sliderWidth));
+      const progress = Math.max(
+        0,
+        Math.min(
+          1,
+          (e.clientX - slider.getBoundingClientRect().left) / sliderWidth
+        )
+      );
       const newIndex = Math.round(progress * (maxPlans - 1));
       setPlanIndex(newIndex);
     };
@@ -135,7 +151,7 @@ const PricingBlockScroll = () => {
 
     const handleMouseDown = (e) => {
       isDragging = true;
-      handleMouseMove(e); // Update position immediately on click
+      handleMouseMove(e);
       window.addEventListener("mousemove", handleMouseMove);
       window.addEventListener("mouseup", handleMouseUp);
     };
@@ -154,16 +170,22 @@ const PricingBlockScroll = () => {
     setPlanIndex(index);
   };
 
-  const labelPositions = Array.from({ length: maxPlans }, (_, index) => {
-    return {
-      value: sliderValues[index],
-      left: `${(index / (maxPlans - 1)) * 100}%`,
-    };
-  });
+  const labelPositions = Array.from({ length: maxPlans }, (_, index) => ({
+    value: sliderValues[index],
+    left: `${(index / (maxPlans - 1)) * 100}%`,
+  }));
 
   return (
-    <Box sx={{ textAlign: "center", py: 4, position: "relative", borderRadius: "8px" }}>
-      {/* Slider */}
+    <Box
+      sx={{
+        textAlign: "center",
+        color: "#FFFFFF",
+        py: 4,
+        position: "relative",
+        borderRadius: "8px",
+      }}
+    >
+      {/* Slider and Text */}
       <Flex
         sx={{
           flexDirection: ["column", "row"],
@@ -176,13 +198,12 @@ const PricingBlockScroll = () => {
           mb: 4,
         }}
       >
-        {/* Left Column → Heading + Subheading + Small text */}
         <Box sx={{ textAlign: "left", maxWidth: "650px", flex: "0 0 auto" }}>
           <ContentText
             content={{
               type: "heading",
-              text: pricingData.MarketersandDevelopers.heading || "Let's Get Started",
-              as: "h2",
+              text: pricingData.heading || "Let's Get Started",
+              as: "h3",
               color: "#374254",
             }}
             mb={2}
@@ -196,8 +217,6 @@ const PricingBlockScroll = () => {
             mb={3}
           />
         </Box>
-
-        {/* Right Column → Slider */}
         <Box sx={{ flex: 1, maxWidth: "700px" }}>
           <ContentText
             content={{
@@ -208,7 +227,6 @@ const PricingBlockScroll = () => {
             mb={5}
             sx={{ textAlign: "left" }}
           />
-
           <Box
             ref={sliderRef}
             className="rangeslider rangeslider-horizontal"
@@ -221,20 +239,17 @@ const PricingBlockScroll = () => {
               cursor: "pointer",
             }}
           >
-            {/* Filled portion */}
             <Box
               className="rangeslider__fill"
               sx={{
                 width: `${(planIndex / (maxPlans - 1)) * 100}%`,
                 height: "100%",
-                backgroundColor: "#3081f2",
+                backgroundColor: "#0075f2",
                 position: "absolute",
                 borderRadius: "50px",
                 transition: "width 0.3s ease",
               }}
             />
-
-            {/* Handle */}
             <Box
               className="rangeslider__handle"
               tabIndex="0"
@@ -247,7 +262,7 @@ const PricingBlockScroll = () => {
                 backgroundColor: "#FFFFFF",
                 borderRadius: "50%",
                 transform: "translateX(-50%)",
-                border: "2px solid #3081f2",
+                border: "2px solid #0075f2",
                 transition: "left 0.3s ease",
                 "&:focus": {
                   outline: "none",
@@ -255,14 +270,13 @@ const PricingBlockScroll = () => {
                 },
               }}
             >
-              {/* Active Value Above Handle with Professional Box */}
               <Box
                 sx={{
                   position: "absolute",
                   top: "-50px",
                   left: "50%",
                   transform: "translateX(-50%)",
-                  backgroundColor: "#3081f2",
+                  backgroundColor: "#0075f2",
                   color: "#FFFFFF",
                   fontSize: "13px",
                   fontWeight: "bold",
@@ -277,8 +291,6 @@ const PricingBlockScroll = () => {
                 }}
               >
                 {sliderValues[planIndex]}
-
-                {/* Small Arrow below the box */}
                 <Box
                   sx={{
                     position: "absolute",
@@ -289,13 +301,11 @@ const PricingBlockScroll = () => {
                     height: "0",
                     borderLeft: "6px solid transparent",
                     borderRight: "6px solid transparent",
-                    borderTop: "6px solid #3081f2",
+                    borderTop: "6px solid #0075f2",
                   }}
                 />
               </Box>
             </Box>
-
-            {/* Min & Max Labels */}
             <Box
               sx={{
                 position: "absolute",
@@ -309,7 +319,7 @@ const PricingBlockScroll = () => {
                 color: "#374254",
               }}
             >
-              <span>50k</span>
+              <span>1k</span>
               <span>500k</span>
             </Box>
           </Box>
@@ -326,6 +336,7 @@ const PricingBlockScroll = () => {
             maxWidth: 400,
             opacity: selectedEssentialPlan.amount ? 1 : 0.5,
             pointerEvents: selectedEssentialPlan.amount ? "auto" : "none",
+            position: "relative",
           }}
         >
           <Reveal effect="fadeInUp">
@@ -337,43 +348,51 @@ const PricingBlockScroll = () => {
                 textAlign: "center",
                 boxShadow: "0 4px 12px rgba(0,0,0,0.08)",
                 py: 3,
+                border: recommendedCard === "Essential" ? "2px solid #0075f2" : "2px solid #efefef",
               }}
             >
-              {/* Heading */}
+              {recommendedCard === "Essential" && (
+                <Box
+                  sx={{
+                    position: "absolute",
+                    top: "-15px",
+                    left: "50%",
+                    transform: "translateX(-50%)",
+                    backgroundColor: "#0075f2",
+                    color: "#FFFFFF",
+                    fontSize: "12px",
+                    fontWeight: "bold",
+                    padding: "4px 12px",
+                    borderRadius: "12px",
+                    boxShadow: "0 2px 4px rgba(0,0,0,0.2)",
+                  }}
+                >
+                  Recommended
+                </Box>
+              )}
               <ContentText
                 content={{
                   type: "heading",
                   text: selectedEssentialPlan.heading || "Essential",
                   as: "h3",
-                  color: "#333",
+                  color: "#2d3748",
                 }}
               />
-
-              {/* Divider Line */}
-              <hr style={{
-                border: "0",
-                borderTop: "1px solid #e2e8f0",
-                width: "100%"
-              }} />
-
-
-              {/* Description */}
+              <hr style={{ border: "0", borderTop: "1px solid #e2e8f0", width: "100%" }} />
+              
               <ContentText
                 content={{
                   type: "text",
                   pt: 3,
-                  px: 1,
-                  text:
-                    selectedEssentialPlan.description ||
-                    "Empower your business with foundational email features.",
+                  text: selectedEssentialPlan.description || "Empower your business with foundational email features.",
                   color: "#718096",
                 }}
               />
-              {/* Price */}
-              <Box sx={{ display: "flex", alignItems: "baseline", justifyContent: "center", mb: 2 }}>
+              <Box sx={{ display: "flex", alignItems: "baseline", justifyContent: "center" }}>
                 <ContentText
                   content={{
                     type: "heading",
+                    py: 3,
                     text: selectedEssentialPlan.amount ? `$${selectedEssentialPlan.amount}` : "--",
                     as: "h2",
                     color: "#333",
@@ -384,24 +403,14 @@ const PricingBlockScroll = () => {
                   content={{
                     type: "text",
                     text: "/month",
-                    color: "#718096", // Gray color
+                    color: "#718096",
                   }}
                   sx={{ fontSize: "16px", fontWeight: "normal" }}
                 />
               </Box>
-
-              {/* Button */}
               <ContentButtons
-                content={[
-                  {
-                    type: "button",
-                    text: selectedEssentialPlan.buttontext || "Signup",
-                    variant: "secondary",
-                  },
-                ]}
+                content={[{ type: "button", text: selectedEssentialPlan.buttontext || "Signup", variant: "secondary" }]}
               />
-
-              {/* Features List */}
               <Box sx={{ textAlign: "left", mt: 4, color: "#2d3748" }}>
                 {(selectedEssentialPlan.features || [
                   "Create quotes and invoices",
@@ -428,6 +437,7 @@ const PricingBlockScroll = () => {
             maxWidth: 400,
             opacity: selectedProfessionalPlan.amount ? 1 : 0.5,
             pointerEvents: selectedProfessionalPlan.amount ? "auto" : "none",
+            position: "relative",
           }}
         >
           <Reveal effect="fadeInUp">
@@ -439,43 +449,52 @@ const PricingBlockScroll = () => {
                 textAlign: "center",
                 boxShadow: "0 4px 12px rgba(0,0,0,0.08)",
                 py: 3,
+                border: recommendedCard === "Professional" ? "2px solid #0075f2" : "2px solid #efefef",
               }}
             >
-              {/* Heading */}
+              {recommendedCard === "Professional" && (
+                <Box
+                  sx={{
+                    position: "absolute",
+                    top: "-15px",
+                    left: "50%",
+                    transform: "translateX(-50%)",
+                    backgroundColor: "#0075f2",
+                    color: "#FFFFFF",
+                    fontSize: "12px",
+                    fontWeight: "bold",
+                    padding: "4px 12px",
+                    borderRadius: "12px",
+                    boxShadow: "0 2px 4px rgba(0,0,0,0.2)",
+                  }}
+                >
+                  Recommended
+                </Box>
+              )}
               <ContentText
                 content={{
                   type: "heading",
                   text: selectedProfessionalPlan.heading || "Professional",
                   as: "h3",
-                  color: "#333",
+                  color: "#2d3748",
                 }}
               />
-
-              {/* Divider Line */}
-              <hr style={{
-                border: "0",
-                borderTop: "1px solid #e2e8f0",
-                width: "100%"
-              }} />
-              {/* Description */}
+              <hr style={{ border: "0", borderTop: "1px solid #e2e8f0", width: "100%" }} />
               <ContentText
                 content={{
                   type: "text",
                   pt: 3,
-                  px: 1,
-                  text:
-                    selectedProfessionalPlan.description ||
-                    "Empower your business with foundational email features.",
+                  text: selectedProfessionalPlan.description || "Empower your business with foundational email features.",
                   color: "#718096",
                 }}
               />
-              {/* Price */}
-              <Box sx={{ display: "flex", alignItems: "baseline", justifyContent: "center", mb: 2 }}>
+              <Box sx={{ display: "flex", alignItems: "baseline", justifyContent: "center" }}>
                 <ContentText
                   content={{
                     type: "heading",
+                    py: 3,
                     text: selectedProfessionalPlan.amount ? `$${selectedProfessionalPlan.amount}` : "--",
-                    as: "h2",
+                    as: "h3",
                     color: "#333",
                   }}
                   sx={{ fontSize: "30px", fontWeight: "600", marginRight: "4px" }}
@@ -484,26 +503,14 @@ const PricingBlockScroll = () => {
                   content={{
                     type: "text",
                     text: "/month",
-                    color: "#718096", // Gray color
+                    color: "#718096",
                   }}
                   sx={{ fontSize: "16px", fontWeight: "normal" }}
                 />
               </Box>
-
-              
-
-              {/* Button */}
               <ContentButtons
-                content={[
-                  {
-                    type: "button",
-                    text: selectedProfessionalPlan.buttontext || "Signup",
-                    variant: "secondary",
-                  },
-                ]}
+                content={[{ type: "button", text: selectedProfessionalPlan.buttontext || "Signup", variant: "secondary" }]}
               />
-
-              {/* Features List */}
               <Box sx={{ textAlign: "left", mt: 4, color: "#2d3748" }}>
                 {(selectedProfessionalPlan.features || [
                   "Create quotes and invoices",
@@ -530,6 +537,7 @@ const PricingBlockScroll = () => {
             maxWidth: 400,
             opacity: selectedBusinessPlan.amount ? 1 : 0.5,
             pointerEvents: selectedBusinessPlan.amount ? "auto" : "none",
+            position: "relative",
           }}
         >
           <Reveal effect="fadeInUp">
@@ -541,44 +549,52 @@ const PricingBlockScroll = () => {
                 textAlign: "center",
                 boxShadow: "0 4px 12px rgba(0,0,0,0.08)",
                 py: 3,
+                border: recommendedCard === "Business" ? "2px solid #0075f2" : "2px solid #efefef",
               }}
             >
-              {/* Heading */}
+              {recommendedCard === "Business" && (
+                <Box
+                  sx={{
+                    position: "absolute",
+                    top: "-15px",
+                    left: "50%",
+                    transform: "translateX(-50%)",
+                    backgroundColor: "#0075f2",
+                    color: "#FFFFFF",
+                    fontSize: "12px",
+                    fontWeight: "bold",
+                    padding: "4px 12px",
+                    borderRadius: "12px",
+                    boxShadow: "0 2px 4px rgba(0,0,0,0.2)",
+                  }}
+                >
+                  Recommended
+                </Box>
+              )}
               <ContentText
                 content={{
                   type: "heading",
                   text: selectedBusinessPlan.heading || "Business",
                   as: "h3",
-                  color: "#333",
+                  color: "#2d3748",
                 }}
               />
-
-              {/* Divider Line */}
-              <hr style={{
-                border: "0",
-                borderTop: "1px solid #e2e8f0",
-                width: "100%"
-              }} />
-
-              {/* Description */}
+              <hr style={{ border: "0", borderTop: "1px solid #e2e8f0", width: "100%" }} />
               <ContentText
                 content={{
                   type: "text",
-                  pt: 3,
-                  px: 1,
-                  text:
-                    selectedBusinessPlan.description ||
-                    "Amplify your email program with extra support.",
+                    pt: 3,
+                  text: selectedBusinessPlan.description || "Amplify your email program with extra support.",
                   color: "#718096",
                 }}
               />
-              {/* Price */}
-              <Box sx={{ display: "flex", alignItems: "baseline", justifyContent: "center", mb: 2 }}>
+              <Box sx={{ display: "flex", alignItems: "baseline", justifyContent: "center"}}>
                 <ContentText
                   content={{
                     type: "heading",
                     text: selectedBusinessPlan.amount ? `$${selectedBusinessPlan.amount}` : "--",
-                    as: "h2",
+                    as: "h3",
+                    py: 3,
                     color: "#333",
                   }}
                   sx={{ fontSize: "30px", fontWeight: "600", marginRight: "4px" }}
@@ -587,27 +603,16 @@ const PricingBlockScroll = () => {
                   content={{
                     type: "text",
                     text: "/month",
-                    color: "#718096", // Gray color
+                    color: "#718096",
                   }}
                   sx={{ fontSize: "16px", fontWeight: "normal" }}
                 />
               </Box>
-
-
-              {/* Button */}
               <ContentButtons
-                content={[
-                  {
-                    type: "button",
-                    text: selectedBusinessPlan.buttontext || "Signup", // Fixed: Use selectedBusinessPlan.buttontext
-                    variant: "secondary",
-                  },
-                ]}
+                content={[{ type: "button", text: selectedBusinessPlan.buttontext || "Signup", variant: "secondary" }]}
               />
-
-              {/* Features List */}
               <Box sx={{ textAlign: "left", mt: 4, color: "#2d3748" }}>
-                {(selectedBusinessPlan.features || [ // Fixed: Use selectedBusinessPlan.features
+                {(selectedBusinessPlan.features || [
                   "Create quotes and invoices",
                   "Customize for local languages and tax laws",
                   "Multi-user access for up to 3 users",
@@ -624,12 +629,13 @@ const PricingBlockScroll = () => {
           </Reveal>
         </Box>
 
-        {/* Custom */}
+        {/* Enterprise */}
         <Box
           sx={{
             flex: ["auto", 1],
             minWidth: 320,
             maxWidth: 400,
+            position: "relative", // Added for Recommended badge
           }}
         >
           <Reveal effect="fadeInUp">
@@ -641,62 +647,60 @@ const PricingBlockScroll = () => {
                 textAlign: "center",
                 boxShadow: "0 4px 12px rgba(0,0,0,0.08)",
                 py: 3,
+                border: recommendedCard === "Enterprise" ? "2px solid #0075f2" : "2px solid #efefef",
               }}
             >
-              {/* Heading */}
+              {/* Recommended Badge */}
+              {recommendedCard === "Enterprise" && (
+                <Box
+                  sx={{
+                    position: "absolute",
+                    top: "-15px",
+                    left: "50%",
+                    transform: "translateX(-50%)",
+                    backgroundColor: "#0075f2",
+                    color: "#FFFFFF",
+                    fontSize: "12px",
+                    fontWeight: "bold",
+                    padding: "4px 12px",
+                    borderRadius: "12px",
+                    boxShadow: "0 2px 4px rgba(0,0,0,0.2)",
+                  }}
+                >
+                  Recommended
+                </Box>
+              )}
               <ContentText
                 content={{
                   type: "heading",
                   text: modalData.enterprise || "Enterprise",
                   as: "h3",
-                  color: "#333",
+                  color: "#2d3748",
                 }}
               />
-
-              {/* Divider Line */}
-              <hr
-                style={{
-                  border: "0",
-                  borderTop: "1px solid #e2e8f0",
-                  width: "100%",
-                }}
-              />
-
-              {/* Description */}
+              <hr style={{ border: "0", borderTop: "1px solid #e2e8f0", width: "100%" }} />
               <ContentText
                 content={{
                   type: "text",
-                  pt: 3,
                   px: 3,
+                  pt: 3,
                   text: modalData.description || "Tailored solutions for enterprise needs.",
                   color: "#718096",
                 }}
               />
-              {/* Price */}
               <ContentText
                 content={{
                   type: "heading",
+                  py: 3,
                   text: modalData.name || "Custom",
                   as: "h3",
                   color: "#333333",
                 }}
-                mb={2}
                 sx={{ fontSize: "30px", fontWeight: "600" }}
               />
-
-
-              {/* Button */}
               <ContentButtons
-                content={[
-                  {
-                    type: "button",
-                    text: modalData.buttontext || "Contact Us",
-                    variant: "secondary",
-                  },
-                ]}
+                content={[{ type: "button", text: modalData.buttontext || "Contact Us", variant: "secondary" }]}
               />
-
-              {/* Features List */}
               <Box sx={{ textAlign: "left", mt: 4, color: "#2d3748" }}>
                 {(modalData.features || [
                   "Customized email solutions",
