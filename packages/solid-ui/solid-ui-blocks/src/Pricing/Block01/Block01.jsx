@@ -3,7 +3,7 @@ import { Container, Flex, Box } from "theme-ui";
 import Reveal from "@solid-ui-components/Reveal";
 import ContentText from "@solid-ui-components/ContentText";
 import ContentContainer from "@solid-ui-components/ContentContainer";
-import ContentButtons from "@solid-ui-components/ContentButtons";
+import ContentButtons from "@solid-ui-components/ContentButtons1";
 import WithDefaultContent from "@solid-ui-blocks/WithDefaultContent";
 import { graphql, useStaticQuery } from "gatsby";
 
@@ -18,6 +18,7 @@ const PricingBlockScroll = () => {
         nodes {
           heading
           subheading
+          Recommended
           MarketersandDevelopers {
             heading
             plandescription
@@ -64,6 +65,7 @@ const PricingBlockScroll = () => {
             buttontext
           }
           Modal {
+            name
             enterprise
             unlimited
             button
@@ -338,47 +340,72 @@ const PricingBlockScroll = () => {
 
 
       {/* ✅ Three + One Cards */}
-      <Flex sx={{ flexWrap: "wrap", justifyContent: "center" }}>
+      <Flex sx={{ flexWrap: "wrap", justifyContent: "center", gap: 3 }}>
         {/* Essential */}
         <Box
           sx={{
             flex: ["auto", 1],
             minWidth: 320,
             maxWidth: 400,
-            p: 3,
+            
             opacity: selectedEssentialPlan.amount ? 1 : 0.5,
             pointerEvents: selectedEssentialPlan.amount ? "auto" : "none",
+            
           }}
         >
           <Reveal effect="fadeInUp">
             <ContentContainer
               variant="cards.paper"
               sx={{
-                backgroundColor: "#e2fdf8",
                 color: "#2d3748",
                 borderRadius: 8,
-                p: 3,
+                textAlign: "center",
+                boxShadow: "0 4px 12px rgba(0,0,0,0.08)",
+                py: 3,
+                
               }}
             >
+              {/* Heading */}
               <ContentText
                 content={{
                   type: "heading",
                   text: selectedEssentialPlan.heading || "Essential",
-                  as: "h2",
+                  as: "h3",
                   color: "#2d3748",
                 }}
               />
-              <ContentText
-                content={{
-                  type: "heading",
-                  text: selectedEssentialPlan.amount
-                    ? `$${selectedEssentialPlan.amount}/month`
-                    : "--",
-                  as: "h2",
-                  color: "#333333",
-                }}
-                mb={2}
-              />
+
+              {/* Divider Line */}
+              <hr style={{
+                border: "0",
+                borderTop: "1px solid #e2e8f0",
+                width: "100%"
+              }} />
+
+
+              {/* Price */}
+              <Box sx={{ display: "flex", alignItems: "baseline", justifyContent: "center", mb: 2 }}>
+                <ContentText
+                  content={{
+                    type: "heading",
+                    pt: 2,
+                    text: selectedEssentialPlan.amount ? `$${selectedEssentialPlan.amount}` : "--",
+                    as: "h2",
+                    color: "#333",
+                  }}
+                  sx={{ fontSize: "30px", fontWeight: "600", marginRight: "4px" }}
+                />
+                <ContentText
+                  content={{
+                    type: "text",
+                    text: "/month",
+                    color: "#718096", // Gray color
+                  }}
+                  sx={{ fontSize: "16px", fontWeight: "normal" }}
+                />
+              </Box>
+
+              {/* Description */}
               <ContentText
                 content={{
                   type: "text",
@@ -387,15 +414,18 @@ const PricingBlockScroll = () => {
                     "Empower your business with foundational email features.",
                   color: "#718096",
                 }}
-                mb={2}
+                mb={3}
               />
+
+              {/* Email Credits */}
               <ContentText
                 content={{
                   type: "text",
-                  text: selectedEssentialPlan.emailcredits || "20,000,000",
+                  text: selectedEssentialPlan.emailcredits || "4000",
                   as: "h3",
-                  color: "#333333",
+                  color: "#111",
                 }}
+                sx={{ fontSize: "1.5rem", fontWeight: "600" }}
               />
               <ContentText
                 content={{
@@ -405,17 +435,37 @@ const PricingBlockScroll = () => {
                 }}
                 mb={4}
               />
+
+              {/* Button */}
               <ContentButtons
                 content={[
                   {
                     type: "button",
-                    text: selectedEssentialPlan.buttontext || "Get Started",
+                    text: selectedEssentialPlan.buttontext || "Signup",
+                    variant: "primary",
                   },
                 ]}
               />
+
+              {/* Features List */}
+              <Box sx={{ textAlign: "left", mt: 4, color: "#2d3748" }}>
+                {(selectedEssentialPlan.features || [
+                  "Create quotes and invoices",
+                  "Customize for local languages and tax laws",
+                  "Multi-user access for up to 3 users",
+                  "Handle multi-currency transactions",
+                  "Set up automated payment reminders",
+                ]).map((feature, idx) => (
+                  <Box key={idx} sx={{ display: "flex", alignItems: "center", mb: 1 }}>
+                    <span style={{ color: "#007766", marginRight: 8}}>✓</span>
+                    {feature}
+                  </Box>
+                ))}
+              </Box>
             </ContentContainer>
           </Reveal>
         </Box>
+
 
         {/* Professional */}
         <Box
@@ -423,57 +473,85 @@ const PricingBlockScroll = () => {
             flex: ["auto", 1],
             minWidth: 320,
             maxWidth: 400,
-            p: 3,
             opacity: selectedProfessionalPlan.amount ? 1 : 0.5,
             pointerEvents: selectedProfessionalPlan.amount ? "auto" : "none",
+                      
           }}
         >
           <Reveal effect="fadeInUp">
             <ContentContainer
               variant="cards.paper"
               sx={{
-                backgroundColor: "#e2fdf8",
                 color: "#2d3748",
                 borderRadius: 8,
-                p: 3,
+                textAlign: "center",
+                boxShadow: "0 4px 12px rgba(0,0,0,0.08)",
+                py: 3,
+                
               }}
             >
+              {/* Heading */}
               <ContentText
                 content={{
                   type: "heading",
                   text: selectedProfessionalPlan.heading || "Professional",
-                  as: "h2",
+                  as: "h3",
                   color: "#2d3748",
                 }}
               />
-              <ContentText
-                content={{
-                  type: "heading",
-                  text: selectedProfessionalPlan.amount
-                    ? `$${selectedProfessionalPlan.amount}/month`
-                    : "--",
-                  as: "h2",
-                  color: "#333333",
-                }}
-                mb={2}
-              />
+
+              {/* Divider Line */}
+              <hr style={{
+                border: "0",
+                borderTop: "1px solid #e2e8f0",
+                width: "100%"
+              }} />
+
+
+              {/* Price */}
+              <Box sx={{ display: "flex", alignItems: "baseline", justifyContent: "center", mb: 2 }}>
+                <ContentText
+                  content={{
+                    type: "heading",
+                    pt: 2,
+                    text: selectedProfessionalPlan.amount ? `$${selectedProfessionalPlan.amount}` : "--",
+                    as: "h3",
+                    color: "#333",
+                  }}
+                  sx={{ fontSize: "30px", fontWeight: "600", marginRight: "4px" }}
+                />
+                <ContentText
+                  content={{
+                    type: "text",
+                    text: "/month",
+                    color: "#718096", // Gray color
+                  }}
+                  sx={{ fontSize: "16px", fontWeight: "normal" }}
+                />
+              </Box>
+              
+
+              {/* Description */}
               <ContentText
                 content={{
                   type: "text",
                   text:
                     selectedProfessionalPlan.description ||
-                    "Take ownership of your sending to maximize email.",
+                    "Empower your business with foundational email features.",
                   color: "#718096",
                 }}
-                mb={2}
+                mb={3}
               />
+
+              {/* Email Credits */}
               <ContentText
                 content={{
                   type: "text",
                   text: selectedProfessionalPlan.credits || "40,000,000",
                   as: "h3",
-                  color: "#333333",
+                  color: "#111",
                 }}
+                sx={{ fontSize: "1.5rem", fontWeight: "600" }}
               />
               <ContentText
                 content={{
@@ -483,14 +561,33 @@ const PricingBlockScroll = () => {
                 }}
                 mb={4}
               />
+
+              {/* Button */}
               <ContentButtons
                 content={[
                   {
                     type: "button",
-                    text: selectedProfessionalPlan.buttontext || "Get Started",
+                    text: selectedProfessionalPlan.buttontext || "Signup",
+                    variant: "primary",
                   },
                 ]}
               />
+
+              {/* Features List */}
+              <Box sx={{ textAlign: "left", mt: 4, color: "#2d3748" }}>
+                {(selectedProfessionalPlan.features || [
+                  "Create quotes and invoices",
+                  "Customize for local languages and tax laws",
+                  "Multi-user access for up to 3 users",
+                  "Handle multi-currency transactions",
+                  "Set up automated payment reminders",
+                ]).map((feature, idx) => (
+                  <Box key={idx} sx={{ display: "flex", alignItems: "center", mb: 1 }}>
+                    <span style={{ color: "#007766", marginRight: 8}}>✓</span>
+                    {feature}
+                  </Box>
+                ))}
+              </Box>
             </ContentContainer>
           </Reveal>
         </Box>
@@ -501,40 +598,64 @@ const PricingBlockScroll = () => {
             flex: ["auto", 1],
             minWidth: 320,
             maxWidth: 400,
-            p: 3,
-            opacity: selectedBusinessPlan.amount ? 1 : 0.5,
-            pointerEvents: selectedBusinessPlan.amount ? "auto" : "none",
+            opacity: selectedProfessionalPlan.amount ? 1 : 0.5,
+            pointerEvents: selectedProfessionalPlan.amount ? "auto" : "none",
+                      
           }}
         >
           <Reveal effect="fadeInUp">
             <ContentContainer
               variant="cards.paper"
               sx={{
-                backgroundColor: "#e2fdf8",
                 color: "#2d3748",
                 borderRadius: 8,
-                p: 3,
+                textAlign: "center",
+                boxShadow: "0 4px 12px rgba(0,0,0,0.08)",
+                py: 3,
+                
               }}
             >
+              {/* Heading */}
               <ContentText
                 content={{
                   type: "heading",
                   text: selectedBusinessPlan.heading || "Business",
-                  as: "h2",
+                  as: "h3",
                   color: "#2d3748",
                 }}
               />
-              <ContentText
-                content={{
-                  type: "heading",
-                  text: selectedBusinessPlan.amount
-                    ? `$${selectedBusinessPlan.amount}/month`
-                    : "--",
-                  as: "h2",
-                  color: "#333333",
-                }}
-                mb={2}
-              />
+
+              {/* Divider Line */}
+              <hr style={{
+                border: "0",
+                borderTop: "1px solid #e2e8f0",
+                width: "100%"
+              }} />
+
+
+              {/* Price */}
+              <Box sx={{ display: "flex", alignItems: "baseline", justifyContent: "center", mb: 2 }}>
+                <ContentText
+                  content={{
+                    type: "heading",
+                    pt: 2,
+                    text: selectedBusinessPlan.amount ? `$${selectedBusinessPlan.amount}` : "--",
+                    as: "h3",
+                    color: "#333",
+                  }}
+                  sx={{ fontSize: "30px", fontWeight: "600", marginRight: "4px" }}
+                />
+                <ContentText
+                  content={{
+                    type: "text",
+                    text: "/month",
+                    color: "#718096", // Gray color
+                  }}
+                  sx={{ fontSize: "16px", fontWeight: "normal" }}
+                />
+              </Box>
+
+              {/* Description */}
               <ContentText
                 content={{
                   type: "text",
@@ -543,8 +664,10 @@ const PricingBlockScroll = () => {
                     "Amplify your email program with extra support.",
                   color: "#718096",
                 }}
-                mb={2}
+                mb={3}
               />
+
+              {/* Email Credits */}
               <ContentText
                 content={{
                   type: "text",
@@ -552,6 +675,7 @@ const PricingBlockScroll = () => {
                   as: "h3",
                   color: "#333333",
                 }}
+                sx={{ fontSize: "1.5rem", fontWeight: "600" }}
               />
               <ContentText
                 content={{
@@ -561,14 +685,144 @@ const PricingBlockScroll = () => {
                 }}
                 mb={4}
               />
+
+              {/* Button */}
               <ContentButtons
                 content={[
                   {
                     type: "button",
-                    text: selectedBusinessPlan.buttontext || "Get Started",
+                    text: selectedProfessionalPlan.buttontext || "Signup",
+                    variant: "primary",
                   },
                 ]}
               />
+
+              {/* Features List */}
+              <Box sx={{ textAlign: "left", mt: 4, color: "#2d3748" }}>
+                {(selectedProfessionalPlan.features || [
+                  "Create quotes and invoices",
+                  "Customize for local languages and tax laws",
+                  "Multi-user access for up to 3 users",
+                  "Handle multi-currency transactions",
+                  "Set up automated payment reminders",
+                ]).map((feature, idx) => (
+                  <Box key={idx} sx={{ display: "flex", alignItems: "center", mb: 1 }}>
+                    <span style={{ color: "#007766", marginRight: 8}}>✓</span>
+                    {feature}
+                  </Box>
+                ))}
+              </Box>
+            </ContentContainer>
+          </Reveal>
+        </Box>
+
+        {/* Custom */}
+        <Box
+          sx={{
+            flex: ["auto", 1],
+            minWidth: 320,
+            maxWidth: 400,
+          }}
+        >
+          <Reveal effect="fadeInUp">
+            <ContentContainer
+              variant="cards.paper"
+              sx={{
+                color: "#2d3748",
+                borderRadius: 8,
+                textAlign: "center",
+                boxShadow: "0 4px 12px rgba(0,0,0,0.08)",
+                py: 3,
+              }}
+            >
+              {/* Heading */}
+              <ContentText
+                content={{
+                  type: "heading",
+                  text: modalData.enterprise || "Enterprise",
+                  as: "h3",
+                  color: "#2d3748",
+                }}
+              />
+
+              {/* Divider Line */}
+              <hr
+                style={{
+                  border: "0",
+                  borderTop: "1px solid #e2e8f0",
+                  width: "100%",
+                }}
+              />
+
+              {/* Price */}
+              <ContentText
+                content={{
+                  type: "heading",
+                    pt: 2,
+                  text: modalData.name ||  "Custom",
+                  as: "h3",
+                  color: "#333333",
+                }}
+                mb={2}
+                sx={{ fontSize: "30px", fontWeight: "600" }}
+              />
+
+              {/* Description */}
+              <ContentText
+                content={{
+                  type: "text",
+                  px: 3,
+                  text: modalData.description || "Tailored solutions for enterprise needs.",
+                  color: "#718096",
+                }}
+                mb={3}
+              />
+
+              {/* Email Credits */}
+              <ContentText
+                content={{
+                  type: "text",
+                  text: modalData.unlimited || "Unlimited",
+                  as: "h3",
+                  color: "#333333",
+                }}
+                sx={{ fontSize: "1.5rem", fontWeight: "600" }}
+              />
+              <ContentText
+                content={{
+                  type: "text",
+                  text: modalData.cradittext || "Email Credits",
+                  color: "#718096",
+                }}
+                mb={4}
+              />
+
+              {/* Button */}
+              <ContentButtons
+                content={[
+                  {
+                    type: "button",
+                    text: modalData.buttontext || "Contact Us",
+                    variant: "primary",
+                  },
+                ]}
+              />
+
+              {/* Features List */}
+              <Box sx={{ textAlign: "left", mt: 4, color: "#2d3748" }}>
+                {(modalData.features || [
+                  "Customized email solutions",
+                  "Customize for local languages and tax laws",
+                  "Priority support",
+                  "Handle multi-currency transactions",
+                  "Set up automated payment reminders",
+                ]).map((feature, idx) => (
+                  <Box key={idx} sx={{ display: "flex", alignItems: "center", mb: 1 }}>
+                    <span style={{ color: "#007766", marginRight: 8}}>✓</span>
+                    {feature}
+                  </Box>
+                ))}
+              </Box>
             </ContentContainer>
           </Reveal>
         </Box>

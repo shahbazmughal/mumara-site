@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { Box } from 'theme-ui'
+import { Box, Button } from 'theme-ui' // Import Button from theme-ui
 import Icon from '@solid-ui-components/ContentIcon'
 import ContentContainer from '@solid-ui-components/ContentContainer'
 import { ModalContext } from '@solid-ui-components/Modal'
@@ -10,20 +10,20 @@ import { BiChevronDown } from 'react-icons/bi'
 const styles = {
   horizontal: {
     '.button-group-link': {
-      py: 3
+      py: 3,
     },
     '> * + a, > * + div, > * + button': {
       ml: [3, null, null, 4],
-      mt: [4, 0]
-    }
+      mt: [4, 0],
+    },
   },
   vertical: {
     display: `flex`,
     flexDirection: `column`,
     a: {
       mb: [3, 2],
-      px: [2, 0]
-    }
+      px: [2, 0],
+    },
   },
   subButtonsParent: {
     display: [null, null, `inline-flex`],
@@ -32,15 +32,15 @@ const styles = {
       '& > .container-level-1': {
         opacity: 1,
         visibility: `inherit`,
-        transform: [null, null, `translate(-50%, 0)`]
-      }
+        transform: [null, null, `translate(-50%, 0)`],
+      },
     },
     '& > svg': {
       size: `icon.xs`,
       position: [`absolute`, `static`],
       right: 0,
-      ml: `auto`
-    }
+      ml: `auto`,
+    },
   },
   subContainer: {
     '&.container-level-1': {
@@ -58,16 +58,15 @@ const styles = {
       flexDirection: `column`,
       transition: `all 250ms ease`,
       p: [3, null, 0],
-      mt: [3, null, 0]
+      mt: [3, null, 0],
     },
-    // Single level
     '&.container-level-1.no-collection': {
       p: [3, null, 3],
       '.button-group-link': {
         px: 2,
         py: 1,
-        my: 1
-      }
+        my: 1,
+      },
     },
     '&.container-level-2': {
       flexBasis: `100%`,
@@ -75,9 +74,9 @@ const styles = {
       '.button-group-link': {
         display: `block`,
         py: 0,
-        mt: 2
-      }
-    }
+        mt: 2,
+      },
+    },
   },
   subContainerCollection: {
     display: `flex`,
@@ -92,9 +91,9 @@ const styles = {
       alignContent: `flex-start`,
       minWidth: 210,
       mb: [0, null, `inherit`],
-      py: 0
-    }
-  }
+      py: 0,
+    },
+  },
 }
 
 const ButtonComponent = ({ content, children, styles = {}, className }) => {
@@ -106,8 +105,39 @@ const ButtonComponent = ({ content, children, styles = {}, className }) => {
   const { Component, linkProps } = buildLinkProps({
     content: { type, link, target, variant },
     setActiveModal,
-    setActiveTab
+    setActiveTab,
   })
+
+  let buttonStyles = styles
+
+  if (variant === 'primary') {
+    buttonStyles = {
+      backgroundColor: '#00FF66',
+      color: 'white',
+      borderRadius: '10px',
+      padding: '5px 30px',
+      width: '90%',
+      fontSize: '16px',
+      textTransform: 'none',
+      '&:hover': {
+        backgroundColor: '#00E658', // Slightly darker green on hover
+      },
+    }
+  } else if (variant === 'secondary') {
+    buttonStyles = {
+      backgroundColor: '#FFFFFF',
+      color: 'white',
+      border: '1px solid #E0E0E0',
+      borderRadius: '10px',
+      padding: '5px 30px',
+      width: '90%',
+      fontSize: '16px',
+      textTransform: 'none',
+      '&:hover': {
+        backgroundColor: '#F5F5F5', // Slightly darker grey on hover
+      },
+    }
+  }
 
   return (
     <Component
@@ -116,7 +146,7 @@ const ButtonComponent = ({ content, children, styles = {}, className }) => {
         width,
         '::after': { bg, borderColor: bg },
         position: `relative`,
-        ...styles
+        ...buttonStyles,
       }}
       {...linkProps}
       className={[linkProps.className, className].join(' ')}
@@ -124,7 +154,6 @@ const ButtonComponent = ({ content, children, styles = {}, className }) => {
       <Box sx={{ display: `inline-block` }}>
         <Icon content={icon} size='xs' mr='1' /> {text}
       </Box>
-
       {children}
     </Component>
   )
@@ -195,5 +224,5 @@ const ContentButtons = ({ content, variant, wrapperStyles }) =>
 export default ContentButtons
 
 ContentButtons.defaultProps = {
-  variant: 'horizontal'
+  variant: 'horizontal',
 }
